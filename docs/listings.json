@@ -2,10 +2,10 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/week-6/index.html",
       "/posts/food-famine/index.html",
       "/posts/eurostat-gemini/index.html",
       "/posts/causality/index.html",
-      "/posts/week-5/index.html",
       "/posts/Mapmaker/index.html",
       "/posts/esquisse/index.html",
       "/posts/joins/index.html"
