@@ -4,8 +4,8 @@ project:
 
 website:
   description: "Data Analysis, Modelling, and Decision Making"
-  site-url: https://robertwwalker.github.io/DADM-P25 # you must change this appropriately for RSS feeds to work properly
-  title: "DADM for Professionals 2025: PDX"
+  site-url: https://robertwwalker.github.io/DADM-SLE2025 # you must change this appropriately for RSS feeds to work properly
+  title: "DADM for Professionals 2025: SLE"
   page-navigation: true
   navbar:
     right:
