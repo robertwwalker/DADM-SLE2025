@@ -1,0 +1,489 @@
+---
+title: "Evidence, Visualization, and Biases"
+subtitle: "Global Strategic Trends, part 2"  
+author: "Robert W. Walker"
+date: '`r Sys.Date()`'
+format: 
+   revealjs:
+     theme: [custom.scss]
+     scrollable: true
+     logo: AGSMlogo.jpeg
+     footer: "DADM-Fall 2025"
+     self-contained: true
+     multiplex:
+       url: 'https://multiplex-5adl.onrender.com'
+     html-math-method: katex
+     incremental: true
+     slide-number: c/t
+     transition: zoom
+     preview-links: true
+     lightbox: true
+     highlight-style: espresso
+---
+
+```{r setup, include=FALSE}
+library(tidyverse) 
+library(dplyr)
+knitr::opts_chunk$set(fig.retina=3, fig.height=6, fig.width=9, echo=TRUE, eval=TRUE)
+```
+
+# A Prompt from Last Time and a Bit of Augmentation
+
+[KGW](https://katu.com/news/local/portland-city-councilor-dan-ryan-exit-interviews-closing-businesses)
+
+What is the value of this?
+
+**Introducing causality....**
+
+## Augmented Analysis with Claude
+
+[A Chat](https://claude.ai/public/artifacts/2044fb75-4dc1-43bc-bfff-a285efbfeec1)
+
+![The Plot in Esquisse](img/esquisse-plotEUR.png)
+
+## Some Goals:
+
+The aforementioned is one example of a through-line.  Also, we should never forget this is an inherently British assessment.
+
+- What assumptions are required for the pathway?  Are they stated or unstated?
+- What does the pathway in question look like?
+- How might we know a pathway is emerging?
+- How do we determine differentiators among pathways?
+- What would we want to measure?
+- What are indicators which help show what direction we are going?
+- What has been missed?  Are there overlooked alternatives?
+
+Consider this alongside the idea of claims tied to evidence by warrants with appropriate qualification.
+
+# Setting the Context for GST 7
+
+Note the data of dissemination.
+
+# GST 6
+
+![Image](img/GST6.png)
+
+## A Model {background-image="img/Model.png" background-size="contain"}
+
+## Six Drivers and Five Core Contradictions {background-image="img/SixFive.png" background-size="contain"}
+
+## Impact and Uncertainty {background-image="img/ImpUnc.png" background-size="contain"}
+
+## Cross-Impacts {background-image="img/Mess.png" background-size="contain"}
+
+## Four Future Worlds {background-image="img/FutureWorlds.png" background-size="contain"}
+
+## Five Pathways {background-image="img/FivePathways.png" background-size="contain"}
+
+
+# Global Strategic Trends: Graphics
+
+# Splitting Up the World {background-image="img/HappyMap.png"}
+
+## Regions
+
+::: {.panel-tabset}
+
+## ESAS
+
+![MapESA](img/MapESAsia.png)
+
+
+## SEAS
+
+![MapSEA](img/MapSEAsia.png)
+
+
+## CAS
+
+![MapCA](img/MapCA.png)
+
+## SWAS
+
+![MapSWA](img/MapSWA.png)
+
+
+## AFR
+
+![MapAFR](img/MapAFR.png)
+
+## RUS
+
+![MapRUS](img/MapRUS.png)
+
+## EUR
+
+![PopEUR](img/MapEUR.png)
+
+
+## CAC
+
+![MapCAC](img/MapCAC.png)
+
+
+## NA
+
+![MapNA](img/MapNA.png)
+
+
+:::
+
+## Three Areas
+
+- Demographic Breakdown
+- Digital Usage
+- Climate, or ....
+
+
+## Demographics
+
+::: {.panel-tabset}
+
+## ESAS
+
+![PopESA](img/PopESAsia.png)
+
+
+## SEAS
+
+![PopSEA](img/PopSEAsia.png)
+
+
+## CAS
+
+![PopCA](img/PopCAsia.png)
+
+## SWAS
+
+![PopSWA](img/PopSWAsia.png)
+
+
+## AFR
+
+![PopAFR](img/PopAfrica.png)
+
+## RUS
+
+![PopRUS](img/PopRUS.png)
+
+## EUR
+
+![PopEUR](img/PopEUR.png)
+
+
+## CAC
+
+![PopCAC](img/PopCAC.png)
+
+
+## NA
+
+![PopNA](img/PopNA.png)
+
+
+:::
+
+## Digital
+
+::: {.panel-tabset}
+
+## ESAS
+
+![DigESA](img/DigitalESAsia.png)
+
+
+## SEAS
+
+![DigSEA](img/DigitalSEAsia.png)
+
+
+## CAS
+
+![DigCA](img/DigitalCAsia.png)
+
+## SWAS
+
+![DigSWA](img/DigitalSWAsia.png)
+
+
+## AFR
+
+![DigAFR](img/DigitalAfrica.png)
+
+## RUS
+
+![DigRUS](img/DigitalRUS.png)
+
+## EUR
+
+![DigEUR](img/DigitalEUR.png)
+
+
+## CAC
+
+![DigCAC](img/DigitalCAC.png)
+
+
+## NA
+
+![DigNA](img/DigitalNA.png)
+
+
+:::
+
+## Third Thing
+
+::: {.panel-tabset}
+
+## ESAS
+
+![ClimateESA](img/ClimateESAsia.png)
+
+
+## SEAS
+
+![ClimateSEA](img/ClimateSEAsia.png)
+
+
+## CAS
+
+![ClimateCA](img/ClimateCAsia.png)
+
+## SWAS
+
+![ClimateSWA](img/ClimateSWAsia.png)
+
+
+## AFR
+
+![EnerAFR](img/EnergyAfrica.png)
+
+## RUS
+
+![WheatRUS](img/FoodRUS.png)
+
+## EUR
+
+![MigEUR](img/MigrationEUR.png)
+
+
+## CAC
+
+![ClimCAC](img/ClimateCAC.png)
+
+
+## NA
+
+![DrugsNA](img/DrugsNA.png)
+
+
+:::
+
+# {background-image="img/SSpaces.png" background-size="contain"}
+
+1. Arctic
+2. Antarctica
+3. Oceans
+4. Space
+5. Cyberspace
+
+## The Arctic
+
+::: {.panel-tabset}
+
+## Claims
+
+![Claims](img/Claims.png)
+
+## Oil/Gas
+
+![Oil/Gas](img/OGas.png)
+
+## Ships
+
+![Ships](img/Ships.png)
+
+:::
+
+## Antarctica
+
+::: {.panel-tabset}
+
+## Claims
+
+![Claims](img/AntClaims.png)
+
+## Tourism
+
+![Tourism](img/Tourism.png)
+
+
+:::
+
+# The Oceans {background-image="img/OMap.png" background-size="contain"}
+
+## The Oceans 
+
+::: {.panel-tabset}
+
+## Level Rise
+
+![Levels](img/OClaims.png)
+
+## Undiscovered
+
+![Oil/Gas](img/OUndiscovered.png)
+
+## Exploration
+
+![Permits](img/OExplore.png)
+
+:::
+
+
+## Space/Orbits
+
+:::{.panel-tabset}
+
+## Map
+
+![Orbits](img/SpaceMap.png)
+
+## Companies
+
+![Companies](img/SpaceCos.png)
+
+
+## Satellites
+
+![Satellites](img/Sats.png)
+
+
+:::
+
+# Cyberspace {background-image="img/CSpace.png" background-size="contain"}
+
+## Cyberspace
+
+:::{.panel-tabset}
+
+## Usage
+
+![Usage](img/IUsage.png)
+
+## Companies
+
+![Information](img/InfoCreation.png)
+
+
+## Cyberwar
+
+![Incidents](img/CWar.png)
+
+
+:::
+
+
+# Themes {background-image="img/Themes.png" background-size="contain"}
+
++ Society
++ Economy
++ Environment
++ Information and Technology
++ Conflict and Security
+
+## Themes
+
+## Society
+
+:::{.panel-tabset}
+
+## Demography
+
+![Pop Dist](img/DemoF.png)
+
+## Urbanisation
+
+![Urbans](img/Urbans.png)
+
+
+## Religions
+
+![World Religions](img/WorldRel.png)
+
+
+:::
+
+## Economics
+
+:::{.panel-tabset}
+
+## GDPs/Companies
+
+![GDP/MC](img/GDPCos.png)
+
+## Employment
+
+![Employment](img/Jobs.png)
+
+
+:::
+
+# Environment and Ecology {background-image="img/EcoEnv.png" background-size="contain"}
+
+## Environmental Concerns
+
+:::{.panel-tabset}
+
+## Temperatures
+
+![Global Temps](img/GTemps.png)
+
+## Power
+
+![Energy](img/GEnergy.png)
+
+
+:::
+
+# {background-image="img/IandT.png" background-size="contain"}
+
+## Info Tech 
+
+:::{.panel-tabset}
+
+## Transport
+
+![Global Transport](img/TransMove.png)
+
+## Death
+
+![Causes](img/CoDeath.png)
+
+
+:::
+
+# Conflict and Security {background-image="img/ConfSec.png" background-size="contain"}
+
+image credit: page 419
+
+## Conflict and Security
+
+:::{.panel-tabset}
+
+## Military Expenditures
+
+![Regional Spend](img/MilExp.png)
+
+## Rare Earths
+
+![Minerals](img/RELocs.png)
+
+
+:::
+
+# The Page on Global Strategic Trends
+
+References are all in the report.
+
+[Link](https://assets.publishing.service.gov.uk/media/67dc3b740298101d2d671216/Global_Strategic_Trends_Out_to_2055_GOV.pdf)

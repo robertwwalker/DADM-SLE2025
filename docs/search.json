@@ -312,8 +312,8 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#augmented-analysis-with-claude",
-    "href": "slides/dadmpdx-gstw1/index.html#augmented-analysis-with-claude",
+    "objectID": "slides/dadm-gstw2/index.html#augmented-analysis-with-claude",
+    "href": "slides/dadm-gstw2/index.html#augmented-analysis-with-claude",
     "title": "Evidence, Visualization, and Biases",
     "section": "Augmented Analysis with Claude",
     "text": "Augmented Analysis with Claude\nA Chat\n\n\n\nThe Plot in Esquisse",
@@ -324,11 +324,11 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#some-language",
-    "href": "slides/dadmpdx-gstw1/index.html#some-language",
+    "objectID": "slides/dadm-gstw2/index.html#some-goals",
+    "href": "slides/dadm-gstw2/index.html#some-goals",
     "title": "Evidence, Visualization, and Biases",
-    "section": "Some Language",
-    "text": "Some Language\nSensitivity refers to the ability of a test to designate an individual with a disease as positive. Specificity refers to the ability of a test to designate an individual without a disease as negative.\nFalse positives are then the complement/opposite of specificity and false negatives are the complement/opposite of sensitivity.\n\n\n\nTruth\nPositive Test\nNegative Test\n\n\n\n\nPositive\nSensitivity\nFalse Negative\n\n\nNegative\nFalse Positive\nSpecificity\n\n\n\nExamples:\n\nDrug testing\nDiagnostic testing",
+    "section": "Some Goals:",
+    "text": "Some Goals:\nThe aforementioned is one example of a through-line. Also, we should never forget this is an inherently British assessment.\n\nWhat assumptions are required for the pathway? Are they stated or unstated?\nWhat does the pathway in question look like?\nHow might we know a pathway is emerging?\nHow do we determine differentiators among pathways?\nWhat would we want to measure?\nWhat are indicators which help show what direction we are going?\nWhat has been missed? Are there overlooked alternatives?\n\nConsider this alongside the idea of claims tied to evidence by warrants with appropriate qualification.",
     "crumbs": [
       "About",
       "Slides",
@@ -336,224 +336,8 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#applied-to-hypothesis-testing",
-    "href": "slides/dadmpdx-gstw1/index.html#applied-to-hypothesis-testing",
-    "title": "Evidence, Visualization, and Biases",
-    "section": "Applied to Hypothesis Testing",
-    "text": "Applied to Hypothesis Testing\nWhen we get to hypothesis testing in a few weeks, this comes up again with null and alternative hypotheses and the related decision.\n\n\n\nTruth\nReject Null\nAccept Null\n\n\n\n\nAlternative\nCorrect\nType II error\n\n\nNull\nType I error\nCorrect",
-    "crumbs": [
-      "About",
-      "Slides",
-      "Evidence, Visualization, and Biases"
-    ]
-  },
-  {
-    "objectID": "slides/dadmpdx-gstw1/index.html#a-covid-test",
-    "href": "slides/dadmpdx-gstw1/index.html#a-covid-test",
-    "title": "Evidence, Visualization, and Biases",
-    "section": "A COVID test",
-    "text": "A COVID test\nSuppose a COVID test is 0.99 sensitive and 0.95 specific. At the time of administration, it is thought that roughly twelve percent of the population is infected.\nWhat proportion of tests are positive?\n\nTwo positive tests:\n\nTrue positives 0.99*0.12=0.1188 and\nFalse positives 0.05*0.880=.044;\nsum 0.1628.\n\n\nWhat is the probability that a person with a positive test is infected?\n\nOf .1628 positive tests, 0.1188 come from the infected:\n\n\\frac{0.1188}{0.1628} = 0.7297",
-    "crumbs": [
-      "About",
-      "Slides",
-      "Evidence, Visualization, and Biases"
-    ]
-  },
-  {
-    "objectID": "slides/dadmpdx-gstw1/index.html#two-further-issues-in-probability",
-    "href": "slides/dadmpdx-gstw1/index.html#two-further-issues-in-probability",
-    "title": "Evidence, Visualization, and Biases",
-    "section": "Two Further Issues in Probability",
-    "text": "Two Further Issues in Probability\n\nJuries and Bayes Rule\nCounting Rules",
-    "crumbs": [
-      "About",
-      "Slides",
-      "Evidence, Visualization, and Biases"
-    ]
-  },
-  {
-    "objectID": "slides/dadmpdx-gstw1/index.html#counting-rules",
-    "href": "slides/dadmpdx-gstw1/index.html#counting-rules",
-    "title": "Evidence, Visualization, and Biases",
-    "section": "Counting Rules",
-    "text": "Counting Rules\n\nSimple counting rules, k questions [True/False, n=2]: N^k\nMulti-step experiments: Whataburger\nFactorial designs\nCombinations and permutations",
-    "crumbs": [
-      "About",
-      "Slides",
-      "Evidence, Visualization, and Biases"
-    ]
-  },
-  {
-    "objectID": "slides/dadmpdx-gstw1/index.html#whataburger",
-    "href": "slides/dadmpdx-gstw1/index.html#whataburger",
-    "title": "Evidence, Visualization, and Biases",
-    "section": "Whataburger",
-    "text": "Whataburger\nTexas Fast Food Chain says there are 36,864 to order a Whataburger. How? - 2 burger patties (Regular, Junior) up to triple meat (R,J,RJ,RR,JJ,RRR,JJJ,RJJ,JRR) - 4 bread options - 3 condiments (mayonnaise, mustard, ketchup) - Vegetables (lettuce, tomato, pickle, onion) - Cheese, jalapeno, bacon 9*4*(1+3+3+1)*(1+4+6+4+1)*(1+3+3+1)\nJust like the t-shirts say, 36,864 ways to make a whataburger!\ncitation",
-    "crumbs": [
-      "About",
-      "Slides",
-      "Evidence, Visualization, and Biases"
-    ]
-  },
-  {
-    "objectID": "slides/dadmpdx-gstw1/index.html#meetings",
-    "href": "slides/dadmpdx-gstw1/index.html#meetings",
-    "title": "Evidence, Visualization, and Biases",
-    "section": "Meetings",
-    "text": "Meetings\nSix students wish to meet with a professor… - Alice, Bob, Cat, Dharma, Ernest, Fred How many arrangements of the meetings into six slots? - Six ways for the first slot (ABCDEF) - Five ways for the second (whomever is not first) - Four ways for the third, and so on….\n6*5*4*3*2*1=720",
-    "crumbs": [
-      "About",
-      "Slides",
-      "Evidence, Visualization, and Biases"
-    ]
-  },
-  {
-    "objectID": "slides/dadmpdx-gstw1/index.html#permuations-and-combinations",
-    "href": "slides/dadmpdx-gstw1/index.html#permuations-and-combinations",
-    "title": "Evidence, Visualization, and Biases",
-    "section": "Permuations and Combinations",
-    "text": "Permuations and Combinations\nThe key difference is whether or not the order matters. Permutations deem order as relevant whereas combinations do not. There are (at least as many or) more permutations than combinations.\n\nIs the Powerball lottery a permutation or a combination?\nWhat about a seating chart for this class?",
-    "crumbs": [
-      "About",
-      "Slides",
-      "Evidence, Visualization, and Biases"
-    ]
-  },
-  {
-    "objectID": "slides/dadmpdx-gstw1/index.html#powerball",
-    "href": "slides/dadmpdx-gstw1/index.html#powerball",
-    "title": "Evidence, Visualization, and Biases",
-    "section": "Powerball",
-    "text": "Powerball\n\n59 white balls numbered 1 through 59\n35 red balls numbered 1 through 35\nChoose 5 white balls and one red ball.",
-    "crumbs": [
-      "About",
-      "Slides",
-      "Evidence, Visualization, and Biases"
-    ]
-  },
-  {
-    "objectID": "slides/dadmpdx-gstw1/index.html#calculating-old-powerball",
-    "href": "slides/dadmpdx-gstw1/index.html#calculating-old-powerball",
-    "title": "Evidence, Visualization, and Biases",
-    "section": "Calculating (old) Powerball",
-    "text": "Calculating (old) Powerball\n\nOrder doesn’t matter for the chooser, you choose six numbers (five white, one red)\nThen just apply the formula for combinations (but we need to account for the 35 red balls).\n\n_nC_x = \\frac{n!}{x!(n-x)!} = \\frac{59!}{5!54!}\nSo the chances of winning the lottery are just a combinations problem with a second-step.\n\nfactorial(59)/(factorial(5)*factorial(54))*35\n\n[1] 175223510",
-    "crumbs": [
-      "About",
-      "Slides",
-      "Evidence, Visualization, and Biases"
-    ]
-  },
-  {
-    "objectID": "slides/dadmpdx-gstw1/index.html#ground-truth",
-    "href": "slides/dadmpdx-gstw1/index.html#ground-truth",
-    "title": "Evidence, Visualization, and Biases",
-    "section": "Ground Truth",
-    "text": "Ground Truth\n\n\n\nImage",
-    "crumbs": [
-      "About",
-      "Slides",
-      "Evidence, Visualization, and Biases"
-    ]
-  },
-  {
-    "objectID": "slides/dadmpdx-gstw1/index.html#new-powerball",
-    "href": "slides/dadmpdx-gstw1/index.html#new-powerball",
-    "title": "Evidence, Visualization, and Biases",
-    "section": "New Powerball",
-    "text": "New Powerball\n\nFive white balls: 1 through 69\nOne red powerball: 1 through 26\n\nLink to page",
-    "crumbs": [
-      "About",
-      "Slides",
-      "Evidence, Visualization, and Biases"
-    ]
-  },
-  {
-    "objectID": "slides/dadmpdx-gstw1/index.html#random-variables",
-    "href": "slides/dadmpdx-gstw1/index.html#random-variables",
-    "title": "Evidence, Visualization, and Biases",
-    "section": "Random Variables",
-    "text": "Random Variables\nI do not love the book definition of this. Technically, it is a variable whose values are generated according to some random process; your book implies that these are limited to quantities.\n\nIt is really a measurable function defined on a probability space that maps from the sample space [the set of possible outcomes] to the real numbers.",
-    "crumbs": [
-      "About",
-      "Slides",
-      "Evidence, Visualization, and Biases"
-    ]
-  },
-  {
-    "objectID": "slides/dadmpdx-gstw1/index.html#a-core-idea-independence",
-    "href": "slides/dadmpdx-gstw1/index.html#a-core-idea-independence",
-    "title": "Evidence, Visualization, and Biases",
-    "section": "A Core Idea: Independence",
-    "text": "A Core Idea: Independence\nWhat does it mean to say something is independent of something else?\n\nThe simplest way to think about it is, “do I learn something more about x by knowing y than not”. If two things are independent, I don’t need to care about y if x is my objective.",
-    "crumbs": [
-      "About",
-      "Slides",
-      "Evidence, Visualization, and Biases"
-    ]
-  },
-  {
-    "objectID": "slides/dadmpdx-gstw1/index.html#general-ideas",
-    "href": "slides/dadmpdx-gstw1/index.html#general-ideas",
-    "title": "Evidence, Visualization, and Biases",
-    "section": "General Ideas",
-    "text": "General Ideas\n\nExpectation\n\n\n\n\nExpectation\n\n\n\nVariance\n\n\n\n\nVariance\n\n\nPart of 3.4 are incomplete.\n\nCovariance\nLinear Functions of Random Variables",
-    "crumbs": [
-      "About",
-      "Slides",
-      "Evidence, Visualization, and Biases"
-    ]
-  },
-  {
-    "objectID": "slides/dadmpdx-gstw1/index.html#two-examples-of-simpsons-paradox-for-homework",
-    "href": "slides/dadmpdx-gstw1/index.html#two-examples-of-simpsons-paradox-for-homework",
-    "title": "Evidence, Visualization, and Biases",
-    "section": "Two Examples of Simpson’s Paradox for Homework",
-    "text": "Two Examples of Simpson’s Paradox for Homework\n\nDiscrimination\nAdmissions",
-    "crumbs": [
-      "About",
-      "Slides",
-      "Evidence, Visualization, and Biases"
-    ]
-  },
-  {
-    "objectID": "slides/dadmpdx-gstw1/index.html#introducing-esquisse",
-    "href": "slides/dadmpdx-gstw1/index.html#introducing-esquisse",
-    "title": "Evidence, Visualization, and Biases",
-    "section": "Introducing Esquisse",
-    "text": "Introducing Esquisse\n\n\n\nEsquisse",
-    "crumbs": [
-      "About",
-      "Slides",
-      "Evidence, Visualization, and Biases"
-    ]
-  },
-  {
-    "objectID": "slides/dadmpdx-gstw1/index.html#executing",
-    "href": "slides/dadmpdx-gstw1/index.html#executing",
-    "title": "Evidence, Visualization, and Biases",
-    "section": "Executing",
-    "text": "Executing\nesquisse:::esquisser(viewer=\"browser\")\nNB: It needs to run in a separate browser window.",
-    "crumbs": [
-      "About",
-      "Slides",
-      "Evidence, Visualization, and Biases"
-    ]
-  },
-  {
-    "objectID": "slides/dadmpdx-gstw1/index.html#selecting-data",
-    "href": "slides/dadmpdx-gstw1/index.html#selecting-data",
-    "title": "Evidence, Visualization, and Biases",
-    "section": "Selecting Data",
-    "text": "Selecting Data\nWhat is available in the environment?\nA Run Through",
-    "crumbs": [
-      "About",
-      "Slides",
-      "Evidence, Visualization, and Biases"
-    ]
-  },
-  {
-    "objectID": "slides/dadmpdx-gstw1/index.html#a-model",
-    "href": "slides/dadmpdx-gstw1/index.html#a-model",
+    "objectID": "slides/dadm-gstw2/index.html#a-model",
+    "href": "slides/dadm-gstw2/index.html#a-model",
     "title": "Evidence, Visualization, and Biases",
     "section": "A Model",
     "text": "A Model",
@@ -564,8 +348,8 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#six-drivers-and-five-core-contradictions",
-    "href": "slides/dadmpdx-gstw1/index.html#six-drivers-and-five-core-contradictions",
+    "objectID": "slides/dadm-gstw2/index.html#six-drivers-and-five-core-contradictions",
+    "href": "slides/dadm-gstw2/index.html#six-drivers-and-five-core-contradictions",
     "title": "Evidence, Visualization, and Biases",
     "section": "Six Drivers and Five Core Contradictions",
     "text": "Six Drivers and Five Core Contradictions",
@@ -576,8 +360,8 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#impact-and-uncertainty",
-    "href": "slides/dadmpdx-gstw1/index.html#impact-and-uncertainty",
+    "objectID": "slides/dadm-gstw2/index.html#impact-and-uncertainty",
+    "href": "slides/dadm-gstw2/index.html#impact-and-uncertainty",
     "title": "Evidence, Visualization, and Biases",
     "section": "Impact and Uncertainty",
     "text": "Impact and Uncertainty",
@@ -588,8 +372,8 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#cross-impacts",
-    "href": "slides/dadmpdx-gstw1/index.html#cross-impacts",
+    "objectID": "slides/dadm-gstw2/index.html#cross-impacts",
+    "href": "slides/dadm-gstw2/index.html#cross-impacts",
     "title": "Evidence, Visualization, and Biases",
     "section": "Cross-Impacts",
     "text": "Cross-Impacts",
@@ -600,8 +384,8 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#four-future-worlds",
-    "href": "slides/dadmpdx-gstw1/index.html#four-future-worlds",
+    "objectID": "slides/dadm-gstw2/index.html#four-future-worlds",
+    "href": "slides/dadm-gstw2/index.html#four-future-worlds",
     "title": "Evidence, Visualization, and Biases",
     "section": "Four Future Worlds",
     "text": "Four Future Worlds",
@@ -612,8 +396,8 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#five-pathways",
-    "href": "slides/dadmpdx-gstw1/index.html#five-pathways",
+    "objectID": "slides/dadm-gstw2/index.html#five-pathways",
+    "href": "slides/dadm-gstw2/index.html#five-pathways",
     "title": "Evidence, Visualization, and Biases",
     "section": "Five Pathways",
     "text": "Five Pathways",
@@ -624,8 +408,8 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#regions",
-    "href": "slides/dadmpdx-gstw1/index.html#regions",
+    "objectID": "slides/dadm-gstw2/index.html#regions",
+    "href": "slides/dadm-gstw2/index.html#regions",
     "title": "Evidence, Visualization, and Biases",
     "section": "Regions",
     "text": "Regions\n\nESASSEASCASSWASAFRRUSEURCACNA\n\n\n\n\n\nMapESA\n\n\n\n\n\n\n\nMapSEA\n\n\n\n\n\n\n\nMapCA\n\n\n\n\n\n\n\nMapSWA\n\n\n\n\n\n\n\nMapAFR\n\n\n\n\n\n\n\nMapRUS\n\n\n\n\n\n\n\nPopEUR\n\n\n\n\n\n\n\nMapCAC\n\n\n\n\n\n\n\nMapNA",
@@ -636,8 +420,8 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#three-areas",
-    "href": "slides/dadmpdx-gstw1/index.html#three-areas",
+    "objectID": "slides/dadm-gstw2/index.html#three-areas",
+    "href": "slides/dadm-gstw2/index.html#three-areas",
     "title": "Evidence, Visualization, and Biases",
     "section": "Three Areas",
     "text": "Three Areas\n\nDemographic Breakdown\nDigital Usage\nClimate, or ….",
@@ -648,8 +432,8 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#demographics",
-    "href": "slides/dadmpdx-gstw1/index.html#demographics",
+    "objectID": "slides/dadm-gstw2/index.html#demographics",
+    "href": "slides/dadm-gstw2/index.html#demographics",
     "title": "Evidence, Visualization, and Biases",
     "section": "Demographics",
     "text": "Demographics\n\nESASSEASCASSWASAFRRUSEURCACNA\n\n\n\n\n\nPopESA\n\n\n\n\n\n\n\nPopSEA\n\n\n\n\n\n\n\nPopCA\n\n\n\n\n\n\n\nPopSWA\n\n\n\n\n\n\n\nPopAFR\n\n\n\n\n\n\n\nPopRUS\n\n\n\n\n\n\n\nPopEUR\n\n\n\n\n\n\n\nPopCAC\n\n\n\n\n\n\n\nPopNA",
@@ -660,8 +444,8 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#digital",
-    "href": "slides/dadmpdx-gstw1/index.html#digital",
+    "objectID": "slides/dadm-gstw2/index.html#digital",
+    "href": "slides/dadm-gstw2/index.html#digital",
     "title": "Evidence, Visualization, and Biases",
     "section": "Digital",
     "text": "Digital\n\nESASSEASCASSWASAFRRUSEURCACNA\n\n\n\n\n\nDigESA\n\n\n\n\n\n\n\nDigSEA\n\n\n\n\n\n\n\nDigCA\n\n\n\n\n\n\n\nDigSWA\n\n\n\n\n\n\n\nDigAFR\n\n\n\n\n\n\n\nDigRUS\n\n\n\n\n\n\n\nDigEUR\n\n\n\n\n\n\n\nDigCAC\n\n\n\n\n\n\n\nDigNA",
@@ -672,8 +456,8 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#third-thing",
-    "href": "slides/dadmpdx-gstw1/index.html#third-thing",
+    "objectID": "slides/dadm-gstw2/index.html#third-thing",
+    "href": "slides/dadm-gstw2/index.html#third-thing",
     "title": "Evidence, Visualization, and Biases",
     "section": "Third Thing",
     "text": "Third Thing\n\nESASSEASCASSWASAFRRUSEURCACNA\n\n\n\n\n\nClimateESA\n\n\n\n\n\n\n\nClimateSEA\n\n\n\n\n\n\n\nClimateCA\n\n\n\n\n\n\n\nClimateSWA\n\n\n\n\n\n\n\nEnerAFR\n\n\n\n\n\n\n\nWheatRUS\n\n\n\n\n\n\n\nMigEUR\n\n\n\n\n\n\n\nClimCAC\n\n\n\n\n\n\n\nDrugsNA",
@@ -684,8 +468,8 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#the-arctic",
-    "href": "slides/dadmpdx-gstw1/index.html#the-arctic",
+    "objectID": "slides/dadm-gstw2/index.html#the-arctic",
+    "href": "slides/dadm-gstw2/index.html#the-arctic",
     "title": "Evidence, Visualization, and Biases",
     "section": "The Arctic",
     "text": "The Arctic\n\nClaimsOil/GasShips\n\n\n\n\n\nClaims\n\n\n\n\n\n\n\nOil/Gas\n\n\n\n\n\n\n\nShips",
@@ -696,8 +480,8 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#antarctica",
-    "href": "slides/dadmpdx-gstw1/index.html#antarctica",
+    "objectID": "slides/dadm-gstw2/index.html#antarctica",
+    "href": "slides/dadm-gstw2/index.html#antarctica",
     "title": "Evidence, Visualization, and Biases",
     "section": "Antarctica",
     "text": "Antarctica\n\nClaimsTourism\n\n\n\n\n\nClaims\n\n\n\n\n\n\n\nTourism",
@@ -708,8 +492,8 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#the-oceans-1",
-    "href": "slides/dadmpdx-gstw1/index.html#the-oceans-1",
+    "objectID": "slides/dadm-gstw2/index.html#the-oceans-1",
+    "href": "slides/dadm-gstw2/index.html#the-oceans-1",
     "title": "Evidence, Visualization, and Biases",
     "section": "The Oceans",
     "text": "The Oceans\n\nLevel RiseUndiscoveredExploration\n\n\n\n\n\nLevels\n\n\n\n\n\n\n\nOil/Gas\n\n\n\n\n\n\n\nPermits",
@@ -720,8 +504,8 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#spaceorbits",
-    "href": "slides/dadmpdx-gstw1/index.html#spaceorbits",
+    "objectID": "slides/dadm-gstw2/index.html#spaceorbits",
+    "href": "slides/dadm-gstw2/index.html#spaceorbits",
     "title": "Evidence, Visualization, and Biases",
     "section": "Space/Orbits",
     "text": "Space/Orbits\n\nMapCompaniesSatellites\n\n\n\n\n\nOrbits\n\n\n\n\n\n\n\nCompanies\n\n\n\n\n\n\n\nSatellites",
@@ -732,8 +516,8 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#cyberspace-1",
-    "href": "slides/dadmpdx-gstw1/index.html#cyberspace-1",
+    "objectID": "slides/dadm-gstw2/index.html#cyberspace-1",
+    "href": "slides/dadm-gstw2/index.html#cyberspace-1",
     "title": "Evidence, Visualization, and Biases",
     "section": "Cyberspace",
     "text": "Cyberspace\n\nUsageCompaniesCyberwar\n\n\n\n\n\nUsage\n\n\n\n\n\n\n\nInformation\n\n\n\n\n\n\n\nIncidents",
@@ -744,8 +528,8 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#themes-1",
-    "href": "slides/dadmpdx-gstw1/index.html#themes-1",
+    "objectID": "slides/dadm-gstw2/index.html#themes-1",
+    "href": "slides/dadm-gstw2/index.html#themes-1",
     "title": "Evidence, Visualization, and Biases",
     "section": "Themes",
     "text": "Themes",
@@ -756,8 +540,8 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#society",
-    "href": "slides/dadmpdx-gstw1/index.html#society",
+    "objectID": "slides/dadm-gstw2/index.html#society",
+    "href": "slides/dadm-gstw2/index.html#society",
     "title": "Evidence, Visualization, and Biases",
     "section": "Society",
     "text": "Society\n\nDemographyUrbanisationReligions\n\n\n\n\n\nPop Dist\n\n\n\n\n\n\n\nUrbans\n\n\n\n\n\n\n\nWorld Religions",
@@ -768,8 +552,8 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#economics",
-    "href": "slides/dadmpdx-gstw1/index.html#economics",
+    "objectID": "slides/dadm-gstw2/index.html#economics",
+    "href": "slides/dadm-gstw2/index.html#economics",
     "title": "Evidence, Visualization, and Biases",
     "section": "Economics",
     "text": "Economics\n\nGDPs/CompaniesEmployment\n\n\n\n\n\nGDP/MC\n\n\n\n\n\n\n\nEmployment",
@@ -780,8 +564,8 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#environmental-concerns",
-    "href": "slides/dadmpdx-gstw1/index.html#environmental-concerns",
+    "objectID": "slides/dadm-gstw2/index.html#environmental-concerns",
+    "href": "slides/dadm-gstw2/index.html#environmental-concerns",
     "title": "Evidence, Visualization, and Biases",
     "section": "Environmental Concerns",
     "text": "Environmental Concerns\n\nTemperaturesPower\n\n\n\n\n\nGlobal Temps\n\n\n\n\n\n\n\nEnergy",
@@ -792,8 +576,8 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#info-tech",
-    "href": "slides/dadmpdx-gstw1/index.html#info-tech",
+    "objectID": "slides/dadm-gstw2/index.html#info-tech",
+    "href": "slides/dadm-gstw2/index.html#info-tech",
     "title": "Evidence, Visualization, and Biases",
     "section": "Info Tech",
     "text": "Info Tech\n\nTransportDeath\n\n\n\n\n\nGlobal Transport\n\n\n\n\n\n\n\nCauses",
@@ -804,8 +588,8 @@
     ]
   },
   {
-    "objectID": "slides/dadmpdx-gstw1/index.html#conflict-and-security-1",
-    "href": "slides/dadmpdx-gstw1/index.html#conflict-and-security-1",
+    "objectID": "slides/dadm-gstw2/index.html#conflict-and-security-1",
+    "href": "slides/dadm-gstw2/index.html#conflict-and-security-1",
     "title": "Evidence, Visualization, and Biases",
     "section": "Conflict and Security",
     "text": "Conflict and Security\n\nMilitary ExpendituresRare Earths\n\n\n\n\n\nRegional Spend\n\n\n\n\n\n\n\nMinerals",
@@ -909,7 +693,7 @@
   {
     "objectID": "posts/week-5/index.html",
     "href": "posts/week-5/index.html",
-    "title": "Week 5: PDX",
+    "title": "Week 6: SLE",
     "section": "",
     "text": "A link to the slides for the day.\nSlides"
   },
@@ -1023,7 +807,7 @@
     "href": "index.html",
     "title": "DADM-P25",
     "section": "",
-    "text": "Gemini for Data on Hunger\n\n\n\n\n\n\n\n\nSep 25, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nGemini gets Eurostat Data\n\n\n\n\n\n\n\n\nSep 25, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nOn Causality\n\n\n\n\n\n\n\n\nSep 24, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5: PDX\n\n\n\n\n\n\n\n\nSep 24, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nHappiness and Maps\n\n\n\n\n\n\n\n\nSep 18, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nEsquisse\n\n\n\n\n\n\n\n\nSep 17, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nNotes on Joins\n\n\n\n\n\n\n\n\nSep 16, 2025\n\n\nRobert W. Walker\n\n\n\n\n\nNo matching items"
+    "text": "Gemini for Data on Hunger\n\n\n\n\n\n\n\n\nSep 25, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nGemini gets Eurostat Data\n\n\n\n\n\n\n\n\nSep 25, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nOn Causality\n\n\n\n\n\n\n\n\nSep 24, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6: SLE\n\n\n\n\n\n\n\n\nSep 24, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nHappiness and Maps\n\n\n\n\n\n\n\n\nSep 18, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nEsquisse\n\n\n\n\n\n\n\n\nSep 17, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nNotes on Joins\n\n\n\n\n\n\n\n\nSep 16, 2025\n\n\nRobert W. Walker\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "slides/dadmp-gstw1/index.html#some-language",

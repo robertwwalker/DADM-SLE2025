@@ -1,9 +1,9 @@
 ---
-title: "Week 5: PDX"
+title: "Week 6: SLE"
 author: "Robert W. Walker"
 date: "2025-09-24"
 ---
 
 A link to the slides for the day.
 
-[Slides](https://robertwwalker.github.io/DADM-P25/slides/dadmpdx-gstw1/)
+[Slides](https://robertwwalker.github.io/DADM-SLE2025/slides/dadmp-gstw2/)
