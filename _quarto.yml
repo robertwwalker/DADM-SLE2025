@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  description: "Data Analysis, Modelling, and Decision Making"
+  site-url: https://robertwwalker.github.io/DADM-P25 # you must change this appropriately for RSS feeds to work properly
+  title: "DADM for Professionals 2025: PDX"
+  page-navigation: true
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/robertwwalker/
+      - icon: twitter
+        href: https://twitter.com/PieRatio
+
+
+  sidebar:
+    contents: slides
+
+format:
+  html:
+    theme:
+      - morph
+      - brand
+    css: styles.css
+
+
+

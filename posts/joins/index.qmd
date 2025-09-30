@@ -1,0 +1,114 @@
+---
+title: "Notes on Joins"
+author: "Robert W. Walker"
+date: "2025-09-16"
+format: html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Two Data Sets
+
+One on heroes.
+
+```{r, message=FALSE, warnings=FALSE}
+library(tidyverse)
+heroes <- "
+    name, alignment, gender,         publisher
+ Magneto,       bad,   male,            Marvel
+   Storm,      good, female,            Marvel
+Mystique,       bad, female,            Marvel
+  Batman,      good,   male,                DC
+   Joker,       bad,   male,                DC
+Catwoman,       bad, female,                DC
+ Hellboy,      good,   male, Dark Horse Comics
+"
+heroes <- read_csv(heroes, skip = 1)
+
+brands <- "
+  publisher, yr_founded
+         DC,       1934
+     Marvel,       1939
+      Image,       1992
+"
+brands <- read_csv(brands, skip = 1)
+```
+
+
+```{r}
+heroes
+```
+
+```{r}
+brands
+```
+
+
+## Joins
+
+Are the core idea behind SQL. R does all of these things though it does them in an R way.  We will figure that out.  The assignment?  To learn joins.  How?  Here are the commands; use them and see how they work.  It should be simple.  `inner_join(heroes,brands)` produces what?  Same for semi?  left?  right?  full?  **In the following explanations, when I use left and right data, I mean heroes as left and brands as right where the sides are with respect to the ,.**
+
+  
+1. `inner_join`  
+
+```{r}
+inner_join(heroes,brands)
+```
+
+We keep only those rows that exist in both the left and the right datasets and we join all columns.
+
+2. `semi_join`  
+
+```{r}
+semi_join(heroes,brands)
+```
+
+The rows are the same as inner join but it does not keep columns from right data.
+
+3. `left_join`  
+
+```{r}
+left_join(heroes,brands)
+```
+
+*Keep all rows from the left*
+
+4. `right_join`
+
+```{r}
+right_join(heroes,brands)
+```
+
+*Keep all rows from the right*
+
+5. `full_join`
+
+```{r}
+full_join(heroes,brands)
+```
+
+**Keep everything, all rows and all columns**
+
+6. `anti_join`
+
+```{r}
+anti_join(heroes,brands)
+```
+
+**Only keep left rows that do not exist in the right data.**
+
+The most important option here is `by`.  Here is an example using it explicitly.  We need to use `c()` to combine the two variable names where each name is specified as `character` name, with quotes surrounding it.
+
+```{r}
+anti_join(heroes,brands, by=c("publisher" = "publisher"))
+```
+
+If there were two [not applicable in this case], it would be `by = c("publisher" = "publisher", "acronym" = "acronym")` and can apply to as many variables as one wishes.  The other argument of potential consequence is `na_matches`.  By default, `NA` values are matched [as are NotaNumber -- `NaN` values].  The option `na_matches = "never"` prevents this.  This is also completely inconsequential in this case but will be shown for completeness.
+
+```{r}
+anti_join(heroes,brands, by=c("publisher" = "publisher"), na_matches="never")
+```
+
+For a graphical depiction of SQL joins, see [link](https://www.reddit.com/r/programming/comments/1xlqeu/sql_joins_explained_xpost_rsql/)
