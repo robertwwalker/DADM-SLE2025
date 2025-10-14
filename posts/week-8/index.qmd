@@ -1,0 +1,9 @@
+---
+title: "Week 8: SLE"
+author: "Robert W. Walker"
+date: "2025-10-14"
+---
+
+A link to the slides for the day.
+
+[Slides](https://robertwwalker.github.io/DADM-SLE2025/slides/week-8/index.html)

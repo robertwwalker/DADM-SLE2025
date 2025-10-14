@@ -10,7 +10,26 @@
 <atom:link href="https://robertwwalker.github.io/DADM-SLE2025/index.xml" rel="self" type="application/rss+xml"/>
 <description>Data Analysis, Modelling, and Decision Making</description>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Tue, 30 Sep 2025 07:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 14 Oct 2025 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>Week 8: SLE</title>
+  <dc:creator>Robert W. Walker</dc:creator>
+  <link>https://robertwwalker.github.io/DADM-SLE2025/posts/week-8/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>A link to the slides for the day.</p>
+<p><a href="https://robertwwalker.github.io/DADM-SLE2025/slides/week-8/index.html">Slides</a></p>
+
+
+
+ ]]></description>
+  <guid>https://robertwwalker.github.io/DADM-SLE2025/posts/week-8/</guid>
+  <pubDate>Tue, 14 Oct 2025 07:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Week 6: SLE</title>
   <dc:creator>Robert W. Walker</dc:creator>
