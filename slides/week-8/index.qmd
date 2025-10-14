@@ -29,6 +29,8 @@ knitr::opts_chunk$set(fig.retina=3, fig.height=6, fig.width=9, echo=TRUE, eval=T
 
 ## A First Note: Questions on the Assignment
 
+## A First Topic: What is the Scientific Method?
+
 ## Discussion Items
 
 The aforementioned is one example of a through-line.  Also, we should never forget this is an inherently British assessment.
