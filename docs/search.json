@@ -928,7 +928,7 @@
     "href": "index.html",
     "title": "DADM-SLE2025",
     "section": "",
-    "text": "Week 8: SLE\n\n\n\n\n\n\n\n\nOct 14, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6: SLE\n\n\n\n\n\n\n\n\nSep 30, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nGemini for Data on Hunger\n\n\n\n\n\n\n\n\nSep 25, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nGemini gets Eurostat Data\n\n\n\n\n\n\n\n\nSep 25, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nOn Causality\n\n\n\n\n\n\n\n\nSep 24, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nHappiness and Maps\n\n\n\n\n\n\n\n\nSep 18, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nEsquisse\n\n\n\n\n\n\n\n\nSep 17, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nNotes on Joins\n\n\n\n\n\n\n\n\nSep 16, 2025\n\n\nRobert W. Walker\n\n\n\n\n\nNo matching items"
+    "text": "Probability Distributions\n\n\nLinking Probability and Data\n\n\n\n\n\n\n\n\nOct 21, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 8: SLE\n\n\n\n\n\n\n\n\n\n\n\nOct 14, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6: SLE\n\n\n\n\n\n\n\n\n\n\n\nSep 30, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nGemini for Data on Hunger\n\n\n\n\n\n\n\n\n\n\n\nSep 25, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nGemini gets Eurostat Data\n\n\n\n\n\n\n\n\n\n\n\nSep 25, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nOn Causality\n\n\n\n\n\n\n\n\n\n\n\nSep 24, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nHappiness and Maps\n\n\n\n\n\n\n\n\n\n\n\nSep 18, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nEsquisse\n\n\n\n\n\n\n\n\n\n\n\nSep 17, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nNotes on Joins\n\n\n\n\n\n\n\n\n\n\n\nSep 16, 2025\n\n\nRobert W. Walker\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/esquisse/index.html",
@@ -1991,5 +1991,855 @@
       "Slides",
       "Global Strategic Trends: Evaluaton and Articulation"
     ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#probability-the-logic-of-science",
+    "href": "slides/week-9/index.html#probability-the-logic-of-science",
+    "title": "Probability Distributions",
+    "section": "Probability: The Logic of Science",
+    "text": "Probability: The Logic of Science\nJaynes presents a few core ideas and requirements for his rational system. Probability emerges as the representation of circumstances in which any given realization of a process is either TRUE or FALSE but both are possible and can be expressed by probabilities.\n\nthat sum to one for all events\nare greater than or equal to zero for any given event",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#convex-combinations",
+    "href": "slides/week-9/index.html#convex-combinations",
+    "title": "Probability Distributions",
+    "section": "Convex Combinations",
+    "text": "Convex Combinations\nThe formal definition is a linear combination with non-negative coefficients that sum to one. Sound familiar? This reasoning applies pretty broadly.\nWeighted averages….",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#decision-trees",
+    "href": "slides/week-9/index.html#decision-trees",
+    "title": "Probability Distributions",
+    "section": "Decision Trees",
+    "text": "Decision Trees\nCharacterizing expected value for risk neutral agents. Decision trees [radiant has one] formalize this idea. We can also just compute them.",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#representing-probability-distributions",
+    "href": "slides/week-9/index.html#representing-probability-distributions",
+    "title": "Probability Distributions",
+    "section": "Representing Probability Distributions",
+    "text": "Representing Probability Distributions\n\n\nIs of necessity two-dimensional,\n\nWe have x and\nand Pr(X=x) in one of two types (Pr or f) equating to sums [discrete] or integrals [over continuua].",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#probability-distributions-of-two-forms",
+    "href": "slides/week-9/index.html#probability-distributions-of-two-forms",
+    "title": "Probability Distributions",
+    "section": "Probability Distributions of Two Forms",
+    "text": "Probability Distributions of Two Forms\nOur core concept is a probability distribution just as above. These come in two forms for two types [discrete (qualitative)] and continuous (quantitative)] and can be either:\n\nAssumed, or\nDerived",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#the-poster-and-examples",
+    "href": "slides/week-9/index.html#the-poster-and-examples",
+    "title": "Probability Distributions",
+    "section": "The Poster and Examples",
+    "text": "The Poster and Examples\n\nDistributions are nouns.\nSentences are incomplete without verbs – parameters.\nWe need both; it is for this reason that the former slide is true.\nWe do not always have a grounding for either the name or the parameter.\nFor now, we will work with univariate distributions though multivariate distributions do exist.",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#continuous-vs.-discrete-distributions",
+    "href": "slides/week-9/index.html#continuous-vs.-discrete-distributions",
+    "title": "Probability Distributions",
+    "section": "Continuous vs. Discrete Distributions",
+    "text": "Continuous vs. Discrete Distributions\nThe differences are sums versus integrals. Why?\n\nHistograms or\n\nDensity Plots\n\nThe probability of exactly any given value is zero on a true continuum.",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#functions",
+    "href": "slides/week-9/index.html#functions",
+    "title": "Probability Distributions",
+    "section": "Functions",
+    "text": "Functions\nProbability distributions are mathematical formulae expressing likelihood for some set of qualities or quantities.\n\nThey have names: nouns.\n\nThey also have verbs: parameters.\n\nLike a proper English sentence, both are required.",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#models",
+    "href": "slides/week-9/index.html#models",
+    "title": "Probability Distributions",
+    "section": "Models",
+    "text": "Models\nWhat is a model?\n. . .\nFor our purposes, it is a systematic description of a phenomenon that shares important and essential features of that phenomenon. Models frequently give us leverage on problems in the absence of alternative approaches.",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#our-applications",
+    "href": "slides/week-9/index.html#our-applications",
+    "title": "Probability Distributions",
+    "section": "Our Applications",
+    "text": "Our Applications\n\nThe uniform is defined by a minimum and maximum.\n\nThe normal with mean \\mu and standard deviation \\sigma or variance - \\sigma^2.\nThe Poisson will be defined an arrival rate \\lambda – lambda.\n\nBernoulli trials: Two outcomes occur with probability \\pi and 1-\\pi.\n\nThe binomial distribution will be defined by a number of trials n and a probability \\pi.\n\nThe geometric distribution defines the first success of n trials with probability \\pi.\n\nThe negative binomial distribution defines the probability of k successes in n trials with probability \\pi. It is related to the Poisson.",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#the-uniform-distribution",
+    "href": "slides/week-9/index.html#the-uniform-distribution",
+    "title": "Probability Distributions",
+    "section": "The Uniform Distribution",
+    "text": "The Uniform Distribution\n\nIs flat, each value is equally likely.\n\nDefined on 0 to 1 gives a random cumulative probability X \\leq x.\n\n\\uparrow It’s a random probability in 0 and 1.\n\nIs also known as the rectangular distribution.",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#uniform01",
+    "href": "slides/week-9/index.html#uniform01",
+    "title": "Probability Distributions",
+    "section": "Uniform(0,1)",
+    "text": "Uniform(0,1)\n\nlibrary(patchwork)\nUnif &lt;- data.frame(x=seq(0, 1, by = 0.005)) %&gt;% mutate(p.x = punif(x), d.x = dunif(x))\np1 &lt;- ggplot(Unif) + aes(x=x, y=p.x) + geom_step() + labs(title=\"Distribution Function [cdf/cmf]\") + theme_minimal()\np2 &lt;- ggplot(Unif) + aes(x=x, y=d.x) + geom_step() + labs(title=\"Density Function [pdf/pmf]\") + theme_minimal()\np2 + p1",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#the-normal-gaussian",
+    "href": "slides/week-9/index.html#the-normal-gaussian",
+    "title": "Probability Distributions",
+    "section": "The Normal [Gaussian]",
+    "text": "The Normal [Gaussian]\nf(x|\\mu,\\sigma^2 ) = \\frac{1}{\\sqrt{2\\pi\\sigma^{2}}} \\exp \\left[ -\\frac{1}{2} \\left(\\frac{x - \\mu}{\\sigma}\\right)^{2}\\right]\nIs the workhorse of statistics. Key features:\n\nIs self-replicating: sums of normals are normal.\n\nIf X is normal, then  Z = \\frac{(X - \\mu)}{\\sigma}  is normal.",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#the-normal-plotted",
+    "href": "slides/week-9/index.html#the-normal-plotted",
+    "title": "Probability Distributions",
+    "section": "The Normal [Plotted]",
+    "text": "The Normal [Plotted]\n\n\n\nlibrary(patchwork)\nUnif &lt;- data.frame(x=seq(0, 1, by = 0.005)) %&gt;% mutate(p.x = punif(x), d.x = dunif(x))\np1 &lt;- ggplot(Unif) + aes(x=x, y=p.x) + geom_step() + labs(title=\"Distribution Function [cdf/cmf]\") + theme_minimal()\np2 &lt;- ggplot(Unif) + aes(x=x, y=d.x) + geom_step() + labs(title=\"Density Function [pdf/pmf]\") + theme_minimal()\np2 + p1",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#the-z-transform",
+    "href": "slides/week-9/index.html#the-z-transform",
+    "title": "Probability Distributions",
+    "section": "The z-transform",
+    "text": "The z-transform\nThe generic z-transformation applied to a variable x centers [mean\\approx 0] and scales [std. dev. \\approx variance \\approx 1] to z_{x} for population parameters.1 In this case, two things are important.\n\nthis is the idea behind there only being one normal table in a statistics book.\nthe \\mu and \\sigma are presumed known.\n\nz = \\frac{x - \\mu}{\\sigma}\n\\approx is approximately equal to.",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#sample-z-scores",
+    "href": "slides/week-9/index.html#sample-z-scores",
+    "title": "Probability Distributions",
+    "section": "Sample z-scores",
+    "text": "Sample z-scores\nThe scale command in R does this for a sample.\nz = \\frac{x - \\overline{x}}{s_{x}} where \\overline{x} is the sample mean of x and s_{x} is the sample standard deviation of x.\nIn samples, the 0 and 1 are exact; these are features of the mean and degrees of freedom. If I know the mean and any n-1 observations, the n^{th} observation is exactly the value such that the deviations add up to zero/cancel out.",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#an-earnings-example",
+    "href": "slides/week-9/index.html#an-earnings-example",
+    "title": "Probability Distributions",
+    "section": "An Earnings Example",
+    "text": "An Earnings Example\nSuppose earnings in a community have mean 55,000 and standard deviation 10,000. This is in dollars. Suppose I earn 75,000 dollars. First, if we take the top part of the fraction in the z equation, we see that I earn 20,000 dollars more than the average (75000 - 55000). Finishing the calculation of z, I would divide that 20,000 dollars by 10,000 dollars per standard deviation. Let’s show that.\n z = \\frac{75000 dollars - 55000 dollars}{\\frac{10000 dollars}{SD}} = +2 SD .\nI am 2 standard deviations above the average (the +) earnings. All z does is re-scale the original data to standard deviations with zero as the mean. The metric is the standard deviation.\nSuppose I earn 35,000. That makes me 20,000 below the average and gives me a z score of -2. I am 2 standard deviations below average (the -) earnings.",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#z-and-symmetry",
+    "href": "slides/week-9/index.html#z-and-symmetry",
+    "title": "Probability Distributions",
+    "section": "Z and symmetry",
+    "text": "Z and symmetry\nz is an easy way to assess symmetry.\n\nThe mean of z is always zero but the distribution of z to the left and right of zero is informative. If they are roughly even, then symmetry is likely.\n\nIf the signs are uneven, then symmetry is unlikely.\n\nIn R, z is automated with the scale() command. The last line uses a table and the sign command to show the positive and negative z.\n\n\n\n\n# Generate random normal income\nDataF &lt;- data.frame(Hypo.Income = rnorm(1000, 55000, 10000)) %&gt;%\n# z-transform income [mean 55000ish, std. dev. 10000ish]\nmutate(z.Income = scale(Hypo.Income))\n# Show the data.frame\nhead(DataF)\ntable(sign(DataF$z.Income))\n\n\n\n\n  Hypo.Income   z.Income\n1    40876.61 -1.3941588\n2    39953.74 -1.4853133\n3    50923.00 -0.4018529\n4    42498.71 -1.2339407\n5    59715.40  0.4665942\n6    58690.36  0.3653493\n\n\n\n -1   1 \n489 511",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#probability-distributions",
+    "href": "slides/week-9/index.html#probability-distributions",
+    "title": "Probability Distributions",
+    "section": "Probability Distributions",
+    "text": "Probability Distributions\nDistributions in R are defined by four core parts:\n\nr: random variables\nd: density/probability that Pr(X=x) or f(x)\np: cumulative probability (given q) Pr(X\\leq q)=p\nq: quantile (given p): x such that Pr(X\\leq q)=p",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#why-normals",
+    "href": "slides/week-9/index.html#why-normals",
+    "title": "Probability Distributions",
+    "section": "Why Normals?",
+    "text": "Why Normals?\n\nThe Central Limit Theorem\nThey Dominate Ops [6\\sigma]\nNormal Approximations Abound",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#normals",
+    "href": "slides/week-9/index.html#normals",
+    "title": "Probability Distributions",
+    "section": "Normals",
+    "text": "Normals",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#problem-4-normal",
+    "href": "slides/week-9/index.html#problem-4-normal",
+    "title": "Probability Distributions",
+    "section": "Problem 4 [Normal]",
+    "text": "Problem 4 [Normal]\nThe Michelin tire company has developed a revolutionary new type of steel-belted radial tire. After extensive testing, the population of tire lives is believed to be well represented by a normal distribution with mean tire life \\mu = 96,000 miles and standard deviation \\sigma = 12,000 miles. The company plans to offer a warranty providing for replacement tires if the original tires fail to last through the warranty period. Before embarking on an in-depth analysis of the warranty problem, we will first warm up with a few standard normal probability calculations.\n\nFind the probability that a standard (mean zero, standard deviation one) normal random variable assumes a value between -0.89 and 1.13.\n\n\nresult &lt;- radiant.basics::prob_norm(mean = 0, stdev = 1, lb = -0.89, ub = 1.13)\nsummary(result)\n\nProbability calculator\nDistribution: Normal\nMean        : 0 \nSt. dev     : 1 \nLower bound : -0.89 \nUpper bound : 1.13 \n\nP(X &lt; -0.89) = 0.187\nP(X &gt; -0.89) = 0.813\nP(X &lt; 1.13) = 0.871\nP(X &gt; 1.13) = 0.129\nP(-0.89 &lt; X &lt; 1.13)     = 0.684\n1 - P(-0.89 &lt; X &lt; 1.13) = 0.316\n\nplot(result)\n\n\n\n\n\n\n\n\n\nApproximate the value of z such that the probability of a standard normal random variable falling in the interval [0, z] is 0.495; that is, such that Pr(0 &lt; Z &lt; z) = 0.495.\n\n\nresult &lt;- radiant.basics::prob_norm(mean = 0, stdev = 1, plb = 0.5, pub = 0.995)\nsummary(result, type = \"probs\")\n\nProbability calculator\nDistribution: Normal\nMean        : 0 \nSt. dev     : 1 \nLower bound : 0.5 \nUpper bound : 0.995 \n\nP(X &lt; 0) = 0.5\nP(X &gt; 0) = 0.5\nP(X &lt; 2.576) = 0.995\nP(X &gt; 2.576) = 0.005\nP(0 &lt; X &lt; 2.576)     = 0.495\n1 - P(0 &lt; X &lt; 2.576) = 0.505\n\nplot(result, type = \"probs\")\n\n\n\n\n\n\n\n\n\nUse R to produce a graphic of the Normal(\\mu = 96,000, \\sigma = 12,000). Use the Empirical Rule to establish approximate 95% tolerance intervals for tire life; that is, to establish an approximate range into which 95% of tire lives are expected to fall.\n\nThis empirical rule says that about 95% fall within plus or minus two standard deviations. In this case, 72000 to 120,000.\n\nIf the company were to set the mileage warranty at 80,000 miles, what fraction of the tires would fail prior to the warranted mileage? That is, what fraction of the tires will have tire life less than 80,000 miles?\n\n\nresult &lt;- radiant.basics::prob_norm(mean = 96000, stdev = 12000, lb = 80000)\nsummary(result)\n\nProbability calculator\nDistribution: Normal\nMean        : 96000 \nSt. dev     : 12000 \nLower bound : 80000 \nUpper bound : Inf \n\nP(X &lt; 80000) = 0.091\nP(X &gt; 80000) = 0.909\n\nplot(result)\n\n\n\n\n\n\n\n\n\nSuppose that Michelin management would like to set the mileage warranty level so that no more than 0.5 percent of the tires will fail to meet the warranted mileage (probability of failure 0.005,) What should the warranted mileage be, to the nearest 1000 miles? 65000\n\n\nresult &lt;- radiant.basics::prob_norm(mean = 96000, stdev = 12000, plb = 0.005)\nsummary(result, type = \"probs\")\n\nProbability calculator\nDistribution: Normal\nMean        : 96000 \nSt. dev     : 12000 \nLower bound : 0.005 \nUpper bound : 1 \n\nP(X &lt; 65090.048) = 0.005\nP(X &gt; 65090.048) = 0.995\n\nplot(result, type = \"probs\")",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#the-generic-bernoulli-trial",
+    "href": "slides/week-9/index.html#the-generic-bernoulli-trial",
+    "title": "Probability Distributions",
+    "section": "The Generic Bernoulli Trial",
+    "text": "The Generic Bernoulli Trial\nSuppose the variable of interest is discrete and takes only two values: yes and no. For example, is a customer satisfied with the outcomes of a given service visit?\nFor each individual, because the probability of yes (1) \\pi and no (0) 1-\\pi must sum to one, we can write:\nf(x|\\pi) = \\pi^{x}(1-\\pi)^{1-x}",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#the-binomial",
+    "href": "slides/week-9/index.html#the-binomial",
+    "title": "Probability Distributions",
+    "section": "The Binomial",
+    "text": "The Binomial\n\nBinomialR",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#scottish-pounds",
+    "href": "slides/week-9/index.html#scottish-pounds",
+    "title": "Probability Distributions",
+    "section": "Scottish Pounds",
+    "text": "Scottish Pounds\nInformal surveys suggest that 15% of Essex shopkeepers will not accept Scottish pounds. There are approximately 200 shops in the general High Street square.\n\nDraw a plot of the distribution and the cumulative distribution of shopkeepers that do not accept Scottish pounds.\n\n\nScots &lt;- data.frame(Potential.Refusers = 0:200) %&gt;% mutate(Prob = round(pbinom(Potential.Refusers, size=200, 0.15), digits=4))\nScots %&gt;% ggplot() + aes(x=Potential.Refusers, y=Prob) + geom_point() + labs(x=\"Refusers\", y=\"Prob. of x or Less Refusers\") + theme_minimal() -&gt; Plot1\nPlot1",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#a-nicer-plot",
+    "href": "slides/week-9/index.html#a-nicer-plot",
+    "title": "Probability Distributions",
+    "section": "A Nicer Plot",
+    "text": "A Nicer Plot\n\n\n\nlibrary(plotly)\np &lt;- ggplotly(Plot1)\np",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#more-questions-about-scottish-pounds",
+    "href": "slides/week-9/index.html#more-questions-about-scottish-pounds",
+    "title": "Probability Distributions",
+    "section": "More Questions About Scottish Pounds",
+    "text": "More Questions About Scottish Pounds\n\nWhat is the probability that 24 or fewer will not accept Scottish pounds?\n\n\npbinom(24, 200, 0.15)\n\n[1] 0.1368173\n\n\n\nWhat is the probability that 25 or more shopkeepers will not accept Scottish pounds?\n\n\n1-pbinom(24, 200, 0.15)\n\n[1] 0.8631827\n\n\n\nWith probability 0.9 [90 percent], XXX or fewer shopkeepers will not accept Scottish pounds.\n\n\nqbinom(0.9, 200, 0.15)\n\n[1] 37",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#application-the-median-is-a-binomial-with-p0.5",
+    "href": "slides/week-9/index.html#application-the-median-is-a-binomial-with-p0.5",
+    "title": "Probability Distributions",
+    "section": "Application: The Median is a Binomial with p=0.5",
+    "text": "Application: The Median is a Binomial with p=0.5\nInterestingly, any given observation has a 50-50 chance of being over or under the median. Suppose that I have five datum.\n\nWhat is the probability that all are under?\n\n\npbinom(0,size=5, p=0.5)\n\n[1] 0.03125\n\n\n\nWhat is the probability that all are over?\n\n\ndbinom(5,size=5, p=0.5)\n\n[1] 0.03125\n\n\n\nWhat is the probability that the median is somewhere in between our smallest and largest sampled values?\n\nEverything else.",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#the-rule-of-five",
+    "href": "slides/week-9/index.html#the-rule-of-five",
+    "title": "Probability Distributions",
+    "section": "The Rule of Five",
+    "text": "The Rule of Five\n\nThis is called the Rule of Five by Hubbard in his How to Measure Anything.",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#geometric-distributions",
+    "href": "slides/week-9/index.html#geometric-distributions",
+    "title": "Probability Distributions",
+    "section": "Geometric Distributions",
+    "text": "Geometric Distributions\nHow many failures before the first success? Now defined exclusively by p. In each case, (1-p) happens k times. Then, on the k+1^{th} try, p. Note 0 failures can happen…\nPr(y=k) = (1-p)^{k}p",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#example-entrepreneurs",
+    "href": "slides/week-9/index.html#example-entrepreneurs",
+    "title": "Probability Distributions",
+    "section": "Example: Entrepreneurs",
+    "text": "Example: Entrepreneurs\nSuppose any startup has a p=0.1 chance of success. How many failures?",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#example-entrepreneurs-1",
+    "href": "slides/week-9/index.html#example-entrepreneurs-1",
+    "title": "Probability Distributions",
+    "section": "Example: Entrepreneurs",
+    "text": "Example: Entrepreneurs\nSuppose any startup has a p=0.1 chance of success. How many failures for the average/median person?\n\nqgeom(0.5,0.1)\n\n[1] 6\n\n\n\n[Geometric] Plot 1000 random draws of “How many vendors until one refuses my Scottish pounds?”\n\n\nGeoms.My &lt;- data.frame(Vendors=rgeom(1000, 0.15))\nGeoms.My %&gt;% ggplot() + aes(x=Vendors) + geom_histogram(binwidth=1)\n\n\n\n\n\n\n\n\nWe could also do something like.\n\nplot(seq(0,60), pgeom(seq(0,60), 0.15))",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#negative-binomial-distributions",
+    "href": "slides/week-9/index.html#negative-binomial-distributions",
+    "title": "Probability Distributions",
+    "section": "Negative Binomial Distributions",
+    "text": "Negative Binomial Distributions\nHow many failures before the r^{th} success? In each case, (1-p) happens k times. Then, on the k+1^{th} try, we get our r^{th} p. Note 0 failures can happen…\nPr(y=k) = {k+r-1 \\choose r-1}(1-p)^{k}p^{r}",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#needed-sales",
+    "href": "slides/week-9/index.html#needed-sales",
+    "title": "Probability Distributions",
+    "section": "Needed Sales",
+    "text": "Needed Sales\nI need to make 5 sales to close for the day. How many potential customers will I have to have to get those five sales when each customer purchases with probability 0.2.\n\nlibrary(patchwork)\nDF &lt;-  data.frame(Customers = c(0:70)) %&gt;% \n  mutate(m.Customers = dnbinom(Customers, size=5, prob=0.2), \n         p.Customers = pnbinom(Customers, size=5, prob=0.2)) \npl1 &lt;- DF %&gt;% ggplot() + aes(x=Customers) + geom_line(aes(y=p.Customers)) \npl2 &lt;- DF %&gt;% ggplot() + aes(x=Customers) + geom_point(aes(y=m.Customers))",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#events-the-poisson",
+    "href": "slides/week-9/index.html#events-the-poisson",
+    "title": "Probability Distributions",
+    "section": "Events: The Poisson",
+    "text": "Events: The Poisson\n\nPoissonTake a binomial with p very small and let n \\rightarrow \\infty. We get the Poisson distribution (y) given an arrival rate \\lambda specified in events per period.\nf(y|\\lambda) = \\frac{\\lambda^{y}e^{-\\lambda}}{y!}",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#examples-the-poisson",
+    "href": "slides/week-9/index.html#examples-the-poisson",
+    "title": "Probability Distributions",
+    "section": "Examples: The Poisson",
+    "text": "Examples: The Poisson\n\nWalk in customers\nEmergency Room Arrivals\nBirths, deaths, marriages\nPrussian Cavalry Deaths by Horse Kick\nFish?",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#air-traffic-controllers",
+    "href": "slides/week-9/index.html#air-traffic-controllers",
+    "title": "Probability Distributions",
+    "section": "Air Traffic Controllers",
+    "text": "Air Traffic Controllers\nFAA Decision: Expend or do not expend scarce resources investigating claimed staffing shortages at the Cleveland Air Route Traffic Control Center.\nEssential facts: The Cleveland ARTCC is the US’s busiest in routing cross-country air traffic. In mid-August of 1998, it was reported that the first week of August experienced 3 errors in a one week period; an error occurs when flights come within five miles of one another by horizontal distance or 2000 feet by vertical distance. The Controller’s union claims a staffing shortage though other factors could be responsible. 21 errors per year (21/52 errors per week) has been the norm in Cleveland for over a decade.",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#some-questions",
+    "href": "slides/week-9/index.html#some-questions",
+    "title": "Probability Distributions",
+    "section": "Some Questions",
+    "text": "Some Questions\n\nPlot a histogram of 1000 random weeks. NB: pois is the noun with no default for \\lambda – the arrival rate.\n\n\nDF &lt;- data.frame(Close.Calls = rpois(1000, 21/52))\nggplot(DF) + aes(x=Close.Calls) + geom_histogram()\n\n\n\n\n\n\n\n\n\nggplot(DF) + aes(x=Close.Calls) + stat_ecdf(geom=\"step\")\n\n\n\n\n\n\n\n\n\nPlot a sequence on the x axis from 0 to 5 and the probability of that or fewer incidents along the y. seq(0,5)\n\n\nDF &lt;- data.frame(x=0:5, y=ppois(0:5, 21/52))\nggplot(DF) + aes(x=x, y=y) + geom_col()\n\n\n\n\n\n\n\n\n\nWhat would you do and why? Not impossible\nAfter analyzing the initial data, you discover that the first two weeks of August have experienced 6 errors. What would you now decide? Well, once is 0.0081342. Twice, at random, is that squared. We have a problem.",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#deaths-by-horse-kick-in-the-prussian-cavalry",
+    "href": "slides/week-9/index.html#deaths-by-horse-kick-in-the-prussian-cavalry",
+    "title": "Probability Distributions",
+    "section": "Deaths by Horse Kick in the Prussian cavalry?",
+    "text": "Deaths by Horse Kick in the Prussian cavalry?\n\n\n\nlibrary(vcd)\ndata(VonBort)\nhead(VonBort)\n\n  deaths year corps fisher\n1      0 1875     G     no\n2      0 1875     I     no\n3      0 1875    II    yes\n4      0 1875   III    yes\n5      0 1875    IV    yes\n6      0 1875     V    yes\n\nmean(VonBort$deaths)\n\n[1] 0.7",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#simulation-a-powerful-tool",
+    "href": "slides/week-9/index.html#simulation-a-powerful-tool",
+    "title": "Probability Distributions",
+    "section": "Simulation: A Powerful Tool",
+    "text": "Simulation: A Powerful Tool\nIn the geometric example, I was concerned with sales. I might also want to generate revenues because I know the rough mean and standard deviation of sales. Combining such things together forms the basis of a Monte Carlo simulation. More on this in a bit, it is known as calibration.",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#an-example",
+    "href": "slides/week-9/index.html#an-example",
+    "title": "Probability Distributions",
+    "section": "An Example",
+    "text": "An Example\nCustomers arrive at a rate of 7 per hour. You convert customers to buyers at a rate of 85%. Buyers spend, on average 600 dollars with a standard deviation of 150 dollars.\n\nSim &lt;- 1:1000\nCustomers &lt;- rpois(1000, 7)\nBuyers &lt;- rbinom(1000, size=Customers, prob = 0.85)\nData &lt;- data.frame(Sim, Buyers, Customers)\nData &lt;- Data %&gt;% group_by(Sim) %&gt;% mutate(Revenue = sum(rnorm(Buyers, 600, 150))) %&gt;% ungroup()",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#a-summary",
+    "href": "slides/week-9/index.html#a-summary",
+    "title": "Probability Distributions",
+    "section": "A Summary",
+    "text": "A Summary\nDistributions are how variables and probability relate. They are a graph that we can enter in two ways. From the probability side to solve for values or from values to solve for probability. It is always a function of the graph.\nDistributions generally have to be sentences.\n\nThe name is a noun but it also has\nparameters – verbs – that makes the noun tangible.",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#monte-carlo-simulation-generally",
+    "href": "slides/week-9/index.html#monte-carlo-simulation-generally",
+    "title": "Probability Distributions",
+    "section": "Monte Carlo Simulation Generally",
+    "text": "Monte Carlo Simulation Generally\n\nElection Forecasts and Calibration\nMore generally, on calibration\nSensitivity analysis\nOne way to think about much of this is that we have many spreadsheet models, the twist is to think about the proper role of what we are uncertain about and how uncertain we are.",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "slides/week-9/index.html#a-calibration-example",
+    "href": "slides/week-9/index.html#a-calibration-example",
+    "title": "Probability Distributions",
+    "section": "A Calibration Example",
+    "text": "A Calibration Example\nThis example focuses on calories from FastFood.\nFirst, provide a summary of the mean, standard deviation, and 25th and 75th percentiles of calories for each restaurant chain in the data.\nSecond, visualize these data using some appropriate visualization method and intepret the relevant visual.\nThird, firms are ranked according to the National Institute of Fast Food as Pure Calories evaluates the 75th percentile of menu offerings and ranks the chains from top as 1 to bottom. What are their rankings?\nThe rest…. Suppose that calories from Mcdonalds items are said to follow a normal distribution, with mean and standard deviation exactly following the observed data.\n\nWhat are those values, mean and standard deviation?\nProvide a plot of the distribution that those values and the assumption imply.\nProvide a plot of the actual data on calories. Does this assumption seem reasonable? Do the data seem symmetric?\nGiven this information so far, would calories best be described by a mean and standard deviation or by a five-number summary? How should symmetry weigh into your decision?\nProvide that summary if you have not already.\nThere is one very large value in the observed data. What is the item? Use your normal distribution from question 2 to calculate how likely an item of that many calories or more should occur given the distribution. What is the z-score for that item? What does this mean?\nAssuming the normal, as given in 1 and 2\n\n\nwhat is the probability of items between 300 and 675 calories?\nwhat range of calories represent the middle 60% of values?\nhow likely are items over 1500 calories?",
+    "crumbs": [
+      "About",
+      "Slides",
+      "Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "posts/week-9/index.html",
+    "href": "posts/week-9/index.html",
+    "title": "Probability Distributions",
+    "section": "",
+    "text": "A link to the slides for the day.\nSlides\nTwo links:"
+  },
+  {
+    "objectID": "posts/week-9/index.html#probability-the-logic-of-science",
+    "href": "posts/week-9/index.html#probability-the-logic-of-science",
+    "title": "Probability Distributions",
+    "section": "Probability: The Logic of Science",
+    "text": "Probability: The Logic of Science\nJaynes presents a few core ideas and requirements for his rational system. Probability emerges as the representation of circumstances in which any given realization of a process is either TRUE or FALSE but both are possible and can be expressed by probabilities.\n\nthat sum to one for all events\nare greater than or equal to zero for any given event"
+  },
+  {
+    "objectID": "posts/week-9/index.html#convex-combinations",
+    "href": "posts/week-9/index.html#convex-combinations",
+    "title": "Probability Distributions",
+    "section": "Convex Combinations",
+    "text": "Convex Combinations\nThe formal definition is a linear combination with non-negative coefficients that sum to one. Sound familiar? This reasoning applies pretty broadly.\nWeighted averages…."
+  },
+  {
+    "objectID": "posts/week-9/index.html#decision-trees",
+    "href": "posts/week-9/index.html#decision-trees",
+    "title": "Probability Distributions",
+    "section": "Decision Trees",
+    "text": "Decision Trees\nCharacterizing expected value for risk neutral agents. Decision trees [radiant has one] formalize this idea. We can also just compute them."
+  },
+  {
+    "objectID": "posts/week-9/index.html#representing-probability-distributions",
+    "href": "posts/week-9/index.html#representing-probability-distributions",
+    "title": "Probability Distributions",
+    "section": "Representing Probability Distributions",
+    "text": "Representing Probability Distributions\n\n\nIs of necessity two-dimensional,\n\nWe have \\(x\\) and\nand \\(Pr(X=x)\\) in one of two types (Pr or f) equating to sums [discrete] or integrals [over continuua]."
+  },
+  {
+    "objectID": "posts/week-9/index.html#probability-distributions-of-two-forms",
+    "href": "posts/week-9/index.html#probability-distributions-of-two-forms",
+    "title": "Probability Distributions",
+    "section": "Probability Distributions of Two Forms",
+    "text": "Probability Distributions of Two Forms\nOur core concept is a probability distribution just as above. These come in two forms for two types [discrete (qualitative)] and continuous (quantitative)] and can be either:\n\nAssumed, or\nDerived"
+  },
+  {
+    "objectID": "posts/week-9/index.html#the-poster-and-examples",
+    "href": "posts/week-9/index.html#the-poster-and-examples",
+    "title": "Probability Distributions",
+    "section": "The Poster and Examples",
+    "text": "The Poster and Examples\n\nDistributions are nouns.\nSentences are incomplete without verbs – parameters.\nWe need both; it is for this reason that the former slide is true.\nWe do not always have a grounding for either the name or the parameter.\nFor now, we will work with univariate distributions though multivariate distributions do exist."
+  },
+  {
+    "objectID": "posts/week-9/index.html#continuous-vs.-discrete-distributions",
+    "href": "posts/week-9/index.html#continuous-vs.-discrete-distributions",
+    "title": "Probability Distributions",
+    "section": "Continuous vs. Discrete Distributions",
+    "text": "Continuous vs. Discrete Distributions\nThe differences are sums versus integrals. Why?\n\nHistograms or\n\nDensity Plots\n\nThe probability of exactly any given value is zero on a true continuum."
+  },
+  {
+    "objectID": "posts/week-9/index.html#functions",
+    "href": "posts/week-9/index.html#functions",
+    "title": "Probability Distributions",
+    "section": "Functions",
+    "text": "Functions\nProbability distributions are mathematical formulae expressing likelihood for some set of qualities or quantities.\n\nThey have names: nouns.\n\nThey also have verbs: parameters.\n\nLike a proper English sentence, both are required."
+  },
+  {
+    "objectID": "posts/week-9/index.html#models",
+    "href": "posts/week-9/index.html#models",
+    "title": "Probability Distributions",
+    "section": "Models",
+    "text": "Models\n\nWhat is a model?\n. . .\nFor our purposes, it is a systematic description of a phenomenon that shares important and essential features of that phenomenon. Models frequently give us leverage on problems in the absence of alternative approaches."
+  },
+  {
+    "objectID": "posts/week-9/index.html#our-applications",
+    "href": "posts/week-9/index.html#our-applications",
+    "title": "Probability Distributions",
+    "section": "Our Applications",
+    "text": "Our Applications\n\nThe uniform is defined by a minimum and maximum.\n\nThe normal with mean \\(\\mu\\) and standard deviation \\(\\sigma\\) or variance - \\(\\sigma^2\\).\nThe Poisson will be defined an arrival rate \\(\\lambda\\) – lambda.\n\nBernoulli trials: Two outcomes occur with probability \\(\\pi\\) and \\(1-\\pi\\).\n\nThe binomial distribution will be defined by a number of trials \\(n\\) and a probability \\(\\pi\\).\n\nThe geometric distribution defines the first success of \\(n\\) trials with probability \\(\\pi\\).\n\nThe negative binomial distribution defines the probability of \\(k\\) successes in \\(n\\) trials with probability \\(\\pi\\). It is related to the Poisson."
+  },
+  {
+    "objectID": "posts/week-9/index.html#the-uniform-distribution",
+    "href": "posts/week-9/index.html#the-uniform-distribution",
+    "title": "Probability Distributions",
+    "section": "The Uniform Distribution",
+    "text": "The Uniform Distribution\n\nIs flat, each value is equally likely.\n\nDefined on 0 to 1 gives a random cumulative probability \\(X \\leq x\\).\n\n\\(\\uparrow\\) It’s a random probability in 0 and 1.\n\nIs also known as the rectangular distribution."
+  },
+  {
+    "objectID": "posts/week-9/index.html#uniform01",
+    "href": "posts/week-9/index.html#uniform01",
+    "title": "Probability Distributions",
+    "section": "Uniform(0,1)",
+    "text": "Uniform(0,1)\n\nlibrary(patchwork)\nUnif &lt;- data.frame(x=seq(0, 1, by = 0.005)) %&gt;% mutate(p.x = punif(x), d.x = dunif(x))\np1 &lt;- ggplot(Unif) + aes(x=x, y=p.x) + geom_step() + labs(title=\"Distribution Function [cdf/cmf]\") + theme_minimal()\np2 &lt;- ggplot(Unif) + aes(x=x, y=d.x) + geom_step() + labs(title=\"Density Function [pdf/pmf]\") + theme_minimal()\np2 + p1"
+  },
+  {
+    "objectID": "posts/week-9/index.html#the-normal-gaussian",
+    "href": "posts/week-9/index.html#the-normal-gaussian",
+    "title": "Probability Distributions",
+    "section": "The Normal [Gaussian]",
+    "text": "The Normal [Gaussian]\n\\[f(x|\\mu,\\sigma^2 ) = \\frac{1}{\\sqrt{2\\pi\\sigma^{2}}} \\exp \\left[ -\\frac{1}{2} \\left(\\frac{x - \\mu}{\\sigma}\\right)^{2}\\right]\\]\nIs the workhorse of statistics. Key features:\n\nIs self-replicating: sums of normals are normal.\n\nIf \\(X\\) is normal, then \\[ Z = \\frac{(X - \\mu)}{\\sigma} \\] is normal."
+  },
+  {
+    "objectID": "posts/week-9/index.html#the-normal-plotted",
+    "href": "posts/week-9/index.html#the-normal-plotted",
+    "title": "Probability Distributions",
+    "section": "The Normal [Plotted]",
+    "text": "The Normal [Plotted]\n\n\n\nlibrary(patchwork)\nUnif &lt;- data.frame(x=seq(0, 1, by = 0.005)) %&gt;% mutate(p.x = punif(x), d.x = dunif(x))\np1 &lt;- ggplot(Unif) + aes(x=x, y=p.x) + geom_step() + labs(title=\"Distribution Function [cdf/cmf]\") + theme_minimal()\np2 &lt;- ggplot(Unif) + aes(x=x, y=d.x) + geom_step() + labs(title=\"Density Function [pdf/pmf]\") + theme_minimal()\np2 + p1"
+  },
+  {
+    "objectID": "posts/week-9/index.html#the-z-transform",
+    "href": "posts/week-9/index.html#the-z-transform",
+    "title": "Probability Distributions",
+    "section": "The z-transform",
+    "text": "The z-transform\nThe generic z-transformation applied to a variable \\(x\\) centers [mean\\(\\approx\\) 0] and scales [std. dev. \\(\\approx\\) variance \\(\\approx\\) 1] to \\(z_{x}\\) for population parameters.1 In this case, two things are important.\n\nthis is the idea behind there only being one normal table in a statistics book.\nthe \\(\\mu\\) and \\(\\sigma\\) are presumed known.\n\n\\[z = \\frac{x - \\mu}{\\sigma}\\]"
+  },
+  {
+    "objectID": "posts/week-9/index.html#sample-z-scores",
+    "href": "posts/week-9/index.html#sample-z-scores",
+    "title": "Probability Distributions",
+    "section": "Sample z-scores",
+    "text": "Sample z-scores\nThe scale command in \\(R\\) does this for a sample.\n\\[z = \\frac{x - \\overline{x}}{s_{x}}\\] where \\(\\overline{x}\\) is the sample mean of \\(x\\) and \\(s_{x}\\) is the sample standard deviation of \\(x\\).\nIn samples, the 0 and 1 are exact; these are features of the mean and degrees of freedom. If I know the mean and any \\(n-1\\) observations, the \\(n^{th}\\) observation is exactly the value such that the deviations add up to zero/cancel out."
+  },
+  {
+    "objectID": "posts/week-9/index.html#an-earnings-example",
+    "href": "posts/week-9/index.html#an-earnings-example",
+    "title": "Probability Distributions",
+    "section": "An Earnings Example",
+    "text": "An Earnings Example\nSuppose earnings in a community have mean 55,000 and standard deviation 10,000. This is in dollars. Suppose I earn 75,000 dollars. First, if we take the top part of the fraction in the \\(z\\) equation, we see that I earn 20,000 dollars more than the average (75000 - 55000). Finishing the calculation of z, I would divide that 20,000 dollars by 10,000 dollars per standard deviation. Let’s show that.\n\\[ z = \\frac{75000 dollars - 55000 dollars}{\\frac{10000 dollars}{SD}} = +2 SD \\].\nI am 2 standard deviations above the average (the +) earnings. All \\(z\\) does is re-scale the original data to standard deviations with zero as the mean. The metric is the standard deviation.\nSuppose I earn 35,000. That makes me 20,000 below the average and gives me a z score of -2. I am 2 standard deviations below average (the -) earnings."
+  },
+  {
+    "objectID": "posts/week-9/index.html#z-and-symmetry",
+    "href": "posts/week-9/index.html#z-and-symmetry",
+    "title": "Probability Distributions",
+    "section": "Z and symmetry",
+    "text": "Z and symmetry\n\\(z\\) is an easy way to assess symmetry.\n\nThe mean of z is always zero but the distribution of z to the left and right of zero is informative. If they are roughly even, then symmetry is likely.\n\nIf the signs are uneven, then symmetry is unlikely.\n\nIn R, \\(z\\) is automated with the scale() command. The last line uses a table and the sign command to show the positive and negative z.\n\n\n\n\n# Generate random normal income\nDataF &lt;- data.frame(Hypo.Income = rnorm(1000, 55000, 10000)) %&gt;%\n# z-transform income [mean 55000ish, std. dev. 10000ish]\nmutate(z.Income = scale(Hypo.Income))\n# Show the data.frame\nhead(DataF)\ntable(sign(DataF$z.Income))\n\n\n\n\n  Hypo.Income   z.Income\n1    63176.35  0.8088602\n2    53885.13 -0.1087458\n3    64385.18  0.9282453\n4    50197.52 -0.4729364\n5    56565.84  0.1560023\n6    47498.63 -0.7394807\n\n\n\n -1   1 \n491 509"
+  },
+  {
+    "objectID": "posts/week-9/index.html#probability-distributions",
+    "href": "posts/week-9/index.html#probability-distributions",
+    "title": "Probability Distributions",
+    "section": "Probability Distributions",
+    "text": "Probability Distributions\nDistributions in R are defined by four core parts:\n\nr: random variables\nd: density/probability that \\(Pr(X=x)\\) or \\(f(x)\\)\np: cumulative probability (given q) \\(Pr(X\\leq q)=p\\)\nq: quantile (given p): x such that \\(Pr(X\\leq q)=p\\)"
+  },
+  {
+    "objectID": "posts/week-9/index.html#why-normals",
+    "href": "posts/week-9/index.html#why-normals",
+    "title": "Probability Distributions",
+    "section": "Why Normals?",
+    "text": "Why Normals?\n\nThe Central Limit Theorem\nThey Dominate Ops [\\(6\\sigma\\)]\nNormal Approximations Abound"
+  },
+  {
+    "objectID": "posts/week-9/index.html#normals",
+    "href": "posts/week-9/index.html#normals",
+    "title": "Probability Distributions",
+    "section": "Normals",
+    "text": "Normals"
+  },
+  {
+    "objectID": "posts/week-9/index.html#problem-4-normal",
+    "href": "posts/week-9/index.html#problem-4-normal",
+    "title": "Probability Distributions",
+    "section": "Problem 4 [Normal]",
+    "text": "Problem 4 [Normal]\nThe Michelin tire company has developed a revolutionary new type of steel-belted radial tire. After extensive testing, the population of tire lives is believed to be well represented by a normal distribution with mean tire life \\(\\mu\\) = 96,000 miles and standard deviation \\(\\sigma\\) = 12,000 miles. The company plans to offer a warranty providing for replacement tires if the original tires fail to last through the warranty period. Before embarking on an in-depth analysis of the warranty problem, we will first warm up with a few standard normal probability calculations.\n\nFind the probability that a standard (mean zero, standard deviation one) normal random variable assumes a value between -0.89 and 1.13.\n\n\nresult &lt;- radiant.basics::prob_norm(mean = 0, stdev = 1, lb = -0.89, ub = 1.13)\nsummary(result)\n\nProbability calculator\nDistribution: Normal\nMean        : 0 \nSt. dev     : 1 \nLower bound : -0.89 \nUpper bound : 1.13 \n\nP(X &lt; -0.89) = 0.187\nP(X &gt; -0.89) = 0.813\nP(X &lt; 1.13) = 0.871\nP(X &gt; 1.13) = 0.129\nP(-0.89 &lt; X &lt; 1.13)     = 0.684\n1 - P(-0.89 &lt; X &lt; 1.13) = 0.316\n\nplot(result)\n\n\n\n\n\n\n\n\n\nApproximate the value of z such that the probability of a standard normal random variable falling in the interval [0, z] is 0.495; that is, such that \\(Pr(0 &lt; Z &lt; z) = 0.495\\).\n\n\nresult &lt;- radiant.basics::prob_norm(mean = 0, stdev = 1, plb = 0.5, pub = 0.995)\nsummary(result, type = \"probs\")\n\nProbability calculator\nDistribution: Normal\nMean        : 0 \nSt. dev     : 1 \nLower bound : 0.5 \nUpper bound : 0.995 \n\nP(X &lt; 0) = 0.5\nP(X &gt; 0) = 0.5\nP(X &lt; 2.576) = 0.995\nP(X &gt; 2.576) = 0.005\nP(0 &lt; X &lt; 2.576)     = 0.495\n1 - P(0 &lt; X &lt; 2.576) = 0.505\n\nplot(result, type = \"probs\")\n\n\n\n\n\n\n\n\n\nUse R to produce a graphic of the Normal(\\(\\mu\\) = 96,000, \\(\\sigma\\) = 12,000). Use the Empirical Rule to establish approximate 95% tolerance intervals for tire life; that is, to establish an approximate range into which 95% of tire lives are expected to fall.\n\nThis empirical rule says that about 95% fall within plus or minus two standard deviations. In this case, 72000 to 120,000.\n\nIf the company were to set the mileage warranty at 80,000 miles, what fraction of the tires would fail prior to the warranted mileage? That is, what fraction of the tires will have tire life less than 80,000 miles?\n\n\nresult &lt;- radiant.basics::prob_norm(mean = 96000, stdev = 12000, lb = 80000)\nsummary(result)\n\nProbability calculator\nDistribution: Normal\nMean        : 96000 \nSt. dev     : 12000 \nLower bound : 80000 \nUpper bound : Inf \n\nP(X &lt; 80000) = 0.091\nP(X &gt; 80000) = 0.909\n\nplot(result)\n\n\n\n\n\n\n\n\n\nSuppose that Michelin management would like to set the mileage warranty level so that no more than 0.5 percent of the tires will fail to meet the warranted mileage (probability of failure 0.005,) What should the warranted mileage be, to the nearest 1000 miles? 65000\n\n\nresult &lt;- radiant.basics::prob_norm(mean = 96000, stdev = 12000, plb = 0.005)\nsummary(result, type = \"probs\")\n\nProbability calculator\nDistribution: Normal\nMean        : 96000 \nSt. dev     : 12000 \nLower bound : 0.005 \nUpper bound : 1 \n\nP(X &lt; 65090.048) = 0.005\nP(X &gt; 65090.048) = 0.995\n\nplot(result, type = \"probs\")"
+  },
+  {
+    "objectID": "posts/week-9/index.html#the-generic-bernoulli-trial",
+    "href": "posts/week-9/index.html#the-generic-bernoulli-trial",
+    "title": "Probability Distributions",
+    "section": "The Generic Bernoulli Trial",
+    "text": "The Generic Bernoulli Trial\nSuppose the variable of interest is discrete and takes only two values: yes and no. For example, is a customer satisfied with the outcomes of a given service visit?\nFor each individual, because the probability of yes (1) \\(\\pi\\) and no (0) 1-\\(\\pi\\) must sum to one, we can write:\n\\[f(x|\\pi) = \\pi^{x}(1-\\pi)^{1-x}\\]"
+  },
+  {
+    "objectID": "posts/week-9/index.html#the-binomial",
+    "href": "posts/week-9/index.html#the-binomial",
+    "title": "Probability Distributions",
+    "section": "The Binomial",
+    "text": "The Binomial\n\n\n\nBinomialR"
+  },
+  {
+    "objectID": "posts/week-9/index.html#scottish-pounds",
+    "href": "posts/week-9/index.html#scottish-pounds",
+    "title": "Probability Distributions",
+    "section": "Scottish Pounds",
+    "text": "Scottish Pounds\nInformal surveys suggest that 15% of Essex shopkeepers will not accept Scottish pounds. There are approximately 200 shops in the general High Street square.\n\nDraw a plot of the distribution and the cumulative distribution of shopkeepers that do not accept Scottish pounds.\n\n\nScots &lt;- data.frame(Potential.Refusers = 0:200) %&gt;% mutate(Prob = round(pbinom(Potential.Refusers, size=200, 0.15), digits=4))\nScots %&gt;% ggplot() + aes(x=Potential.Refusers, y=Prob) + geom_point() + labs(x=\"Refusers\", y=\"Prob. of x or Less Refusers\") + theme_minimal() -&gt; Plot1\nPlot1"
+  },
+  {
+    "objectID": "posts/week-9/index.html#a-nicer-plot",
+    "href": "posts/week-9/index.html#a-nicer-plot",
+    "title": "Probability Distributions",
+    "section": "A Nicer Plot",
+    "text": "A Nicer Plot\n\n\n\nlibrary(plotly)\np &lt;- ggplotly(Plot1)\np"
+  },
+  {
+    "objectID": "posts/week-9/index.html#more-questions-about-scottish-pounds",
+    "href": "posts/week-9/index.html#more-questions-about-scottish-pounds",
+    "title": "Probability Distributions",
+    "section": "More Questions About Scottish Pounds",
+    "text": "More Questions About Scottish Pounds\n\nWhat is the probability that 24 or fewer will not accept Scottish pounds?\n\n\npbinom(24, 200, 0.15)\n\n[1] 0.1368173\n\n\n\nWhat is the probability that 25 or more shopkeepers will not accept Scottish pounds?\n\n\n1-pbinom(24, 200, 0.15)\n\n[1] 0.8631827\n\n\n\nWith probability 0.9 [90 percent], XXX or fewer shopkeepers will not accept Scottish pounds.\n\n\nqbinom(0.9, 200, 0.15)\n\n[1] 37"
+  },
+  {
+    "objectID": "posts/week-9/index.html#application-the-median-is-a-binomial-with-p0.5",
+    "href": "posts/week-9/index.html#application-the-median-is-a-binomial-with-p0.5",
+    "title": "Probability Distributions",
+    "section": "Application: The Median is a Binomial with p=0.5",
+    "text": "Application: The Median is a Binomial with p=0.5\nInterestingly, any given observation has a 50-50 chance of being over or under the median. Suppose that I have five datum.\n\nWhat is the probability that all are under?\n\n\npbinom(0,size=5, p=0.5)\n\n[1] 0.03125\n\n\n\nWhat is the probability that all are over?\n\n\ndbinom(5,size=5, p=0.5)\n\n[1] 0.03125\n\n\n\nWhat is the probability that the median is somewhere in between our smallest and largest sampled values?\n\nEverything else."
+  },
+  {
+    "objectID": "posts/week-9/index.html#the-rule-of-five",
+    "href": "posts/week-9/index.html#the-rule-of-five",
+    "title": "Probability Distributions",
+    "section": "The Rule of Five",
+    "text": "The Rule of Five\n\nThis is called the Rule of Five by Hubbard in his How to Measure Anything."
+  },
+  {
+    "objectID": "posts/week-9/index.html#geometric-distributions",
+    "href": "posts/week-9/index.html#geometric-distributions",
+    "title": "Probability Distributions",
+    "section": "Geometric Distributions",
+    "text": "Geometric Distributions\nHow many failures before the first success? Now defined exclusively by \\(p\\). In each case, (1-p) happens \\(k\\) times. Then, on the \\(k+1^{th}\\) try, p. Note 0 failures can happen…\n\\[Pr(y=k) = (1-p)^{k}p\\]"
+  },
+  {
+    "objectID": "posts/week-9/index.html#example-entrepreneurs",
+    "href": "posts/week-9/index.html#example-entrepreneurs",
+    "title": "Probability Distributions",
+    "section": "Example: Entrepreneurs",
+    "text": "Example: Entrepreneurs\nSuppose any startup has a \\(p=0.1\\) chance of success. How many failures?"
+  },
+  {
+    "objectID": "posts/week-9/index.html#example-entrepreneurs-1",
+    "href": "posts/week-9/index.html#example-entrepreneurs-1",
+    "title": "Probability Distributions",
+    "section": "Example: Entrepreneurs",
+    "text": "Example: Entrepreneurs\nSuppose any startup has a \\(p=0.1\\) chance of success. How many failures for the average/median person?\n\nqgeom(0.5,0.1)\n\n[1] 6\n\n\n\n[Geometric] Plot 1000 random draws of “How many vendors until one refuses my Scottish pounds?”\n\n\nGeoms.My &lt;- data.frame(Vendors=rgeom(1000, 0.15))\nGeoms.My %&gt;% ggplot() + aes(x=Vendors) + geom_histogram(binwidth=1)\n\n\n\n\n\n\n\n\nWe could also do something like.\n\nplot(seq(0,60), pgeom(seq(0,60), 0.15))"
+  },
+  {
+    "objectID": "posts/week-9/index.html#negative-binomial-distributions",
+    "href": "posts/week-9/index.html#negative-binomial-distributions",
+    "title": "Probability Distributions",
+    "section": "Negative Binomial Distributions",
+    "text": "Negative Binomial Distributions\nHow many failures before the \\(r^{th}\\) success? In each case, (1-p) happens \\(k\\) times. Then, on the \\(k+1^{th}\\) try, we get our \\(r^{th}\\) p. Note 0 failures can happen…\n\\[Pr(y=k) = {k+r-1 \\choose r-1}(1-p)^{k}p^{r}\\]"
+  },
+  {
+    "objectID": "posts/week-9/index.html#needed-sales",
+    "href": "posts/week-9/index.html#needed-sales",
+    "title": "Probability Distributions",
+    "section": "Needed Sales",
+    "text": "Needed Sales\nI need to make 5 sales to close for the day. How many potential customers will I have to have to get those five sales when each customer purchases with probability 0.2.\n\nlibrary(patchwork)\nDF &lt;-  data.frame(Customers = c(0:70)) %&gt;% \n  mutate(m.Customers = dnbinom(Customers, size=5, prob=0.2), \n         p.Customers = pnbinom(Customers, size=5, prob=0.2)) \npl1 &lt;- DF %&gt;% ggplot() + aes(x=Customers) + geom_line(aes(y=p.Customers)) \npl2 &lt;- DF %&gt;% ggplot() + aes(x=Customers) + geom_point(aes(y=m.Customers))"
+  },
+  {
+    "objectID": "posts/week-9/index.html#events-the-poisson",
+    "href": "posts/week-9/index.html#events-the-poisson",
+    "title": "Probability Distributions",
+    "section": "Events: The Poisson",
+    "text": "Events: The Poisson\n\n\n\nPoisson\n\n\nTake a binomial with \\(p\\) very small and let \\(n \\rightarrow \\infty\\). We get the Poisson distribution (\\(y\\)) given an arrival rate \\(\\lambda\\) specified in events per period.\n\\[f(y|\\lambda) = \\frac{\\lambda^{y}e^{-\\lambda}}{y!}\\]"
+  },
+  {
+    "objectID": "posts/week-9/index.html#examples-the-poisson",
+    "href": "posts/week-9/index.html#examples-the-poisson",
+    "title": "Probability Distributions",
+    "section": "Examples: The Poisson",
+    "text": "Examples: The Poisson\n\nWalk in customers\nEmergency Room Arrivals\nBirths, deaths, marriages\nPrussian Cavalry Deaths by Horse Kick\nFish?"
+  },
+  {
+    "objectID": "posts/week-9/index.html#air-traffic-controllers",
+    "href": "posts/week-9/index.html#air-traffic-controllers",
+    "title": "Probability Distributions",
+    "section": "Air Traffic Controllers",
+    "text": "Air Traffic Controllers\nFAA Decision: Expend or do not expend scarce resources investigating claimed staffing shortages at the Cleveland Air Route Traffic Control Center.\nEssential facts: The Cleveland ARTCC is the US’s busiest in routing cross-country air traffic. In mid-August of 1998, it was reported that the first week of August experienced 3 errors in a one week period; an error occurs when flights come within five miles of one another by horizontal distance or 2000 feet by vertical distance. The Controller’s union claims a staffing shortage though other factors could be responsible. 21 errors per year (21/52 errors per week) has been the norm in Cleveland for over a decade."
+  },
+  {
+    "objectID": "posts/week-9/index.html#some-questions",
+    "href": "posts/week-9/index.html#some-questions",
+    "title": "Probability Distributions",
+    "section": "Some Questions",
+    "text": "Some Questions\n\nPlot a histogram of 1000 random weeks. NB: pois is the noun with no default for \\(\\lambda\\) – the arrival rate.\n\n\nDF &lt;- data.frame(Close.Calls = rpois(1000, 21/52))\nggplot(DF) + aes(x=Close.Calls) + geom_histogram()\n\n\n\n\n\n\n\n\n\nggplot(DF) + aes(x=Close.Calls) + stat_ecdf(geom=\"step\")\n\n\n\n\n\n\n\n\n\nPlot a sequence on the x axis from 0 to 5 and the probability of that or fewer incidents along the y. seq(0,5)\n\n\nDF &lt;- data.frame(x=0:5, y=ppois(0:5, 21/52))\nggplot(DF) + aes(x=x, y=y) + geom_col()\n\n\n\n\n\n\n\n\n\nWhat would you do and why? Not impossible\nAfter analyzing the initial data, you discover that the first two weeks of August have experienced 6 errors. What would you now decide? Well, once is 0.0081342. Twice, at random, is that squared. We have a problem."
+  },
+  {
+    "objectID": "posts/week-9/index.html#deaths-by-horse-kick-in-the-prussian-cavalry",
+    "href": "posts/week-9/index.html#deaths-by-horse-kick-in-the-prussian-cavalry",
+    "title": "Probability Distributions",
+    "section": "Deaths by Horse Kick in the Prussian cavalry?",
+    "text": "Deaths by Horse Kick in the Prussian cavalry?\n\n\n\nlibrary(vcd)\ndata(VonBort)\nhead(VonBort)\n\n  deaths year corps fisher\n1      0 1875     G     no\n2      0 1875     I     no\n3      0 1875    II    yes\n4      0 1875   III    yes\n5      0 1875    IV    yes\n6      0 1875     V    yes\n\nmean(VonBort$deaths)\n\n[1] 0.7"
+  },
+  {
+    "objectID": "posts/week-9/index.html#simulation-a-powerful-tool",
+    "href": "posts/week-9/index.html#simulation-a-powerful-tool",
+    "title": "Probability Distributions",
+    "section": "Simulation: A Powerful Tool",
+    "text": "Simulation: A Powerful Tool\nIn the geometric example, I was concerned with sales. I might also want to generate revenues because I know the rough mean and standard deviation of sales. Combining such things together forms the basis of a Monte Carlo simulation. More on this in a bit, it is known as calibration."
+  },
+  {
+    "objectID": "posts/week-9/index.html#an-example",
+    "href": "posts/week-9/index.html#an-example",
+    "title": "Probability Distributions",
+    "section": "An Example",
+    "text": "An Example\nCustomers arrive at a rate of 7 per hour. You convert customers to buyers at a rate of 85%. Buyers spend, on average 600 dollars with a standard deviation of 150 dollars.\n\nSim &lt;- 1:1000\nCustomers &lt;- rpois(1000, 7)\nBuyers &lt;- rbinom(1000, size=Customers, prob = 0.85)\nData &lt;- data.frame(Sim, Buyers, Customers)\nData &lt;- Data %&gt;% group_by(Sim) %&gt;% mutate(Revenue = sum(rnorm(Buyers, 600, 150))) %&gt;% ungroup()"
+  },
+  {
+    "objectID": "posts/week-9/index.html#a-summary",
+    "href": "posts/week-9/index.html#a-summary",
+    "title": "Probability Distributions",
+    "section": "A Summary",
+    "text": "A Summary\nDistributions are how variables and probability relate. They are a graph that we can enter in two ways. From the probability side to solve for values or from values to solve for probability. It is always a function of the graph.\nDistributions generally have to be sentences.\n\nThe name is a noun but it also has\nparameters – verbs – that makes the noun tangible."
+  },
+  {
+    "objectID": "posts/week-9/index.html#monte-carlo-simulation-generally",
+    "href": "posts/week-9/index.html#monte-carlo-simulation-generally",
+    "title": "Probability Distributions",
+    "section": "Monte Carlo Simulation Generally",
+    "text": "Monte Carlo Simulation Generally\n\nElection Forecasts and Calibration\nMore generally, on calibration\nSensitivity analysis\nOne way to think about much of this is that we have many spreadsheet models, the twist is to think about the proper role of what we are uncertain about and how uncertain we are."
+  },
+  {
+    "objectID": "posts/week-9/index.html#a-calibration-example",
+    "href": "posts/week-9/index.html#a-calibration-example",
+    "title": "Probability Distributions",
+    "section": "A Calibration Example",
+    "text": "A Calibration Example\nThis example focuses on calories from FastFood.\nFirst, provide a summary of the mean, standard deviation, and 25th and 75th percentiles of calories for each restaurant chain in the data.\nSecond, visualize these data using some appropriate visualization method and intepret the relevant visual.\nThird, firms are ranked according to the National Institute of Fast Food as Pure Calories evaluates the 75th percentile of menu offerings and ranks the chains from top as 1 to bottom. What are their rankings?\nThe rest…. Suppose that calories from Mcdonalds items are said to follow a normal distribution, with mean and standard deviation exactly following the observed data.\n\nWhat are those values, mean and standard deviation?\nProvide a plot of the distribution that those values and the assumption imply.\nProvide a plot of the actual data on calories. Does this assumption seem reasonable? Do the data seem symmetric?\nGiven this information so far, would calories best be described by a mean and standard deviation or by a five-number summary? How should symmetry weigh into your decision?\nProvide that summary if you have not already.\nThere is one very large value in the observed data. What is the item? Use your normal distribution from question 2 to calculate how likely an item of that many calories or more should occur given the distribution. What is the z-score for that item? What does this mean?\nAssuming the normal, as given in 1 and 2\n\n\nwhat is the probability of items between 300 and 675 calories?\nwhat range of calories represent the middle 60% of values?\nhow likely are items over 1500 calories?"
+  },
+  {
+    "objectID": "posts/week-9/index.html#footnotes",
+    "href": "posts/week-9/index.html#footnotes",
+    "title": "Probability Distributions",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\n\\(\\approx\\) is approximately equal to.↩︎"
   }
 ]
