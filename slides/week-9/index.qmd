@@ -242,16 +242,6 @@ table(sign(DataF$z.Income))
 ::::
 
 
-
-## Probability Distributions
-
-Distributions in R are defined by four core parts: 
-
-- r: random variables
-- d: density/probability that $Pr(X=x)$ or $f(x)$
-- p: cumulative probability (given q) $Pr(X\leq q)=p$
-- q: quantile (given p): x such that $Pr(X\leq q)=p$
-
 ## Why Normals?
 
 - The Central Limit Theorem
