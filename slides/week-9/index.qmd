@@ -343,9 +343,9 @@ where $${n \choose k} = \frac{n!}{k!(n-k)!}$$
 
 ## Scottish Pounds
 
-*Informal surveys suggest that 15% of Essex shopkeepers will not accept Scottish pounds.  There are approximately 200 shops in the general High Street square.*
+*Informal surveys suggest that 15% of Essex shopkeepers will not accept Scottish pounds.  There are approximately 200 shops in the general High Street square.  My future boss [and former student] scammed me outta 10 pounds over this mess a few months ago, traded me a 20 Scots for an English tenner but what else was I gonna do....*
 
-1. Draw a plot of the distribution and the cumulative distribution of shopkeepers that do not accept Scottish pounds.
+1. Draw a plot of the distribution and/or the cumulative distribution of shopkeepers that do not accept Scottish pounds.
 
 ```{r}
 Scots <- data.frame(Potential.Refusers = 0:200) %>% mutate(Prob = round(pbinom(Potential.Refusers, size=200, 0.15), digits=4))
