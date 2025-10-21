@@ -2093,7 +2093,7 @@
     "href": "slides/week-9/index.html#models",
     "title": "Probability Distributions",
     "section": "Models",
-    "text": "Models\nWhat is a model?\n. . .\nFor our purposes, it is a systematic description of a phenomenon that shares important and essential features of that phenomenon. Models frequently give us leverage on problems in the absence of alternative approaches.",
+    "text": "Models\nWhat is a model?\n\n\n\n\n\n\nImportant\n\n\nFor our purposes, it is a systematic description of a phenomenon that shares important and essential features of that phenomenon. Models frequently give us leverage on problems in the absence of alternative approaches.",
     "crumbs": [
       "About",
       "Slides",
@@ -2201,7 +2201,7 @@
     "href": "slides/week-9/index.html#z-and-symmetry",
     "title": "Probability Distributions",
     "section": "Z and symmetry",
-    "text": "Z and symmetry\nz is an easy way to assess symmetry.\n\nThe mean of z is always zero but the distribution of z to the left and right of zero is informative. If they are roughly even, then symmetry is likely.\n\nIf the signs are uneven, then symmetry is unlikely.\n\nIn R, z is automated with the scale() command. The last line uses a table and the sign command to show the positive and negative z.\n\n\n\n\n# Generate random normal income\nDataF &lt;- data.frame(Hypo.Income = rnorm(1000, 55000, 10000)) %&gt;%\n# z-transform income [mean 55000ish, std. dev. 10000ish]\nmutate(z.Income = scale(Hypo.Income))\n# Show the data.frame\nhead(DataF)\ntable(sign(DataF$z.Income))\n\n\n\n\n  Hypo.Income   z.Income\n1    40876.61 -1.3941588\n2    39953.74 -1.4853133\n3    50923.00 -0.4018529\n4    42498.71 -1.2339407\n5    59715.40  0.4665942\n6    58690.36  0.3653493\n\n\n\n -1   1 \n489 511",
+    "text": "Z and symmetry\nz is an easy way to assess symmetry.\n\nThe mean of z is always zero but the distribution of z to the left and right of zero is informative. If they are roughly even, then symmetry is likely.\n\nIf the signs are uneven, then symmetry is unlikely.\n\nIn R, z is automated with the scale() command. The last line uses a table and the sign command to show the positive and negative z.\n\n\n\n\n# Generate random normal income\nDataF &lt;- data.frame(Hypo.Income = rnorm(1000, 55000, 10000)) %&gt;%\n# z-transform income [mean 55000ish, std. dev. 10000ish]\nmutate(z.Income = scale(Hypo.Income))\n# Show the data.frame\nhead(DataF)\ntable(sign(DataF$z.Income))\n\n\n\n\n  Hypo.Income   z.Income\n1    59099.35  0.4171498\n2    59270.95  0.4344974\n3    58053.78  0.3114499\n4    65619.82  1.0763201\n5    56328.39  0.1370259\n6    49912.43 -0.5115789\n\n\n\n -1   1 \n498 502",
     "crumbs": [
       "About",
       "Slides",

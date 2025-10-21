@@ -106,10 +106,11 @@ Like a proper English sentence, both are required.
 
 ### What is a model?
 
-. . .
+::: {.callout-important}
 
 For our purposes, it is a systematic description of a phenomenon that shares important and essential features of that phenomenon.  Models frequently give us leverage on problems in the absence of alternative approaches.
 
+:::
 
 ## Our Applications
 
