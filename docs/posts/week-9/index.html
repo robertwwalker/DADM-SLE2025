@@ -78,6 +78,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-2890eba573baac25c3e9f0f9d94fc55f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -337,7 +340,7 @@ window.Quarto = {
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/P1-1.svg" class="img-fluid figure-img" width="624"></p>
+<p><a href="index_files/figure-html/P1-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="index_files/figure-html/P1-1.svg" class="img-fluid figure-img" width="624"></a></p>
 </figure>
 </div>
 </div>
@@ -424,15 +427,18 @@ window.Quarto = {
 <section id="uniform01" class="level2">
 <h2 class="anchored" data-anchor-id="uniform01">Uniform(0,1)</h2>
 <div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(patchwork)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>Unif <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">x=</span><span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">1</span>, <span class="at">by =</span> <span class="fl">0.005</span>)) <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">p.x =</span> <span class="fu">punif</span>(x), <span class="at">d.x =</span> <span class="fu">dunif</span>(x))</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>p1 <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(Unif) <span class="sc">+</span> <span class="fu">aes</span>(<span class="at">x=</span>x, <span class="at">y=</span>p.x) <span class="sc">+</span> <span class="fu">geom_step</span>() <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"Distribution Function [cdf/cmf]"</span>) <span class="sc">+</span> <span class="fu">theme_minimal</span>()</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>p2 <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(Unif) <span class="sc">+</span> <span class="fu">aes</span>(<span class="at">x=</span>x, <span class="at">y=</span>d.x) <span class="sc">+</span> <span class="fu">geom_step</span>() <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"Density Function [pdf/pmf]"</span>) <span class="sc">+</span> <span class="fu">theme_minimal</span>()</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>p2 <span class="sc">+</span> p1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-1-1.svg" class="img-fluid figure-img" width="624"></p>
+<p><a href="index_files/figure-html/unnamed-chunk-1-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="index_files/figure-html/unnamed-chunk-1-1.svg" class="img-fluid figure-img" width="624"></a></p>
 </figure>
 </div>
 </div>
@@ -453,18 +459,21 @@ window.Quarto = {
 <div class="columns">
 <div class="column" style="width:30%;">
 <div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(patchwork)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>Unif <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">x=</span><span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">1</span>, <span class="at">by =</span> <span class="fl">0.005</span>)) <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">p.x =</span> <span class="fu">punif</span>(x), <span class="at">d.x =</span> <span class="fu">dunif</span>(x))</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>p1 <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(Unif) <span class="sc">+</span> <span class="fu">aes</span>(<span class="at">x=</span>x, <span class="at">y=</span>p.x) <span class="sc">+</span> <span class="fu">geom_step</span>() <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"Distribution Function [cdf/cmf]"</span>) <span class="sc">+</span> <span class="fu">theme_minimal</span>()</span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>p2 <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(Unif) <span class="sc">+</span> <span class="fu">aes</span>(<span class="at">x=</span>x, <span class="at">y=</span>d.x) <span class="sc">+</span> <span class="fu">geom_step</span>() <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"Density Function [pdf/pmf]"</span>) <span class="sc">+</span> <span class="fu">theme_minimal</span>()</span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>p2 <span class="sc">+</span> p1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 </div>
 </div><div class="column" style="width:70%;">
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-3-1.svg" class="img-fluid figure-img" width="624"></p>
+<p><a href="index_files/figure-html/unnamed-chunk-3-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="index_files/figure-html/unnamed-chunk-3-1.svg" class="img-fluid figure-img" width="624"></a></p>
 </figure>
 </div>
 </div>
@@ -507,6 +516,8 @@ window.Quarto = {
 <div class="columns">
 <div class="column" style="width:40%;">
 <div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate random normal income</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>DataF <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">Hypo.Income =</span> <span class="fu">rnorm</span>(<span class="dv">1000</span>, <span class="dv">55000</span>, <span class="dv">10000</span>)) <span class="sc">%&gt;%</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co"># z-transform income [mean 55000ish, std. dev. 10000ish]</span></span>
@@ -514,6 +525,7 @@ window.Quarto = {
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Show the data.frame</span></span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(DataF)</span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(<span class="fu">sign</span>(DataF<span class="sc">$</span>z.Income))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 </div>
 </div><div class="column" style="width:60%;">
 <div class="cell">
@@ -563,8 +575,11 @@ window.Quarto = {
 <li>Find the probability that a standard (mean zero, standard deviation one) normal random variable assumes a value between -0.89 and 1.13.</li>
 </ol>
 <div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>result <span class="ot">&lt;-</span> radiant.basics<span class="sc">::</span><span class="fu">prob_norm</span>(<span class="at">mean =</span> <span class="dv">0</span>, <span class="at">stdev =</span> <span class="dv">1</span>, <span class="at">lb =</span> <span class="sc">-</span><span class="fl">0.89</span>, <span class="at">ub =</span> <span class="fl">1.13</span>)</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(result)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Probability calculator
 Distribution: Normal
@@ -580,11 +595,14 @@ P(X &gt; 1.13) = 0.129
 P(-0.89 &lt; X &lt; 1.13)     = 0.684
 1 - P(-0.89 &lt; X &lt; 1.13) = 0.316</code></pre>
 </div>
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(result)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-4-1.svg" class="img-fluid figure-img" width="624"></p>
+<p><a href="index_files/figure-html/unnamed-chunk-4-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="index_files/figure-html/unnamed-chunk-4-1.svg" class="img-fluid figure-img" width="624"></a></p>
 </figure>
 </div>
 </div>
@@ -593,8 +611,11 @@ P(-0.89 &lt; X &lt; 1.13)     = 0.684
 <li>Approximate the value of z such that the probability of a standard normal random variable falling in the interval [0, z] is 0.495; that is, such that <span class="math inline">\(Pr(0 &lt; Z &lt; z) = 0.495\)</span>.</li>
 </ol>
 <div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>result <span class="ot">&lt;-</span> radiant.basics<span class="sc">::</span><span class="fu">prob_norm</span>(<span class="at">mean =</span> <span class="dv">0</span>, <span class="at">stdev =</span> <span class="dv">1</span>, <span class="at">plb =</span> <span class="fl">0.5</span>, <span class="at">pub =</span> <span class="fl">0.995</span>)</span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(result, <span class="at">type =</span> <span class="st">"probs"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Probability calculator
 Distribution: Normal
@@ -610,11 +631,14 @@ P(X &gt; 2.576) = 0.005
 P(0 &lt; X &lt; 2.576)     = 0.495
 1 - P(0 &lt; X &lt; 2.576) = 0.505</code></pre>
 </div>
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(result, <span class="at">type =</span> <span class="st">"probs"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-5-1.svg" class="img-fluid figure-img" width="624"></p>
+<p><a href="index_files/figure-html/unnamed-chunk-5-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="index_files/figure-html/unnamed-chunk-5-1.svg" class="img-fluid figure-img" width="624"></a></p>
 </figure>
 </div>
 </div>
@@ -627,8 +651,11 @@ P(0 &lt; X &lt; 2.576)     = 0.495
 <li>If the company were to set the mileage warranty at 80,000 miles, what fraction of the tires would fail prior to the warranted mileage? That is, what fraction of the tires will have tire life less than 80,000 miles?</li>
 </ol>
 <div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>result <span class="ot">&lt;-</span> radiant.basics<span class="sc">::</span><span class="fu">prob_norm</span>(<span class="at">mean =</span> <span class="dv">96000</span>, <span class="at">stdev =</span> <span class="dv">12000</span>, <span class="at">lb =</span> <span class="dv">80000</span>)</span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(result)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Probability calculator
 Distribution: Normal
@@ -640,11 +667,14 @@ Upper bound : Inf
 P(X &lt; 80000) = 0.091
 P(X &gt; 80000) = 0.909</code></pre>
 </div>
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(result)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-6-1.svg" class="img-fluid figure-img" width="624"></p>
+<p><a href="index_files/figure-html/unnamed-chunk-6-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="index_files/figure-html/unnamed-chunk-6-1.svg" class="img-fluid figure-img" width="624"></a></p>
 </figure>
 </div>
 </div>
@@ -653,8 +683,11 @@ P(X &gt; 80000) = 0.909</code></pre>
 <li>Suppose that Michelin management would like to set the mileage warranty level so that no more than 0.5 percent of the tires will fail to meet the warranted mileage (probability of failure 0.005,) What should the warranted mileage be, to the nearest 1000 miles? 65000</li>
 </ol>
 <div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>result <span class="ot">&lt;-</span> radiant.basics<span class="sc">::</span><span class="fu">prob_norm</span>(<span class="at">mean =</span> <span class="dv">96000</span>, <span class="at">stdev =</span> <span class="dv">12000</span>, <span class="at">plb =</span> <span class="fl">0.005</span>)</span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(result, <span class="at">type =</span> <span class="st">"probs"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Probability calculator
 Distribution: Normal
@@ -666,11 +699,14 @@ Upper bound : 1
 P(X &lt; 65090.048) = 0.005
 P(X &gt; 65090.048) = 0.995</code></pre>
 </div>
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(result, <span class="at">type =</span> <span class="st">"probs"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-7-1.svg" class="img-fluid figure-img" width="624"></p>
+<p><a href="index_files/figure-html/unnamed-chunk-7-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="index_files/figure-html/unnamed-chunk-7-1.svg" class="img-fluid figure-img" width="624"></a></p>
 </figure>
 </div>
 </div>
@@ -697,7 +733,7 @@ P(X &gt; 65090.048) = 0.995</code></pre>
 <h2 class="anchored" data-anchor-id="the-binomial">The Binomial</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://github.com/robertwwalker/DADMStuff/raw/master/BinomialR.PNG" class="img-fluid figure-img"></p>
+<p><a href="https://github.com/robertwwalker/DADMStuff/raw/master/BinomialR.PNG" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="BinomialR"><img src="https://github.com/robertwwalker/DADMStuff/raw/master/BinomialR.PNG" class="img-fluid figure-img" alt="BinomialR"></a></p>
 <figcaption>BinomialR</figcaption>
 </figure>
 </div>
@@ -709,13 +745,16 @@ P(X &gt; 65090.048) = 0.995</code></pre>
 <li>Draw a plot of the distribution and the cumulative distribution of shopkeepers that do not accept Scottish pounds.</li>
 </ol>
 <div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>Scots <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">Potential.Refusers =</span> <span class="dv">0</span><span class="sc">:</span><span class="dv">200</span>) <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">Prob =</span> <span class="fu">round</span>(<span class="fu">pbinom</span>(Potential.Refusers, <span class="at">size=</span><span class="dv">200</span>, <span class="fl">0.15</span>), <span class="at">digits=</span><span class="dv">4</span>))</span>
 <span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>Scots <span class="sc">%&gt;%</span> <span class="fu">ggplot</span>() <span class="sc">+</span> <span class="fu">aes</span>(<span class="at">x=</span>Potential.Refusers, <span class="at">y=</span>Prob) <span class="sc">+</span> <span class="fu">geom_point</span>() <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">x=</span><span class="st">"Refusers"</span>, <span class="at">y=</span><span class="st">"Prob. of x or Less Refusers"</span>) <span class="sc">+</span> <span class="fu">theme_minimal</span>() <span class="ot">-&gt;</span> Plot1</span>
 <span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>Plot1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-8-1.svg" class="img-fluid figure-img" width="624"></p>
+<p><a href="index_files/figure-html/unnamed-chunk-8-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="index_files/figure-html/unnamed-chunk-8-1.svg" class="img-fluid figure-img" width="624"></a></p>
 </figure>
 </div>
 </div>
@@ -726,9 +765,12 @@ P(X &gt; 65090.048) = 0.995</code></pre>
 <div class="columns">
 <div class="column" style="width:40%;">
 <div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(plotly)</span>
 <span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>p <span class="ot">&lt;-</span> <span class="fu">ggplotly</span>(Plot1)</span>
 <span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>p</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 </div>
 </div><div class="column" style="width:60%;">
 <div class="cell">
@@ -746,7 +788,10 @@ P(X &gt; 65090.048) = 0.995</code></pre>
 <li>What is the probability that 24 or fewer will not accept Scottish pounds?</li>
 </ol>
 <div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">pbinom</span>(<span class="dv">24</span>, <span class="dv">200</span>, <span class="fl">0.15</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.1368173</code></pre>
 </div>
@@ -755,7 +800,10 @@ P(X &gt; 65090.048) = 0.995</code></pre>
 <li>What is the probability that 25 or more shopkeepers will not accept Scottish pounds?</li>
 </ol>
 <div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span><span class="sc">-</span><span class="fu">pbinom</span>(<span class="dv">24</span>, <span class="dv">200</span>, <span class="fl">0.15</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.8631827</code></pre>
 </div>
@@ -764,7 +812,10 @@ P(X &gt; 65090.048) = 0.995</code></pre>
 <li>With probability 0.9 [90 percent], XXX or fewer shopkeepers will not accept Scottish pounds.</li>
 </ol>
 <div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">qbinom</span>(<span class="fl">0.9</span>, <span class="dv">200</span>, <span class="fl">0.15</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 37</code></pre>
 </div>
@@ -777,7 +828,10 @@ P(X &gt; 65090.048) = 0.995</code></pre>
 <li>What is the probability that all are under?</li>
 </ol>
 <div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="fu">pbinom</span>(<span class="dv">0</span>,<span class="at">size=</span><span class="dv">5</span>, <span class="at">p=</span><span class="fl">0.5</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.03125</code></pre>
 </div>
@@ -786,7 +840,10 @@ P(X &gt; 65090.048) = 0.995</code></pre>
 <li>What is the probability that all are over?</li>
 </ol>
 <div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="fu">dbinom</span>(<span class="dv">5</span>,<span class="at">size=</span><span class="dv">5</span>, <span class="at">p=</span><span class="fl">0.5</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.03125</code></pre>
 </div>
@@ -814,7 +871,7 @@ P(X &gt; 65090.048) = 0.995</code></pre>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/GP1-1.svg" class="img-fluid figure-img" width="624"></p>
+<p><a href="index_files/figure-html/GP1-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img src="index_files/figure-html/GP1-1.svg" class="img-fluid figure-img" width="624"></a></p>
 </figure>
 </div>
 </div>
@@ -824,7 +881,10 @@ P(X &gt; 65090.048) = 0.995</code></pre>
 <h2 class="anchored" data-anchor-id="example-entrepreneurs-1">Example: Entrepreneurs</h2>
 <p>Suppose any startup has a <span class="math inline">\(p=0.1\)</span> chance of success. How many failures for the average/median person?</p>
 <div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="fu">qgeom</span>(<span class="fl">0.5</span>,<span class="fl">0.1</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 6</code></pre>
 </div>
@@ -833,23 +893,29 @@ P(X &gt; 65090.048) = 0.995</code></pre>
 <li>[Geometric] Plot 1000 random draws of “How many vendors until one refuses my Scottish pounds?”</li>
 </ol>
 <div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>Geoms.My <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">Vendors=</span><span class="fu">rgeom</span>(<span class="dv">1000</span>, <span class="fl">0.15</span>))</span>
 <span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>Geoms.My <span class="sc">%&gt;%</span> <span class="fu">ggplot</span>() <span class="sc">+</span> <span class="fu">aes</span>(<span class="at">x=</span>Vendors) <span class="sc">+</span> <span class="fu">geom_histogram</span>(<span class="at">binwidth=</span><span class="dv">1</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-17-1.svg" class="img-fluid figure-img" width="624"></p>
+<p><a href="index_files/figure-html/unnamed-chunk-17-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img src="index_files/figure-html/unnamed-chunk-17-1.svg" class="img-fluid figure-img" width="624"></a></p>
 </figure>
 </div>
 </div>
 </div>
 <p>We could also do something like.</p>
 <div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(<span class="fu">seq</span>(<span class="dv">0</span>,<span class="dv">60</span>), <span class="fu">pgeom</span>(<span class="fu">seq</span>(<span class="dv">0</span>,<span class="dv">60</span>), <span class="fl">0.15</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-18-1.svg" class="img-fluid figure-img" width="624"></p>
+<p><a href="index_files/figure-html/unnamed-chunk-18-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img src="index_files/figure-html/unnamed-chunk-18-1.svg" class="img-fluid figure-img" width="624"></a></p>
 </figure>
 </div>
 </div>
@@ -864,18 +930,21 @@ P(X &gt; 65090.048) = 0.995</code></pre>
 <h2 class="anchored" data-anchor-id="needed-sales">Needed Sales</h2>
 <p>I need to make 5 sales to close for the day. How many potential customers will I have to have to get those five sales when each customer purchases with probability 0.2.</p>
 <div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(patchwork)</span>
 <span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>DF <span class="ot">&lt;-</span>  <span class="fu">data.frame</span>(<span class="at">Customers =</span> <span class="fu">c</span>(<span class="dv">0</span><span class="sc">:</span><span class="dv">70</span>)) <span class="sc">%&gt;%</span> </span>
 <span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">m.Customers =</span> <span class="fu">dnbinom</span>(Customers, <span class="at">size=</span><span class="dv">5</span>, <span class="at">prob=</span><span class="fl">0.2</span>), </span>
 <span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>         <span class="at">p.Customers =</span> <span class="fu">pnbinom</span>(Customers, <span class="at">size=</span><span class="dv">5</span>, <span class="at">prob=</span><span class="fl">0.2</span>)) </span>
 <span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>pl1 <span class="ot">&lt;-</span> DF <span class="sc">%&gt;%</span> <span class="fu">ggplot</span>() <span class="sc">+</span> <span class="fu">aes</span>(<span class="at">x=</span>Customers) <span class="sc">+</span> <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y=</span>p.Customers)) </span>
 <span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>pl2 <span class="ot">&lt;-</span> DF <span class="sc">%&gt;%</span> <span class="fu">ggplot</span>() <span class="sc">+</span> <span class="fu">aes</span>(<span class="at">x=</span>Customers) <span class="sc">+</span> <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">y=</span>m.Customers))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 </div>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-20-1.svg" class="img-fluid figure-img" width="624"></p>
+<p><a href="index_files/figure-html/unnamed-chunk-20-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img src="index_files/figure-html/unnamed-chunk-20-1.svg" class="img-fluid figure-img" width="624"></a></p>
 </figure>
 </div>
 </div>
@@ -885,7 +954,7 @@ P(X &gt; 65090.048) = 0.995</code></pre>
 <h2 class="anchored" data-anchor-id="events-the-poisson">Events: The Poisson</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://github.com/robertwwalker/DADMStuff/raw/master/Poisson.jpg" class="img-fluid figure-img"></p>
+<p><a href="https://github.com/robertwwalker/DADMStuff/raw/master/Poisson.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="Poisson"><img src="https://github.com/robertwwalker/DADMStuff/raw/master/Poisson.jpg" class="img-fluid figure-img" alt="Poisson"></a></p>
 <figcaption>Poisson</figcaption>
 </figure>
 </div>
@@ -913,22 +982,28 @@ P(X &gt; 65090.048) = 0.995</code></pre>
 <li>Plot a histogram of 1000 random weeks. NB: <em>pois</em> is the noun with no default for <span class="math inline">\(\lambda\)</span> – the arrival rate.</li>
 </ol>
 <div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>DF <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">Close.Calls =</span> <span class="fu">rpois</span>(<span class="dv">1000</span>, <span class="dv">21</span><span class="sc">/</span><span class="dv">52</span>))</span>
 <span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(DF) <span class="sc">+</span> <span class="fu">aes</span>(<span class="at">x=</span>Close.Calls) <span class="sc">+</span> <span class="fu">geom_histogram</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-21-1.svg" class="img-fluid figure-img" width="624"></p>
+<p><a href="index_files/figure-html/unnamed-chunk-21-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-15"><img src="index_files/figure-html/unnamed-chunk-21-1.svg" class="img-fluid figure-img" width="624"></a></p>
 </figure>
 </div>
 </div>
 </div>
 <div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(DF) <span class="sc">+</span> <span class="fu">aes</span>(<span class="at">x=</span>Close.Calls) <span class="sc">+</span> <span class="fu">stat_ecdf</span>(<span class="at">geom=</span><span class="st">"step"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-22-1.svg" class="img-fluid figure-img" width="624"></p>
+<p><a href="index_files/figure-html/unnamed-chunk-22-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-16"><img src="index_files/figure-html/unnamed-chunk-22-1.svg" class="img-fluid figure-img" width="624"></a></p>
 </figure>
 </div>
 </div>
@@ -937,12 +1012,15 @@ P(X &gt; 65090.048) = 0.995</code></pre>
 <li>Plot a sequence on the x axis from 0 to 5 and the probability of that or fewer incidents along the y. <em>seq(0,5)</em></li>
 </ul>
 <div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>DF <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">x=</span><span class="dv">0</span><span class="sc">:</span><span class="dv">5</span>, <span class="at">y=</span><span class="fu">ppois</span>(<span class="dv">0</span><span class="sc">:</span><span class="dv">5</span>, <span class="dv">21</span><span class="sc">/</span><span class="dv">52</span>))</span>
 <span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(DF) <span class="sc">+</span> <span class="fu">aes</span>(<span class="at">x=</span>x, <span class="at">y=</span>y) <span class="sc">+</span> <span class="fu">geom_col</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-23-1.svg" class="img-fluid figure-img" width="624"></p>
+<p><a href="index_files/figure-html/unnamed-chunk-23-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-17"><img src="index_files/figure-html/unnamed-chunk-23-1.svg" class="img-fluid figure-img" width="624"></a></p>
 </figure>
 </div>
 </div>
@@ -957,9 +1035,12 @@ P(X &gt; 65090.048) = 0.995</code></pre>
 <div class="columns">
 <div class="column" style="width:40%;">
 <div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb38"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(vcd)</span>
 <span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(VonBort)</span>
 <span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(VonBort)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>  deaths year corps fisher
 1      0 1875     G     no
@@ -969,7 +1050,10 @@ P(X &gt; 65090.048) = 0.995</code></pre>
 5      0 1875    IV    yes
 6      0 1875     V    yes</code></pre>
 </div>
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb40"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(VonBort<span class="sc">$</span>deaths)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.7</code></pre>
 </div>
@@ -979,7 +1063,7 @@ P(X &gt; 65090.048) = 0.995</code></pre>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/VBG1-1.svg" class="img-fluid figure-img" width="624"></p>
+<p><a href="index_files/figure-html/VBG1-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-18"><img src="index_files/figure-html/VBG1-1.svg" class="img-fluid figure-img" width="624"></a></p>
 </figure>
 </div>
 </div>
@@ -995,11 +1079,14 @@ P(X &gt; 65090.048) = 0.995</code></pre>
 <h2 class="anchored" data-anchor-id="an-example">An Example</h2>
 <p>Customers arrive at a rate of 7 per hour. You convert customers to buyers at a rate of 85%. Buyers spend, on average 600 dollars with a standard deviation of 150 dollars.</p>
 <div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb42"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>Sim <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">1000</span></span>
 <span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>Customers <span class="ot">&lt;-</span> <span class="fu">rpois</span>(<span class="dv">1000</span>, <span class="dv">7</span>)</span>
 <span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>Buyers <span class="ot">&lt;-</span> <span class="fu">rbinom</span>(<span class="dv">1000</span>, <span class="at">size=</span>Customers, <span class="at">prob =</span> <span class="fl">0.85</span>)</span>
 <span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a>Data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(Sim, Buyers, Customers)</span>
 <span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a>Data <span class="ot">&lt;-</span> Data <span class="sc">%&gt;%</span> <span class="fu">group_by</span>(Sim) <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">Revenue =</span> <span class="fu">sum</span>(<span class="fu">rnorm</span>(Buyers, <span class="dv">600</span>, <span class="dv">150</span>))) <span class="sc">%&gt;%</span> <span class="fu">ungroup</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 </div>
 </section>
 </section>
@@ -1009,7 +1096,7 @@ P(X &gt; 65090.048) = 0.995</code></pre>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/Plot1-1.svg" class="img-fluid figure-img" width="624"></p>
+<p><a href="index_files/figure-html/Plot1-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-19"><img src="index_files/figure-html/Plot1-1.svg" class="img-fluid figure-img" width="624"></a></p>
 </figure>
 </div>
 </div>
@@ -1474,6 +1561,38 @@ P(X &gt; 65090.048) = 0.995</code></pre>
   });
   </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

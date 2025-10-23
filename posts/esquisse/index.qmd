@@ -2,9 +2,6 @@
 title: "Esquisse"
 author: "Robert W. Walker"
 date: "2025-09-17"
-format: 
-   html:
-     embed-resources: true
 ---
 
 To start esquisse, it is best to issue `esquisse::esquisser(viewer="browser")`

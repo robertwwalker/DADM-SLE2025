@@ -2,10 +2,6 @@
 title: "Gemini gets Eurostat Data"
 author: "Robert W. Walker"
 date: "2025-09-25"
-format: 
-   html:
-     theme: superhero
-     embed-resources: true
 ---
 
 ## Gemini from Willamette
