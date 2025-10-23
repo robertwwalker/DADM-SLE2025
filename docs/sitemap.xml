@@ -1,71 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://robertwwalker.github.io/DADM-SLE2025/about.html</loc>
-    <lastmod>2025-10-14T21:09:01.777Z</lastmod>
+    <loc>https://robertwwalker.github.io/DADM-SLE2025/slides/week-9/index.html</loc>
+    <lastmod>2025-10-21T22:37:36.000Z</lastmod>
   </url>
   <url>
     <loc>https://robertwwalker.github.io/DADM-SLE2025/slides/dadmp25-w4/index.html</loc>
-    <lastmod>2025-10-14T21:09:02.876Z</lastmod>
+    <lastmod>2025-10-14T21:09:02.000Z</lastmod>
   </url>
   <url>
     <loc>https://robertwwalker.github.io/DADM-SLE2025/slides/dadmp-gstw1/index.html</loc>
-    <lastmod>2025-10-14T21:09:02.735Z</lastmod>
-  </url>
-  <url>
-    <loc>https://robertwwalker.github.io/DADM-SLE2025/index.html</loc>
-    <lastmod>2025-10-14T21:09:02.406Z</lastmod>
-  </url>
-  <url>
-    <loc>https://robertwwalker.github.io/DADM-SLE2025/posts/esquisse/index.html</loc>
-    <lastmod>2025-10-14T21:09:02.425Z</lastmod>
-  </url>
-  <url>
-    <loc>https://robertwwalker.github.io/DADM-SLE2025/posts/Mapmaker/index.html</loc>
-    <lastmod>2025-10-14T21:09:02.406Z</lastmod>
-  </url>
-  <url>
-    <loc>https://robertwwalker.github.io/DADM-SLE2025/posts/week-6/index.html</loc>
-    <lastmod>2025-10-14T21:09:02.432Z</lastmod>
-  </url>
-  <url>
-    <loc>https://robertwwalker.github.io/DADM-SLE2025/posts/causality/index.html</loc>
-    <lastmod>2025-10-14T21:09:02.406Z</lastmod>
-  </url>
-  <url>
-    <loc>https://robertwwalker.github.io/DADM-SLE2025/posts/food-famine/index.html</loc>
-    <lastmod>2025-10-14T21:09:02.432Z</lastmod>
-  </url>
-  <url>
-    <loc>https://robertwwalker.github.io/DADM-SLE2025/posts/week-8/index.html</loc>
-    <lastmod>2025-10-14T22:18:55.177Z</lastmod>
-  </url>
-  <url>
-    <loc>https://robertwwalker.github.io/DADM-SLE2025/posts/joins/index.html</loc>
-    <lastmod>2025-10-14T21:09:02.432Z</lastmod>
-  </url>
-  <url>
-    <loc>https://robertwwalker.github.io/DADM-SLE2025/posts/eurostat-gemini/index.html</loc>
-    <lastmod>2025-10-14T21:09:02.426Z</lastmod>
-  </url>
-  <url>
-    <loc>https://robertwwalker.github.io/DADM-SLE2025/slides/dadm-gstw2/index.html</loc>
-    <lastmod>2025-10-14T21:09:02.622Z</lastmod>
-  </url>
-  <url>
-    <loc>https://robertwwalker.github.io/DADM-SLE2025/slides/dadmp25-w3/index.html</loc>
-    <lastmod>2025-10-14T21:09:02.757Z</lastmod>
-  </url>
-  <url>
-    <loc>https://robertwwalker.github.io/DADM-SLE2025/slides/week-8/index.html</loc>
-    <lastmod>2025-10-14T22:18:50.708Z</lastmod>
-  </url>
-  <url>
-    <loc>https://robertwwalker.github.io/DADM-SLE2025/slides/week-9/index.html</loc>
-    <lastmod>2025-10-21T22:37:36.181Z</lastmod>
+    <lastmod>2025-10-14T21:09:02.000Z</lastmod>
   </url>
   <url>
     <loc>https://robertwwalker.github.io/DADM-SLE2025/posts/week-9/index.html</loc>
-    <lastmod>2025-10-21T21:56:32.952Z</lastmod>
+    <lastmod>2025-10-21T21:56:32.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://robertwwalker.github.io/DADM-SLE2025/posts/week-6/index.html</loc>
+    <lastmod>2025-10-14T21:09:02.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://robertwwalker.github.io/DADM-SLE2025/posts/food-famine/index.html</loc>
+    <lastmod>2025-10-14T21:09:02.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://robertwwalker.github.io/DADM-SLE2025/posts/esquisse/index.html</loc>
+    <lastmod>2025-10-14T21:09:02.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://robertwwalker.github.io/DADM-SLE2025/posts/ProbDataHW/index.html</loc>
+    <lastmod>2025-10-23T23:18:34.017Z</lastmod>
+  </url>
+  <url>
+    <loc>https://robertwwalker.github.io/DADM-SLE2025/index.html</loc>
+    <lastmod>2025-10-14T21:09:02.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://robertwwalker.github.io/DADM-SLE2025/about.html</loc>
+    <lastmod>2025-10-14T21:09:01.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://robertwwalker.github.io/DADM-SLE2025/posts/Mapmaker/index.html</loc>
+    <lastmod>2025-10-14T21:09:02.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://robertwwalker.github.io/DADM-SLE2025/posts/causality/index.html</loc>
+    <lastmod>2025-10-14T21:09:02.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://robertwwalker.github.io/DADM-SLE2025/posts/eurostat-gemini/index.html</loc>
+    <lastmod>2025-10-14T21:09:02.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://robertwwalker.github.io/DADM-SLE2025/posts/joins/index.html</loc>
+    <lastmod>2025-10-14T21:09:02.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://robertwwalker.github.io/DADM-SLE2025/posts/week-8/index.html</loc>
+    <lastmod>2025-10-14T22:18:55.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://robertwwalker.github.io/DADM-SLE2025/slides/dadm-gstw2/index.html</loc>
+    <lastmod>2025-10-14T21:09:02.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://robertwwalker.github.io/DADM-SLE2025/slides/dadmp25-w3/index.html</loc>
+    <lastmod>2025-10-14T21:09:02.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://robertwwalker.github.io/DADM-SLE2025/slides/week-8/index.html</loc>
+    <lastmod>2025-10-14T22:18:50.000Z</lastmod>
   </url>
 </urlset>

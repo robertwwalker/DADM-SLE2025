@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  render:
+        - "*.qmd"
 
 website:
   description: "Data Analysis, Modelling, and Decision Making"
