@@ -1920,7 +1920,7 @@
     "href": "index.html",
     "title": "DADM-SLE2025",
     "section": "",
-    "text": "A Solution for Probability and Data Homework\n\n\n\n\n\n\n\n\n\n\n\nOct 23, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nProbability Distributions\n\n\nLinking Probability and Data\n\n\n\n\n\n\n\n\nOct 21, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 8: SLE\n\n\n\n\n\n\n\n\n\n\n\nOct 14, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6: SLE\n\n\n\n\n\n\n\n\n\n\n\nSep 30, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nGemini gets Eurostat Data\n\n\n\n\n\n\n\n\n\n\n\nSep 25, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nGemini for Data on Hunger\n\n\n\n\n\n\n\n\n\n\n\nSep 25, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nOn Causality\n\n\n\n\n\n\n\n\n\n\n\nSep 24, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nHappiness and Maps\n\n\n\n\n\n\n\n\n\n\n\nSep 18, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nEsquisse\n\n\n\n\n\n\n\n\n\n\n\nSep 17, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nNotes on Joins\n\n\n\n\n\n\n\n\n\n\n\nSep 16, 2025\n\n\nRobert W. Walker\n\n\n\n\n\nNo matching items"
+    "text": "A Solution for Probability and Data Homework\n\n\n\n\n\n\n\n\n\n\n\nOct 23, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nInference\n\n\nLinking Probability and Data\n\n\n\n\n\n\n\n\nOct 21, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nProbability Distributions\n\n\nLinking Probability and Data\n\n\n\n\n\n\n\n\nOct 21, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 8: SLE\n\n\n\n\n\n\n\n\n\n\n\nOct 14, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6: SLE\n\n\n\n\n\n\n\n\n\n\n\nSep 30, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nGemini gets Eurostat Data\n\n\n\n\n\n\n\n\n\n\n\nSep 25, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nGemini for Data on Hunger\n\n\n\n\n\n\n\n\n\n\n\nSep 25, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nOn Causality\n\n\n\n\n\n\n\n\n\n\n\nSep 24, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nHappiness and Maps\n\n\n\n\n\n\n\n\n\n\n\nSep 18, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nEsquisse\n\n\n\n\n\n\n\n\n\n\n\nSep 17, 2025\n\n\nRobert W. Walker\n\n\n\n\n\n\n\n\n\n\n\n\nNotes on Joins\n\n\n\n\n\n\n\n\n\n\n\nSep 16, 2025\n\n\nRobert W. Walker\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/Mapmaker/index.html",
@@ -3660,5 +3660,467 @@
       "Slides",
       "Inference"
     ]
+  },
+  {
+    "objectID": "posts/week-10/index.html",
+    "href": "posts/week-10/index.html",
+    "title": "Inference",
+    "section": "",
+    "text": "A link to the slides for the day.\nSlides\nTwo links:"
+  },
+  {
+    "objectID": "posts/week-10/index.html#inference-for-binomial-type-variables",
+    "href": "posts/week-10/index.html#inference-for-binomial-type-variables",
+    "title": "Inference",
+    "section": "Inference for Binomial Type Variables",
+    "text": "Inference for Binomial Type Variables\n\nHow do we learn from data?\n\n\n\n\nHow do we learn from data?\n\nIt is probably better posed as, what can we learn from data?"
+  },
+  {
+    "objectID": "posts/week-10/index.html#the-big-idea",
+    "href": "posts/week-10/index.html#the-big-idea",
+    "title": "Inference",
+    "section": "The Big Idea",
+    "text": "The Big Idea\n\nInference\nIn the most basic form, learning something about data that we do not have from data that we do. In the jargon of statistics, we characterize the probability distribution of some feature of the population of interest from a sample drawn randomly from that population.\n\n\nQuantities of Interest:\n\nSingle Proportion: The probability of some qualitative outcome with appropriate uncertainty.1\nSingle Mean: The average of some quantitative outcome with appropriate uncertainty.1"
+  },
+  {
+    "objectID": "posts/week-10/index.html#the-big-idea-1",
+    "href": "posts/week-10/index.html#the-big-idea-1",
+    "title": "Inference",
+    "section": "The Big Idea",
+    "text": "The Big Idea\n\nInference\nIn the most basic form, learning something about data that we do not have from data that we do. In the jargon of statistics, we characterize the probability distribution of some feature of the population of interest from a sample drawn randomly from that population.\n\n\nQuantities of Interest:\n\nCompare Proportions: Compare key probabilities across two groups with appropriate uncertainty.2\nCompare Means: Compare averages/means across two groups with appropriate uncertainty.1"
+  },
+  {
+    "objectID": "posts/week-10/index.html#the-big-idea-2",
+    "href": "posts/week-10/index.html#the-big-idea-2",
+    "title": "Inference",
+    "section": "The Big Idea",
+    "text": "The Big Idea\n\nInference\nIn the most basic form, learning something about data that we do not have from data that we do. In the jargon of statistics, we characterize the probability distribution of some feature of the population of interest from a sample drawn randomly from that population.\n\n\nStudy Planning\nPlan studies of adequate size to assess key probabilities of interest."
+  },
+  {
+    "objectID": "posts/week-10/index.html#inference-for-data",
+    "href": "posts/week-10/index.html#inference-for-data",
+    "title": "Inference",
+    "section": "Inference for Data",
+    "text": "Inference for Data\nOf two forms:\n\nBinary/Qualitative\nQuantitative\n\nWe will first focus first on the former. But before we do, one new concept."
+  },
+  {
+    "objectID": "posts/week-10/index.html#the-standard-error",
+    "href": "posts/week-10/index.html#the-standard-error",
+    "title": "Inference",
+    "section": "The standard error",
+    "text": "The standard error\nIt is the degree of variability of a statistic just as the standard deviation is the variability in data.\n\nThe standard error of a proportion is \\(\\sqrt{\\frac{\\pi(1-\\pi)}{n}}\\) while the standard deviation of a binomial sample would be \\(\\sqrt{n*\\pi(1-\\pi)}\\).\nThe standard deviation of a sample is \\(s\\) while the standard error of the mean is \\(\\frac{s}{\\sqrt{n}}\\). The average has less variability than the data and it shrinks as n increases."
+  },
+  {
+    "objectID": "posts/week-10/index.html#lets-think-about-an-election.",
+    "href": "posts/week-10/index.html#lets-think-about-an-election.",
+    "title": "Inference",
+    "section": "Let’s think about an election….",
+    "text": "Let’s think about an election….\nConsider election season. The key to modeling the winner of a presidential election is the electoral college in the United States. In almost all cases, this involves a series of binomial variables.\n\nAlmost all states award electors for the statewide winner of the election and DC has electoral votes.\nWe have polls that give us likely vote percentages at the state level. Call it p.win for the probability of winning. We can then deploy rbinom(1000, size=1, p.win) to derive a hypothetical election.\nRinse and repeat to calculate a hypothetical electoral college winner. But how do we calculate p-win?\nWe infer it from polling data"
+  },
+  {
+    "objectID": "posts/week-10/index.html#qualitative-the-binomial",
+    "href": "posts/week-10/index.html#qualitative-the-binomial",
+    "title": "Inference",
+    "section": "Qualitative: The Binomial",
+    "text": "Qualitative: The Binomial\nIs entirely defined by two parameters, \\(n\\) – the number of subjects – and \\(\\pi\\) – the probability of a positive response. The probability of exactly \\(x\\) positive responses is given by:\n\\[ Pr(X = x | \\pi, n) = {n \\choose x} \\pi^x (1-\\pi)^{n-x} \\]\nThe binomial is the canonical distribution for binary outcomes. Assuming all \\(n\\) subjects are alike and the outcome occurs with \\(\\pi\\) probability,3 then we must have a sample from a binomial. A binomial with \\(n=1\\) is known as a Bernoulli trial"
+  },
+  {
+    "objectID": "posts/week-10/index.html#features-of-the-binomial",
+    "href": "posts/week-10/index.html#features-of-the-binomial",
+    "title": "Inference",
+    "section": "Features of the Binomial",
+    "text": "Features of the Binomial\nTwo key features:\n\nExpectation: \\(n \\cdot \\pi\\) or number of subjects times probability, \\(\\pi \\textrm{ if } n=1\\).\nVariance is \\(n \\cdot \\pi \\cdot (1 - \\pi)\\) or \\(\\pi(1-\\pi) \\textrm{ if } n=1\\) and standard deviation is \\(\\sqrt{n \\cdot \\pi \\cdot (1 - \\pi)}\\) or \\(\\sqrt{\\pi(1-\\pi)} \\textrm{ if } n=1\\)."
+  },
+  {
+    "objectID": "posts/week-10/index.html#data",
+    "href": "posts/week-10/index.html#data",
+    "title": "Inference",
+    "section": "Data",
+    "text": "Data\nNow let’s grab some data and frame a question.\n\n\nHow’s that done?\nload(url(\"https://github.com/robertwwalker/DADMStuff/raw/master/Big-Week-6-RSpace.RData\"))"
+  },
+  {
+    "objectID": "posts/week-10/index.html#berkeley-admissions",
+    "href": "posts/week-10/index.html#berkeley-admissions",
+    "title": "Inference",
+    "section": "Berkeley Admissions",
+    "text": "Berkeley Admissions\nWhat is the probability of being admitted to UC Berkeley Graduate School?4\n. . .\nI have three variables:\n\nAdmitted or not\nGender\nThe department an applicant applied to.\n\nAdmission is the key.\n\n\nHow’s that done?\nlibrary(janitor)  #&lt;&lt;\nUCBTab &lt;- data.frame(UCBAdmissions) %&gt;%\n    reshape::untable(., .$Freq) %&gt;%\n    select(-Freq)\nUCBTab %&gt;%\n    tabyl(Admit)  # Could also use UCBTab %$% table(Admit) \n\n\n    Admit    n percent\n Admitted 1755   0.388\n Rejected 2771   0.612\n\n\nThe proportion is denoted as \\(\\hat{p}\\). We can also do this with table.\n\n\n\nHow’s that done?\nUCBTab %&gt;%\n    DT::datatable(., fillContainer = FALSE, options = list(pageLength = 8),\n        rownames = FALSE)"
+  },
+  {
+    "objectID": "posts/week-10/index.html#a-visual",
+    "href": "posts/week-10/index.html#a-visual",
+    "title": "Inference",
+    "section": "A Visual",
+    "text": "A Visual\n\n\nHow’s that done?\nlibrary(viridisLite)\nUCBTab %&gt;%\n    ggplot(.) + aes(x = Gender, fill = Admit) + geom_bar() + scale_fill_viridis_d()"
+  },
+  {
+    "objectID": "posts/week-10/index.html#the-idea",
+    "href": "posts/week-10/index.html#the-idea",
+    "title": "Inference",
+    "section": "The Idea",
+    "text": "The Idea\nSuppose we want to know \\(\\pi(Admit)\\) – the probability of being admitted – with 90% probability.\nWe want to take the data that we saw and use it to infer the likely values of \\(\\pi(Admit)\\)."
+  },
+  {
+    "objectID": "posts/week-10/index.html#three-interchangeable-methods",
+    "href": "posts/week-10/index.html#three-interchangeable-methods",
+    "title": "Inference",
+    "section": "Three interchangeable methods",
+    "text": "Three interchangeable methods\n\nResampling/Simulation\nExact binomial computation\nA normal approximation"
+  },
+  {
+    "objectID": "posts/week-10/index.html#method-1-resampling",
+    "href": "posts/week-10/index.html#method-1-resampling",
+    "title": "Inference",
+    "section": "Method 1: Resampling",
+    "text": "Method 1: Resampling\nSuppose I have 4526 chips with 1755 green and 2771 red.\n. . .\nI toss them all on the floor\n. . .\nand pick them up, one at a time,\n. . .\nrecord the value (green/red),\n. . .\nput the chip back,\n[NB: I put it back to avoid getting exactly the same sample every time.]\n. . .\nand repeat 4526 times.\nEach count of green chips as a proportion of 4526 total chips constitutes an estimate of the probability of Admit.\n. . .\nI wrote a little program to do just this – ResampleProps.\nremotes::install_github(\"robertwwalker/ResampleProps\")"
+  },
+  {
+    "objectID": "posts/week-10/index.html#resampling-result",
+    "href": "posts/week-10/index.html#resampling-result",
+    "title": "Inference",
+    "section": "Resampling Result",
+    "text": "Resampling Result\n\n\nHow’s that done?\nlibrary(ResampleProps)\nRSMP &lt;- ResampleProp(UCBTab$Admit, k = 10000, tab.col = 1) %&gt;%\n    data.frame(Pi.Admit = ., Gender = as.character(\"All\"), frameN = 1)\nquantile(RSMP$Pi.Admit, probs = c(0.05, 0.95))\n\n\n   5%   95% \n0.376 0.400 \n\n\nWhat is our estimate of \\(\\pi\\) with 90% confidence?\nThe probability of admission ranges from 0.376 to 0.4."
+  },
+  {
+    "objectID": "posts/week-10/index.html#a-plot",
+    "href": "posts/week-10/index.html#a-plot",
+    "title": "Inference",
+    "section": "A Plot",
+    "text": "A Plot\n\n\nHow’s that done?\nlibrary(ggthemes)\nRSMP %&gt;%\n    ggplot(., aes(x = Pi.Admit)) + geom_density(outline.type = \"upper\", color = \"maroon\") +\n    labs(x = expression(pi)) + theme_minimal()"
+  },
+  {
+    "objectID": "posts/week-10/index.html#another-way-exact-binomial",
+    "href": "posts/week-10/index.html#another-way-exact-binomial",
+    "title": "Inference",
+    "section": "Another Way: Exact binomial",
+    "text": "Another Way: Exact binomial\nThat last procedure is correct but it is overkill.\n\nWith probability of 0.05, how small could \\(\\pi\\) be to have gotten 1755 of 4526 or more?\nWith probability 0.95, how big could \\(\\pi\\) be to have gotten fewer than 1755 of 4526?\n\n\n\nHow’s that done?\nUCBTab %$%\n    table(Admit)  #&lt;&lt;\n\n\nAdmit\nAdmitted Rejected \n    1755     2771 \n\n\n. . .\nbinom.test does exactly this."
+  },
+  {
+    "objectID": "posts/week-10/index.html#binom.test",
+    "href": "posts/week-10/index.html#binom.test",
+    "title": "Inference",
+    "section": "binom.test()",
+    "text": "binom.test()\n\n\nHow’s that done?\nUCBTab %$%\n    table(Admit) %&gt;%\n    binom.test(conf.level = 0.9)\n\n\n\n    Exact binomial test\n\ndata:  .\nnumber of successes = 1755, number of trials = 4526, p-value\n&lt;2e-16\nalternative hypothesis: true probability of success is not equal to 0.5\n90 percent confidence interval:\n 0.376 0.400\nsample estimates:\nprobability of success \n                 0.388 \n\n\nHow’s that done?\nPlot.Me &lt;- binom.test(1755, 1755 + 2771, conf.level = 0.9)$conf.int %&gt;%\n    data.frame()\n\n\nWith 90% probability, now often referred to as 90% confidence to avoid using the word probability twice, the probability of being admitted ranges between 0.3758 and 0.3998."
+  },
+  {
+    "objectID": "posts/week-10/index.html#illustrating-the-binomial",
+    "href": "posts/week-10/index.html#illustrating-the-binomial",
+    "title": "Inference",
+    "section": "Illustrating the Binomial",
+    "text": "Illustrating the Binomial\n\n\nHow’s that done?\nUCBTab %$%\n    table(Admit) %&gt;%\n    binom.test(conf.level = 0.9)\n\n\n\n    Exact binomial test\n\ndata:  .\nnumber of successes = 1755, number of trials = 4526, p-value\n&lt;2e-16\nalternative hypothesis: true probability of success is not equal to 0.5\n90 percent confidence interval:\n 0.376 0.400\nsample estimates:\nprobability of success \n                 0.388 \n\n\nHow’s that done?\nc(pbinom(1755, 1755 + 2771, 0.399834), pbinom(1754, 1755 + 2771, 0.3757924))\n\n\n[1] 0.05 0.95\n\n\n\n\n\nHow’s that done?\nBinomial.Search &lt;- data.frame(x = seq(0.33, 0.43, by = 0.001)) %&gt;%\n    mutate(Too.Low = pbinom(1755, 1755 + 2771, x), Too.High = 1 - pbinom(1754,\n        1755 + 2771, x))\nBinomial.Search %&gt;%\n    pivot_longer(cols = c(Too.Low, Too.High)) %&gt;%\n    ggplot(., aes(x = x, y = value, color = name)) + geom_line() + geom_hline(aes(yintercept = 0.05)) +\n    geom_hline(aes(yintercept = 0.95)) + geom_vline(data = Plot.Me, aes(xintercept = .),\n    linetype = 3) + labs(title = \"Using the Binomial to Search\", color = \"Greater/Lesser\",\n    x = expression(pi), y = \"Probability\")"
+  },
+  {
+    "objectID": "posts/week-10/index.html#a-third-way-the-normal-approximation",
+    "href": "posts/week-10/index.html#a-third-way-the-normal-approximation",
+    "title": "Inference",
+    "section": "A Third Way: The normal approximation",
+    "text": "A Third Way: The normal approximation\nAs long as \\(n\\) and \\(\\pi\\) are sufficiently large, we can approximate this with a normal distribution. This will also prove handy for a related reason.\nAs long as \\(n*\\pi\\) &gt; 10, we can write that a standard normal \\(z\\) describes the distribution of \\(\\pi\\), given \\(n\\) – the sample size and \\(\\hat{p}\\) – the proportion of yes’s/true’s in the sample.\n\\[ Pr(\\pi) = \\hat{p} \\pm z \\cdot \\left( \\sqrt{\\frac{\\hat{p}*(1-\\hat{p})}{n}} \\right) \\]\n\\(R\\) implements this in prop.test. By default, R implements a modified version that corrects for discreteness/continuity. To get the above formula exactly, prop.test(table, correct=FALSE)."
+  },
+  {
+    "objectID": "posts/week-10/index.html#a-first-look-at-hypotheses",
+    "href": "posts/week-10/index.html#a-first-look-at-hypotheses",
+    "title": "Inference",
+    "section": "A first look at hypotheses",
+    "text": "A first look at hypotheses\n\\[ z = \\frac{\\hat{p} - \\pi}{\\sqrt{\\frac{\\pi(1-\\pi)}{n}}} \\]\nWith some proportion calculated from data \\(\\hat{p}\\) and some claim about \\(\\pi\\) – hereafter called an hypothesis – we can use \\(z\\) to calculate/evaluate the claim. These claims are hypothetical values of \\(\\pi\\). They can be evaluated against a specific alternative considered in three ways:\n\ntwo-sided, that is \\(\\pi = value\\) against not equal.\n\\(\\pi \\geq value\\) against something smaller.\n\\(\\pi \\leq value\\) against something greater.\n\nIn the first case, either much bigger or much smaller values could be evidence against equal. The second and third cases are always about smaller and bigger; they are one-sided.\nJust as \\(z\\) has metric standard deviations now referred to as standard errors of the proportion, the z here will measure where the data fall with respect to the hypothetical \\(\\pi\\).\nWith z sufficiently large, and in the proper direction, our hypothetical \\(\\pi\\) becomes unlikely given the evidence and should be dismissed."
+  },
+  {
+    "objectID": "posts/week-10/index.html#three-hypothesis-tests",
+    "href": "posts/week-10/index.html#three-hypothesis-tests",
+    "title": "Inference",
+    "section": "Three hypothesis tests",
+    "text": "Three hypothesis tests\n\n\nHow’s that done?\n(Z.ALL &lt;- (0.3877596 - 0.5)/(sqrt(0.5^2/4526)))  # Calculate z \n\n\n[1] -15.1\n\n\nThe estimate is 15.1 standard errors below the hypothesized value.\n\n\n\nTwo Sided\n\\(\\pi = 0.5\\) against \\(\\pi \\neq 0.5\\).\n\n\nHow’s that done?\npnorm(-abs(Z.ALL)) + (1 - pnorm(abs(Z.ALL)))\n\n\n[1] 7.85e-52\n\n\nAny \\(|z| &gt; 1.64\\) – probability 0.05 above and below – is sufficient to dispense with the hypothesis.\n\n\n\nOne-Sided\n\\(\\pi \\leq 0.5\\) against \\(\\pi \\gt 0.5\\).\nWith 90% confidence, \\(z &gt; 1.28\\) is sufficient.\n\\(\\pi \\geq 0.5\\) against \\(\\pi \\lt 0.5\\).\nWith 90% confidence, \\(z &lt; -1.28\\) is sufficient."
+  },
+  {
+    "objectID": "posts/week-10/index.html#the-normal-approximation",
+    "href": "posts/week-10/index.html#the-normal-approximation",
+    "title": "Inference",
+    "section": "The normal approximation",
+    "text": "The normal approximation\n\n\nHow’s that done?\nprop.test(table(UCBTab$Admit), conf.level = 0.9, correct = FALSE)\n\n\n\n    1-sample proportions test without continuity correction\n\ndata:  table(UCBTab$Admit), null probability 0.5\nX-squared = 228, df = 1, p-value &lt;2e-16\nalternative hypothesis: true p is not equal to 0.5\n90 percent confidence interval:\n 0.376 0.400\nsample estimates:\n    p \n0.388 \n\n\n\\(R\\) reports the result as \\(z^2\\) not \\(z\\) which is \\(\\chi^2\\) not normal; we can obtain the \\(z\\) by taking a square root: \\[\\sqrt{228.08} \\approx 15.1 \\]\nThis approximation yields an estimate of \\(\\pi\\), with 90% confidence, that ranges between 0.376 and 0.4."
+  },
+  {
+    "objectID": "posts/week-10/index.html#a-cool-consequence-of-normal",
+    "href": "posts/week-10/index.html#a-cool-consequence-of-normal",
+    "title": "Inference",
+    "section": "A Cool Consequence of Normal",
+    "text": "A Cool Consequence of Normal\nThe formal equation defines:\n\\[ z = \\frac{\\hat{p} - \\pi}{\\sqrt{\\frac{\\pi(1-\\pi)}{n}}} \\]\nSome language:\n\nMargin of error is \\(\\hat{p} - \\pi\\). [MOE]\nConfidence: the probability coverage given z [two-sided].\nWe need a guess at the true \\(\\pi\\) because variance/std. dev. depend on \\(\\pi\\). 0.5 is common because it maximizes the variance; we will have enough no matter what the true value.\n\nAlgebra allows us to solve for \\(n\\).\n\\[ n = \\frac{z^2 \\cdot \\pi(1-\\pi)}{(\\hat{p} - \\pi)^2} \\]"
+  },
+  {
+    "objectID": "posts/week-10/index.html#example",
+    "href": "posts/week-10/index.html#example",
+    "title": "Inference",
+    "section": "Example",
+    "text": "Example\nEstimate the probability of supporting an initiative to within 0.03 with 95% confidence. Assume that the probability is 0.5 [it maximizes the variance and renders a conservative estimate – an upper bound on the sample size]\n\n\nHow’s that done?\nSample.Size &lt;- function(MOE, B.pi = 0.5, Conf.lev = 0.95) {\n    My.n &lt;- ((qnorm((1 - Conf.lev)/2)^2) * (B.pi * (1 - B.pi)))/MOE^2\n    Necessary.sample &lt;- ceiling(My.n)\n    return(Necessary.sample)\n}\nSample.Size(MOE = 0.03, B.pi = 0.5, Conf.lev = 0.95)\n\n\n[1] 1068\n\n\nI need 1068 people to estimate support to within plus or minus 0.03 with 95% confidence."
+  },
+  {
+    "objectID": "posts/week-10/index.html#in-the-real-world",
+    "href": "posts/week-10/index.html#in-the-real-world",
+    "title": "Inference",
+    "section": "In the Real World",
+    "text": "In the Real World\n\n\n\n\n\n\n\n\n\nA real poll. They do not have quite enough for a 3% margin of error. But 1006 is enough for a 3.1 percent margin of error…\n\n\nHow’s that done?\nSample.Size(MOE = 0.031, B.pi = 0.5, Conf.lev = 0.95)\n\n\n[1] 1000"
+  },
+  {
+    "objectID": "posts/week-10/index.html#one-more-oddity",
+    "href": "posts/week-10/index.html#one-more-oddity",
+    "title": "Inference",
+    "section": "One More Oddity",
+    "text": "One More Oddity\nWhat is our estimate of \\(\\pi\\) with 90% confidence?\nThe probability of admission ranges from 0.376 to 0.4.\nIf we wish to express this using the normal approximation, a central interval is the observed proportion plus/minus \\(z\\) times the standard error of the proportion – \\[ SE(\\hat{p}) = \\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}} \\] NB: The sample value replaces our assumed true value because \\(\\pi\\) is to be solved for. For 90%, the probability of admissions ranges from\n\n\nHow’s that done?\n0.3877596 + qnorm(c(0.05, 0.95)) * (sqrt(0.3877596 * (1 - 0.3877596)/4526))\n\n\n[1] 0.376 0.400"
+  },
+  {
+    "objectID": "posts/week-10/index.html#analysis-by-group",
+    "href": "posts/week-10/index.html#analysis-by-group",
+    "title": "Inference",
+    "section": "Analysis by Group",
+    "text": "Analysis by Group\n\n\nHow’s that done?\nlibrary(janitor)\nUCBTab %&gt;%\n    tabyl(Gender, Admit) %&gt;%\n    adorn_totals(\"col\")\n\n\n Gender Admitted Rejected Total\n   Male     1198     1493  2691\n Female      557     1278  1835\n\n\nHow’s that done?\nUCBTab %&gt;%\n    tabyl(Gender, Admit) %&gt;%\n    adorn_percentages(\"row\")\n\n\n Gender Admitted Rejected\n   Male    0.445    0.555\n Female    0.304    0.696\n\n\nHow’s that done?\nUCBTF &lt;- UCBTab %&gt;%\n    filter(Gender == \"Female\")\nUCBTF.Pi &lt;- ResampleProp(UCBTF$Admit, k = 10000) %&gt;%\n    data.frame(Pi.Admit = ., Gender = as.character(\"Female\"), frameN = 2)  # Estimates for females\nUCBTM &lt;- UCBTab %&gt;%\n    filter(Gender == \"Male\")\nUCBTM.Pi &lt;- ResampleProp(UCBTM$Admit, k = 10000) %&gt;%\n    data.frame(Pi.Admit = ., Gender = as.character(\"Male\"), frameN = 2)  # Estimates for males"
+  },
+  {
+    "objectID": "posts/week-10/index.html#binomial-result-males",
+    "href": "posts/week-10/index.html#binomial-result-males",
+    "title": "Inference",
+    "section": "Binomial Result: Males",
+    "text": "Binomial Result: Males\n\n\nHow’s that done?\nUCBTM %$%\n    table(Admit) %&gt;%\n    binom.test(., conf.level = 0.9)\n\n\n\n    Exact binomial test\n\ndata:  .\nnumber of successes = 1198, number of trials = 2691, p-value =\n0.00000001\nalternative hypothesis: true probability of success is not equal to 0.5\n90 percent confidence interval:\n 0.429 0.461\nsample estimates:\nprobability of success \n                 0.445 \n\n\nThe probability of being admitted, conditional on being Male, ranges from 0.43 to 0.46 with 90% confidence."
+  },
+  {
+    "objectID": "posts/week-10/index.html#the-thought-experiment-male",
+    "href": "posts/week-10/index.html#the-thought-experiment-male",
+    "title": "Inference",
+    "section": "The Thought Experiment: Male",
+    "text": "The Thought Experiment: Male\n\n\nHow’s that done?\nUCBTM.Pi %&gt;%\n    ggplot(., aes(x = Pi.Admit)) + geom_density(color = \"maroon\") + labs(x = expression(pi))"
+  },
+  {
+    "objectID": "posts/week-10/index.html#binomial-result-females",
+    "href": "posts/week-10/index.html#binomial-result-females",
+    "title": "Inference",
+    "section": "Binomial Result: Females",
+    "text": "Binomial Result: Females\n\n\nHow’s that done?\nUCBTF %$%\n    table(Admit) %&gt;%\n    binom.test(., conf.level = 0.9)\n\n\n\n    Exact binomial test\n\ndata:  .\nnumber of successes = 557, number of trials = 1835, p-value &lt;2e-16\nalternative hypothesis: true probability of success is not equal to 0.5\n90 percent confidence interval:\n 0.286 0.322\nsample estimates:\nprobability of success \n                 0.304 \n\n\nThe probability of being of Admitted, given a Female, ranges from 0.286 to 0.322 with 90% confidence."
+  },
+  {
+    "objectID": "posts/week-10/index.html#the-thought-experiment-female",
+    "href": "posts/week-10/index.html#the-thought-experiment-female",
+    "title": "Inference",
+    "section": "The Thought Experiment: Female",
+    "text": "The Thought Experiment: Female\n\n\nHow’s that done?\nUCBTF.Pi %&gt;%\n    ggplot(., aes(x = Pi.Admit)) + geom_density(color = \"maroon\") + labs(x = expression(pi))"
+  },
+  {
+    "objectID": "posts/week-10/index.html#succinctly",
+    "href": "posts/week-10/index.html#succinctly",
+    "title": "Inference",
+    "section": "Succinctly",
+    "text": "Succinctly\n\n\nFemale: from 0.286 to 0.322\nMale: from 0.43 to 0.46\nAll: from 0.3758 to 0.3998"
+  },
+  {
+    "objectID": "posts/week-10/index.html#a-key-visual",
+    "href": "posts/week-10/index.html#a-key-visual",
+    "title": "Inference",
+    "section": "A Key Visual",
+    "text": "A Key Visual\n\n\nHow’s that done?\nUCB.Pi &lt;- bind_rows(UCBTF.Pi, UCBTM.Pi)\nUCB.Pi %&gt;%\n    ggplot(., aes(x = Gender, y = Pi.Admit, fill = Gender)) + geom_violin() +\n    geom_label(aes(x = 1.5, y = 0.375), label = \"Too small to be male \\n Too large to be female?\",\n        size = 14, fill = \"black\", color = \"white\", inherit.aes = FALSE) + guides(size = \"none\") +\n    labs(x = \"\") + scale_fill_viridis_d()\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow’s that done?\nUCB.Pi &lt;- bind_rows(UCBTF.Pi, UCBTM.Pi, RSMP)\nUCB.Pi %&gt;%\n    ggplot(., aes(x = Pi.Admit, fill = Gender)) + geom_density(alpha = 0.5) +\n    theme_minimal() + scale_fill_viridis_d() + transition_states(frameN, state_length = 40,\n    transition_length = 20) + enter_fade() + exit_fade() -&gt; SaveAnim\nanim_save(SaveAnim, renderer = gifski_renderer(height = 500, width = 1000),\n    filename = \"img/Anim1.gif\")"
+  },
+  {
+    "objectID": "posts/week-10/index.html#can-we-measure-the-difference",
+    "href": "posts/week-10/index.html#can-we-measure-the-difference",
+    "title": "Inference",
+    "section": "Can We Measure the Difference?",
+    "text": "Can We Measure the Difference?\n\n\nHow much more likely are Males to be admitted when compared to Females?\nWe can take the difference in our estimates for Male and Female.\n\n\nHow’s that done?\nUCB.Diff &lt;- UCB.Pi %&gt;% filter(frameN != 1) %&gt;% select(Pi.Admit, Gender) %&gt;% mutate(obs = rep(seq(1:10000),2)) %&gt;% pivot_wider(., id_cols = obs, values_from=Pi.Admit, names_from=Gender) %&gt;% mutate(Diff = Male - Female)\nquantile(UCB.Diff$Diff, probs=c(0.05,0.95))\n\n\n   5%   95% \n0.118 0.165 \n\n\n\n\nHow’s that done?\nggplot(UCB.Diff) + aes(x = Diff) + geom_density() + labs(title = \"Difference in Probability of Admission\",\n    subtitle = \"[Male - Female]\")"
+  },
+  {
+    "objectID": "posts/week-10/index.html#or-use-the-normal-approximation",
+    "href": "posts/week-10/index.html#or-use-the-normal-approximation",
+    "title": "Inference",
+    "section": "Or Use the Normal Approximation",
+    "text": "Or Use the Normal Approximation\n\\[[\\hat{p}_{M} - \\hat{p}_{F}] \\pm z*\\sqrt{ \\underbrace{\\frac{\\hat{p}_{M}(1-\\hat{p}_{M})}{n_{M}}}_{Males} + \\underbrace{\\frac{\\hat{p}_{F}(1-\\hat{p}_{F})}{n_{F}}}_{Females}}\\]\n\n\nHow’s that done?\n# prop.test(table(UCBTab$Gender,UCBTab$Admit), conf.level=0.9,\n# correct=FALSE)\nUCBTab %$%\n    table(Gender, Admit) %&gt;%\n    prop.test(conf.level = 0.9, correct = FALSE)\n\n\n\n    2-sample test for equality of proportions without continuity\n    correction\n\ndata:  .\nX-squared = 92, df = 1, p-value &lt;2e-16\nalternative hypothesis: two.sided\n90 percent confidence interval:\n 0.118 0.165\nsample estimates:\nprop 1 prop 2 \n 0.445  0.304 \n\n\nWith 90% confidence, a Female is 0.118 to 0.165 [0.1416] less likely to be admitted."
+  },
+  {
+    "objectID": "posts/week-10/index.html#the-standard-error-of-the-difference",
+    "href": "posts/week-10/index.html#the-standard-error-of-the-difference",
+    "title": "Inference",
+    "section": "The Standard Error of the Difference",
+    "text": "The Standard Error of the Difference\nFollowing something akin to the FOIL method, we can show that the variance of a difference in two random variables is the sum of the variances minus twice the covariance between them.\n\\[Var(X - Y) = Var(X) + Var(Y) - 2*Cov(X,Y) \\]\nIf we assume [or recognize it is generally unknownable] that the male and female samples are independent, the covariance is zero, and the variance of the difference is simply the sum of the variance for male and female, respectively, and zero covariance.\n\\[SE(\\hat{p}_{M} - \\hat{p}_{F}) =  \\sqrt{ \\underbrace{\\frac{\\hat{p}_{M}(1-\\hat{p}_{M})}{n_{M}}}_{Males} + \\underbrace{\\frac{\\hat{p}_{F}(1-\\hat{p}_{F})}{n_{F}}}_{Females}}\\]"
+  },
+  {
+    "objectID": "posts/week-10/index.html#the-chi-square-and-the-test-of-independence",
+    "href": "posts/week-10/index.html#the-chi-square-and-the-test-of-independence",
+    "title": "Inference",
+    "section": "The chi-square and the test of independence",
+    "text": "The chi-square and the test of independence\nThe sum of \\(k\\) squared standard normal (z or Normal(0,1)) variates has a \\(\\chi^2\\) distribution with \\(k\\) degrees of freedom. Two sample tests of proportions can be reported using the chi-square metric as well. \\(R\\)’s prop.test does this by default."
+  },
+  {
+    "objectID": "posts/week-10/index.html#inference-for-quantitative-data",
+    "href": "posts/week-10/index.html#inference-for-quantitative-data",
+    "title": "Inference",
+    "section": "Inference for Quantitative Data",
+    "text": "Inference for Quantitative Data\nThe central limit theorem – or, more aptly, central limit theorems – demonstrates that the sample mean is normally distributed under some – varying – set of conditions."
+  },
+  {
+    "objectID": "posts/week-10/index.html#lets-have-a-brief-look",
+    "href": "posts/week-10/index.html#lets-have-a-brief-look",
+    "title": "Inference",
+    "section": "Let’s Have a Brief Look",
+    "text": "Let’s Have a Brief Look\n\n\n\nUniform\n\n\nHow’s that done?\nlibrary(radiant)\nresult &lt;- clt(dist = \"Uniform\", m = 1000)\nplot(result, stat = \"mean\", bins = 50)\n\n\n\n\n\n\n\n\n\n\n\nExponential\n\n\nHow’s that done?\nresult &lt;- clt(dist = \"Exponential\", m = 1000, expo_rate = 4)\nplot(result, stat = \"mean\", bins = 50)"
+  },
+  {
+    "objectID": "posts/week-10/index.html#application-expenditures",
+    "href": "posts/week-10/index.html#application-expenditures",
+    "title": "Inference",
+    "section": "Application: Expenditures",
+    "text": "Application: Expenditures\nWhat is the average level of expenditure by Ethnicity?\nWhy do we focus on the average? Under general conditions, the average has a known probability distribution even if the distribution of the underlying data is unknown. This is a result of the central limit theorem and a generic property of averaging. We can derive this distribution, it is known as \\(t\\) and has one parameter: degrees of freedom."
+  },
+  {
+    "objectID": "posts/week-10/index.html#the-t-distribution",
+    "href": "posts/week-10/index.html#the-t-distribution",
+    "title": "Inference",
+    "section": "The t distribution",
+    "text": "The t distribution\nResults from the combination of a normal random variable in the numerator and a \\(\\chi^2\\) random variable in the denominator. Both should generically hold from the central limit theorem.\n\nStudent’s \\(t\\) distribution generically describes the distribution of the difference between a sample mean and the true mean.\nIt has one parameter, the degrees of freedom."
+  },
+  {
+    "objectID": "posts/week-10/index.html#expenditures",
+    "href": "posts/week-10/index.html#expenditures",
+    "title": "Inference",
+    "section": "Expenditures",
+    "text": "Expenditures\nFirst, a look at the data on expenditures.\n\n\nHow’s that done?\nload(url(\"https://github.com/robertwwalker/DADMStuff/raw/master/DiscriminationCADSS.RData\"))\n## Cutting Discrimination$Age into Discrimination$Age.Cohort\nDiscrimination$Age.Cohort &lt;- cut(Discrimination$Age, include.lowest = FALSE,\n    right = TRUE, breaks = c(0, 5, 12, 17, 21, 50, 95))\nWH &lt;- Discrimination %&gt;%\n    filter(Ethnicity %in% c(\"White not Hispanic\", \"Hispanic\"))\ndatatable(WH)\n\n\n\n\n\n\n\n\n\nHow’s that done?\n(BasePlot &lt;- ggplot(WH, aes(x = Expenditures)) + geom_density(color = \"red\") +\n    theme_minimal() + labs(y = \"\"))"
+  },
+  {
+    "objectID": "posts/week-10/index.html#another-plot",
+    "href": "posts/week-10/index.html#another-plot",
+    "title": "Inference",
+    "section": "Another plot",
+    "text": "Another plot\n\n\nHow’s that done?\nlibrary(crosstalk)\nlibrary(plotly)\nshared_WH &lt;- crosstalk::SharedData$new(WH)\nPlot1 &lt;- ggplot(shared_WH, aes(x = Ethnicity, y = Expenditures, color = Ethnicity)) +\n    geom_jitter() + theme_minimal() + labs(y = \"\")\np2 &lt;- ggplotly(Plot1)\nbscols(widths = c(1, 11, 12), \"\", list(filter_checkbox(\"Ethnicity\", \"Ethnicity\",\n    shared_WH, ~Ethnicity, inline = TRUE), filter_checkbox(\"Age.Cohort\", \"Age.Cohort\",\n    shared_WH, ~Age.Cohort, inline = TRUE), p2))\n\n\n\n\n\n\n\nEthnicity\n\n\n\nHispanic\n\n\n\nWhite not Hispanic\n\n\n\n\n\nAge.Cohort\n\n\n\n(0,5]\n\n\n\n(5,12]\n\n\n\n(12,17]\n\n\n\n(17,21]\n\n\n\n(21,50]\n\n\n\n(50,95]"
+  },
+  {
+    "objectID": "posts/week-10/index.html#method-1-resampling-1",
+    "href": "posts/week-10/index.html#method-1-resampling-1",
+    "title": "Inference",
+    "section": "Method 1: Resampling",
+    "text": "Method 1: Resampling\nSuppose I have 777 chips that each contain an expenditure\n. . .\nI toss them all on the floor\n. . .\nand pick them up, one at a time,\n. . .\nrecord the value,\n. . .\nput the chip back,\n[NB: I put it back to avoid getting exactly the same sample every time.]\n. . .\nand repeat this to create a sample of n=777.\n. . .\nUse random sampling to sample the mean/average 10000 times.\n. . .\nEach average of 777 chips/expenditures constitutes an estimate of the average expenditure.\n\n\nHow’s that done?\nWH.Means &lt;- data.frame(Mean.Expenditure = ResampleMean(WH$Expenditures))"
+  },
+  {
+    "objectID": "posts/week-10/index.html#a-visual-1",
+    "href": "posts/week-10/index.html#a-visual-1",
+    "title": "Inference",
+    "section": "A Visual",
+    "text": "A Visual\n\n\nHow’s that done?\n(ggplot(WH, aes(x = Expenditures)) + geom_density() + theme_ipsum_rc())/(ggplot(WH.Means,\n    aes(x = Mean.Expenditure)) + theme_ipsum_rc()) + geom_density() + theme_ipsum_rc()"
+  },
+  {
+    "objectID": "posts/week-10/index.html#average-expenditures-a-90-interval",
+    "href": "posts/week-10/index.html#average-expenditures-a-90-interval",
+    "title": "Inference",
+    "section": "Average Expenditures: A 90% Interval",
+    "text": "Average Expenditures: A 90% Interval\nWhat is the middle 90% of the sampled averages?\n\n\nHow’s that done?\n(ResQ &lt;- quantile(WH.Means$Mean.Expenditure, probs = c(0.05, 0.95)))\n\n\n   5%   95% \n16854 19262 \n\n\nHow’s that done?\nResQD &lt;- data.frame(ResQ = ResQ, Height2 = 0.00005)"
+  },
+  {
+    "objectID": "posts/week-10/index.html#a-cowplot-without-proper-scaling",
+    "href": "posts/week-10/index.html#a-cowplot-without-proper-scaling",
+    "title": "Inference",
+    "section": "A Cowplot without Proper Scaling",
+    "text": "A Cowplot without Proper Scaling"
+  },
+  {
+    "objectID": "posts/week-10/index.html#a-decent-visualization",
+    "href": "posts/week-10/index.html#a-decent-visualization",
+    "title": "Inference",
+    "section": "A Decent Visualization",
+    "text": "A Decent Visualization\n\n\nHow’s that done?\nBasePlot + geom_area(data = ResQD, aes(x = ResQ, y = Height2), fill = \"blue\",\n    color = \"blue\", alpha = 0.2, outline.type = \"full\")"
+  },
+  {
+    "objectID": "posts/week-10/index.html#a-parametric-alternative",
+    "href": "posts/week-10/index.html#a-parametric-alternative",
+    "title": "Inference",
+    "section": "A Parametric Alternative",
+    "text": "A Parametric Alternative\nUnder general conditions, the sample and population mean can be described by the \\(t_{df}\\) distribution with a single parameter – degrees of freedom [df] – and metric standard errors of the mean: \\(\\frac{s}{\\sqrt{n}}\\) as follows:\n\\[ t_{df} = \\frac{\\overline{x} - \\mu}{\\frac{s}{\\sqrt{n}}} \\]\nGiven any observed sample of data, only two features of the aforementioned equation remain unknown: \\(\\mu\\) – the true mean – and \\(t_{df}\\). Solving for \\(\\mu\\) yields:\n\\[ \\mu = \\overline{x} - t_{df} \\cdot \\left( \\frac{s}{\\sqrt{n}} \\right) \\]"
+  },
+  {
+    "objectID": "posts/week-10/index.html#putting-it-to-work",
+    "href": "posts/week-10/index.html#putting-it-to-work",
+    "title": "Inference",
+    "section": "Putting It To Work",
+    "text": "Putting It To Work\n\n\nHow’s that done?\n(Summaries &lt;- WH %&gt;%\n    summarise(Exp.Mean = mean(Expenditures), Exp.SD = sd(Expenditures), Count = n()))\n\n\n  Exp.Mean Exp.SD Count\n1    18101  19580   777\n\n\nHow’s that done?\nWH %$%\n    t.test(Expenditures, conf.level = 0.9)  #&lt;&lt;\n\n\n\n    One Sample t-test\n\ndata:  Expenditures\nt = 26, df = 776, p-value &lt;2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 16944 19258\nsample estimates:\nmean of x \n    18101 \n\n\nWith 90% confidence, average expenditures [for White not Hispanic and Hispanic] range between 16944 and 19258 dollars per DDS client."
+  },
+  {
+    "objectID": "posts/week-10/index.html#disparities-in-expenditures",
+    "href": "posts/week-10/index.html#disparities-in-expenditures",
+    "title": "Inference",
+    "section": "Disparities in Expenditures?",
+    "text": "Disparities in Expenditures?\n\n\nHow’s that done?\nggplot(WH, aes(x = Ethnicity, y = Expenditures, fill = Ethnicity)) + geom_violin() +\n    theme_ipsum_rc()"
+  },
+  {
+    "objectID": "posts/week-10/index.html#two-groups",
+    "href": "posts/week-10/index.html#two-groups",
+    "title": "Inference",
+    "section": "Two Groups?",
+    "text": "Two Groups?\n\n\n\n\nHow’s that done?\nWH %&gt;%\n    filter(Ethnicity == \"White not Hispanic\") %$%\n    t.test(Expenditures, conf.level = 0.9)\n\n\n\n    One Sample t-test\n\ndata:  Expenditures\nt = 24, df = 400, p-value &lt;2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 23001 26394\nsample estimates:\nmean of x \n    24698 \n\n\n\n\n\nHow’s that done?\nWH %&gt;%\n    filter(Ethnicity == \"Hispanic\") %$%\n    t.test(Expenditures, conf.level = 0.9)\n\n\n\n    One Sample t-test\n\ndata:  Expenditures\nt = 14, df = 375, p-value &lt;2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n  9736 12395\nsample estimates:\nmean of x \n    11066"
+  },
+  {
+    "objectID": "posts/week-10/index.html#comparing-means",
+    "href": "posts/week-10/index.html#comparing-means",
+    "title": "Inference",
+    "section": "Comparing Means",
+    "text": "Comparing Means\nThere are two [generic] ways to compare means:\n1. The resampling approach\n2. t-tests"
+  },
+  {
+    "objectID": "posts/week-10/index.html#comparing-means-by-resampling",
+    "href": "posts/week-10/index.html#comparing-means-by-resampling",
+    "title": "Inference",
+    "section": "Comparing Means by Resampling",
+    "text": "Comparing Means by Resampling\nThe method is similar to the approach for comparing proportions. We will:\n1. Take a random sample of the same size as the original for each group with replacement.\n2. Calculate the average for each group and the difference in the averages.\n3. Repeat steps 1 and 2 \\(k\\) times for \\(k\\) samples."
+  },
+  {
+    "objectID": "posts/week-10/index.html#the-resampling-distribution-of-the-difference",
+    "href": "posts/week-10/index.html#the-resampling-distribution-of-the-difference",
+    "title": "Inference",
+    "section": "The Resampling Distribution of the Difference",
+    "text": "The Resampling Distribution of the Difference\n\n\nHow’s that done?\nWNHExp &lt;- Discrimination %&gt;%\n    filter(Ethnicity %in% c(\"White not Hispanic\"))\nHExp &lt;- Discrimination %&gt;%\n    filter(Ethnicity %in% c(\"Hispanic\"))\nExpenditure.Difference &lt;- data.frame(Diff = ResampleProps::ResampleDiffMeans(WNHExp$Expenditures,\n    HExp$Expenditures))\nExpenditure.Difference %&gt;%\n    ggplot(., aes(x = Diff)) + geom_density() + theme_minimal() + labs(x = \"Average Difference in Average White and Hispanic Expenditures\")"
+  },
+  {
+    "objectID": "posts/week-10/index.html#the-t-test",
+    "href": "posts/week-10/index.html#the-t-test",
+    "title": "Inference",
+    "section": "The t-test",
+    "text": "The t-test\nFor independent samples, the Behrens-Fisher problem dictates that comparisons of means have implications for the variance that must be reconciled. In short, we must assume that the variance and standard deviation of the samples are either the same [t] or different [Welch – the default].\nIn Welch’s case, the standard error is given by:\n\\[s_{\\overline{x_{1}} - \\overline{x_{2}}} = \\sqrt{\\frac{s^{2}_{1}}{n_{1}} + \\frac{s^{2}_{2}}{n_{2}}}\\] though the degrees of freedom follow a formula that involves the kurtosis of the samples [\\(s^{4}\\)].\n\n\n\nHow’s that done?\nDiscrimination %&gt;%\n    filter(Ethnicity %in% c(\"White not Hispanic\", \"Hispanic\")) %&gt;%\n    t.test(Expenditures ~ Ethnicity, data = ., conf.lev = 0.9)\n\n\n\n    Welch Two Sample t-test\n\ndata:  Expenditures by Ethnicity\nt = -10, df = 743, p-value &lt;2e-16\nalternative hypothesis: true difference in means between group Hispanic and group White not Hispanic is not equal to 0\n90 percent confidence interval:\n -15785 -11479\nsample estimates:\n          mean in group Hispanic mean in group White not Hispanic \n                           11066                            24698 \n\n\n\n\n\nHow’s that done?\nDiscrimination %&gt;%\n    filter(Ethnicity %in% c(\"White not Hispanic\", \"Hispanic\")) %&gt;%\n    t.test(Expenditures ~ Ethnicity, data = ., conf.lev = 0.9, var.equal = TRUE)\n\n\n\n    Two Sample t-test\n\ndata:  Expenditures by Ethnicity\nt = -10, df = 775, p-value &lt;2e-16\nalternative hypothesis: true difference in means between group Hispanic and group White not Hispanic is not equal to 0\n90 percent confidence interval:\n -15803 -11461\nsample estimates:\n          mean in group Hispanic mean in group White not Hispanic \n                           11066                            24698"
+  },
+  {
+    "objectID": "posts/week-10/index.html#paired-t-test",
+    "href": "posts/week-10/index.html#paired-t-test",
+    "title": "Inference",
+    "section": "Paired t-test",
+    "text": "Paired t-test\n\nTwinsberg\nThe paired t-test is a single sample average applied to the measured difference. The key is knowing who is matched with whom and believing that there is at least some variation in both outcomes that depends on the unit in question.\nThere is a linguistic distinction; this is an average difference instead of the previous difference in averages. The language describes the order of operation. For the paired comparison, I must know what to subtract from what.\nTake the example of Concrete.\n\nTwelve distinct batches of concrete are subjected to an additive. Does the additive strengthen concrete?\n\n\nHow’s that done?\nConcrete %&gt;%\n    datatable()"
+  },
+  {
+    "objectID": "posts/week-10/index.html#the-average-difference",
+    "href": "posts/week-10/index.html#the-average-difference",
+    "title": "Inference",
+    "section": "The Average Difference",
+    "text": "The Average Difference\nFor each batch, we can calculate the difference between those with and without an additive. To do so, we need mutate. Let’s plot it.\n\n\nHow’s that done?\nConcrete &lt;- Concrete %&gt;%\n    mutate(Difference = Additive - No.Add)\nhist(Concrete$Difference)"
+  },
+  {
+    "objectID": "posts/week-10/index.html#resampling",
+    "href": "posts/week-10/index.html#resampling",
+    "title": "Inference",
+    "section": "Resampling",
+    "text": "Resampling\n\n\nHow’s that done?\nConcrete.Diff &lt;- data.frame(Sampled.Mean.Difference = ResampleMean(Concrete$Difference))\nquantile(Concrete.Diff$Sampled.Mean.Difference, probs = c(0.025, 0.975))\n\n\n 2.5% 97.5% \n 54.2 262.5"
+  },
+  {
+    "objectID": "posts/week-10/index.html#graphic",
+    "href": "posts/week-10/index.html#graphic",
+    "title": "Inference",
+    "section": "Graphic",
+    "text": "Graphic\n\n\nHow’s that done?\nConcrete.Diff %&gt;%\n    ggplot() + aes(x = Sampled.Mean.Difference) + geom_density() + theme_ipsum_rc()"
+  },
+  {
+    "objectID": "posts/week-10/index.html#t-test",
+    "href": "posts/week-10/index.html#t-test",
+    "title": "Inference",
+    "section": "t-test",
+    "text": "t-test\n\n\nHow’s that done?\nt.test(Concrete$Difference)\n\n\n\n    One Sample t-test\n\ndata:  Concrete$Difference\nt = 3, df = 11, p-value = 0.01\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n  37.3 279.4\nsample estimates:\nmean of x \n      158 \n\n\nWith 95% confidence, the additive increases the average break-weight of the concrete by 37.3 to 279.4 pounds."
+  },
+  {
+    "objectID": "posts/week-10/index.html#code-summary",
+    "href": "posts/week-10/index.html#code-summary",
+    "title": "Inference",
+    "section": "Code Summary",
+    "text": "Code Summary\n\n\n\nDiscrete\nFor one proportion:\n\nResampleProps::ResampleProp(vec.data, k=1000, tab.col=1)\nbinom.test(x, n, alternative=\"?\", p=0.5, conf.level=0.95)\nprop.test(x, n, alternative=\"?\", p=0.5, conf.level=0.95, correct=TRUE)\n\nFor two proportions:\n\nprop.test(x=c(10,20), n=c(50, 50), alternative=\"?\", p=0.5, conf.level=0.95, correct=TRUE)\n\n\n\n\nQuantities\nFor one mean:\n\nResampleMeans::ResampleMean(vec.data, k=1000)\nt.test(x, alternative=\"?\", mu=0, conf.level=0.95)\n\nFor two means:\n\nResampleDiffMeans(vec.1, vec.2, k=1000)\nTwo types:\n\nIndependent: t.test(x, y, alternative=\"?\", mu=0, conf.level=0.95, paired=FALSE, var.equal=FALSE)\nPaired: t.test(x, y, alternative=\"?\", mu=0, conf.level=0.95, paired=TRUE)\n\n\n\n\n\n```"
+  },
+  {
+    "objectID": "posts/week-10/index.html#footnotes",
+    "href": "posts/week-10/index.html#footnotes",
+    "title": "Inference",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nWhich will itself be a probability measure.↩︎\nWhich will itself be a probability measure.↩︎\nIf this does not hold, we will seek the homogenous groups in which it does.↩︎\nWe probably think this depends on a bunch of applicant specific features but we will put that to the side for now.↩︎"
   }
 ]
