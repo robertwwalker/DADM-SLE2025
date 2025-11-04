@@ -1,15 +1,13 @@
 ---
-title: "Inference: Quantities"
+title: "Inference"
 subtitle: "Linking Probability and Data"  
 author: "Robert  W. Walker"
-date: "2025-11-04"
+date: "2025-10-28"
 ---
 
 A link to the slides for the day.
 
 [Slides](https://robertwwalker.github.io/DADM-SLE2025/slides/week-10/index.html)
-
-Last week was discrete inference; this is week is numerical.
 
 Two links:
 
