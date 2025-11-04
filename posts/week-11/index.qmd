@@ -1,18 +1,20 @@
 ---
-title: "Inference"
+title: "Inference: Quantities"
 subtitle: "Linking Probability and Data"  
 author: "Robert  W. Walker"
-date: "2025-10-28"
+date: "2025-11-04"
 ---
 
 A link to the slides for the day.
 
 [Slides](https://robertwwalker.github.io/DADM-SLE2025/slides/week-10/index.html)
 
+Last week was discrete inference; this is week is numerical.
+
 Two links:
 
-- [Kant and Pearl](https://x.com/soboleffspaces/status/1979988518442311749?s=46)
-- [Worries about Agentic AI](https://x.com/brave/status/1980667345317286293?s=46)
+- [On the Firm Impacts of AI](https://x.com/jasonfurman/status/1985825428238676422?s=46)
+
 
 
 # Inference of Two Types: Binary and Numeric
