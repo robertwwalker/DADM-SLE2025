@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Robert W. Walker">
+<meta name="dcterms.date" content="2025-11-11">
 
-<title>DADM-SLE2025 – DADM for Professionals 2025: SLE</title>
+<title>Squares and Black Boxes – DADM for Professionals 2025: SLE</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2890eba573baac25c3e9f0f9d94fc55f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-2890eba573baac25c3e9f0f9d94fc55f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,79 +70,21 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
+<link rel="stylesheet" href="../../styles.css">
+</head>
 
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="DADM for Professionals 2025: SLE" href="index.xml" data-external="1"></head>
-
-<body class="nav-sidebar floating nav-fixed quarto-light">
+<body class="nav-sidebar floating nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">DADM for Professionals 2025: SLE</span>
     </a>
   </div>
@@ -153,7 +95,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -177,7 +119,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">DADM-SLE2025</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Squares and Black Boxes</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -187,24 +129,37 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">DADM-SLE2025</h1>
+      <h1 class="title">Squares and Black Boxes</h1>
+            <p class="subtitle lead">Covariance Structures</p>
                       </div>
   </div>
     
   
-  <div class="quarto-title-meta column-body">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Robert W. Walker </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">November 11, 2025</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
-      <a href="./index.html" class="sidebar-logo-link">
+      <a href="../../index.html" class="sidebar-logo-link">
       </a>
       </div>
     <div class="sidebar-menu-container"> 
@@ -220,43 +175,43 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slides/dadm-gstw2/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../slides/dadm-gstw2/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Evidence, Visualization, and Biases</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slides/dadmp-gstw1/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../slides/dadmp-gstw1/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Evidence, Visualization, and Biases</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slides/dadmp25-w3/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../slides/dadmp25-w3/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data and Summary</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slides/dadmp25-w4/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../slides/dadmp25-w4/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Probability and Visualization</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slides/week-10/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../slides/week-10/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Inference</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slides/week-8/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../slides/week-8/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Global Strategic Trends: Evaluaton and Articulation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slides/week-9/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../slides/week-9/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Probability Distributions</span></a>
   </div>
 </li>
@@ -267,417 +222,20 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(14)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-body" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<p>A link to the slides for the day.</p>
+<p><a href="https://robertwwalker.github.io/DADM-SLE2025/slides/week-11/index.html">Slides</a></p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1762848000000" data-listing-file-modified-sort="1762904571744" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
-<div class="thumbnail"><a href="./posts/week-12/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/week-12/index.html" class="no-external">Squares and Black Boxes</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/week-12/index.html" class="no-external">Covariance Structures</a>
-</div>
-<div class="delink listing-description"><a href="./posts/week-12/index.html" class="no-external">
-A link to the slides for the day.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/week-12/index.html" class="no-external">
-<div class="listing-date">
-Nov 11, 2025
-</div>
-<div class="listing-author">
-Robert W. Walker
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1762243200000" data-listing-file-modified-sort="1762298336919" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1132">
-<div class="thumbnail"><a href="./posts/inference/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/inference/index.html" class="no-external">Inference: Gaming Devices</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/inference/index.html" class="no-external">Linking Probability and Data</a>
-</div>
-<div class="delink listing-description"><a href="./posts/inference/index.html" class="no-external">
-A leading supplier of machines for the gaming industry is considering a change in production methods. Video gambling is a multi-billion dollar industry and this leading…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/inference/index.html" class="no-external">
-<div class="listing-date">
-Nov 4, 2025
-</div>
-<div class="listing-author">
-Robert W. Walker
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1762243200000" data-listing-file-modified-sort="1762904621868" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="20" data-listing-word-count-sort="3969">
-<div class="thumbnail"><a href="./posts/week-11/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/week-11/index_files/figure-html/unnamed-chunk-5-1.svg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/week-11/index.html" class="no-external">Inference: Quantities</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/week-11/index.html" class="no-external">Linking Probability and Data</a>
-</div>
-<div class="delink listing-description"><a href="./posts/week-11/index.html" class="no-external">
-A link to the slides for the day.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/week-11/index.html" class="no-external">
-<div class="listing-date">
-Nov 4, 2025
-</div>
-<div class="listing-author">
-Robert W. Walker
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1761634800000" data-listing-file-modified-sort="1762294696125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="20" data-listing-word-count-sort="3924">
-<div class="thumbnail"><a href="./posts/week-10/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/week-10/index_files/figure-html/unnamed-chunk-5-1.svg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/week-10/index.html" class="no-external">Inference: Discrete Data</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/week-10/index.html" class="no-external">Linking Probability and Data</a>
-</div>
-<div class="delink listing-description"><a href="./posts/week-10/index.html" class="no-external">
-A link to the slides for the day.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/week-10/index.html" class="no-external">
-<div class="listing-date">
-Oct 28, 2025
-</div>
-<div class="listing-author">
-Robert W. Walker
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1761202800000" data-listing-file-modified-sort="1761262956000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18" data-listing-word-count-sort="3467">
-<div class="thumbnail"><a href="./posts/ProbDataHW/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/ProbDataHW/index_files/figure-html/unnamed-chunk-19-1.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/ProbDataHW/index.html" class="no-external">A Solution for Probability and Data Homework</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/ProbDataHW/index.html" class="no-external"></a>
-</div>
-<div class="delink listing-description"><a href="./posts/ProbDataHW/index.html" class="no-external">
-The document can be directly linked in a Tufte book form.. The quarto rendering here is not perfect.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/ProbDataHW/index.html" class="no-external">
-<div class="listing-date">
-Oct 23, 2025
-</div>
-<div class="listing-author">
-Robert W. Walker
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1761030000000" data-listing-file-modified-sort="1761262920000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3113">
-<div class="thumbnail"><a href="./posts/week-9/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/week-9/index_files/figure-html/P1-1.svg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/week-9/index.html" class="no-external">Probability Distributions</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/week-9/index.html" class="no-external">Linking Probability and Data</a>
-</div>
-<div class="delink listing-description"><a href="./posts/week-9/index.html" class="no-external">
-A link to the slides for the day.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/week-9/index.html" class="no-external">
-<div class="listing-date">
-Oct 21, 2025
-</div>
-<div class="listing-author">
-Robert W. Walker
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1760425200000" data-listing-file-modified-sort="1761262931000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
-<div class="thumbnail"><a href="./posts/week-8/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/week-8/index.html" class="no-external">Week 8: SLE</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/week-8/index.html" class="no-external"></a>
-</div>
-<div class="delink listing-description"><a href="./posts/week-8/index.html" class="no-external">
-A link to the slides for the day.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/week-8/index.html" class="no-external">
-<div class="listing-date">
-Oct 14, 2025
-</div>
-<div class="listing-author">
-Robert W. Walker
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1759215600000" data-listing-file-modified-sort="1761262904000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
-<div class="thumbnail"><a href="./posts/week-6/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/week-6/index.html" class="no-external">Week 6: SLE</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/week-6/index.html" class="no-external"></a>
-</div>
-<div class="delink listing-description"><a href="./posts/week-6/index.html" class="no-external">
-A link to the slides for the day.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/week-6/index.html" class="no-external">
-<div class="listing-date">
-Sep 30, 2025
-</div>
-<div class="listing-author">
-Robert W. Walker
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1758783600000" data-listing-file-modified-sort="1761263014000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3230">
-<div class="thumbnail"><a href="./posts/eurostat-gemini/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/eurostat-gemini/index_files/figure-html/unnamed-chunk-4-1.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/eurostat-gemini/index.html" class="no-external">Gemini gets Eurostat Data</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/eurostat-gemini/index.html" class="no-external"></a>
-</div>
-<div class="delink listing-description"><a href="./posts/eurostat-gemini/index.html" class="no-external">
-Google gemini is a part of the educational workspaces that the university contracts from Google. This gives us free access to gemini. Let’s see what it can do.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/eurostat-gemini/index.html" class="no-external">
-<div class="listing-date">
-Sep 25, 2025
-</div>
-<div class="listing-author">
-Robert W. Walker
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1758783600000" data-listing-file-modified-sort="1761263029000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2764">
-<div class="thumbnail"><a href="./posts/food-famine/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/food-famine/img/IPCMap.png" alt="IPC Map"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/food-famine/index.html" class="no-external">Gemini for Data on Hunger</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/food-famine/index.html" class="no-external"></a>
-</div>
-<div class="delink listing-description"><a href="./posts/food-famine/index.html" class="no-external">
-Can you provide R code to acquire data from a reputable source about cross-national food insecurity, famine likelihood, and related starvation and malnutrition risk for…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/food-famine/index.html" class="no-external">
-<div class="listing-date">
-Sep 25, 2025
-</div>
-<div class="listing-author">
-Robert W. Walker
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="10" data-listing-date-sort="1758697200000" data-listing-file-modified-sort="1760476142406" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="172">
-<div class="thumbnail"><a href="./posts/causality/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/causality/index.html" class="no-external">On Causality</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/causality/index.html" class="no-external"></a>
-</div>
-<div class="delink listing-description"><a href="./posts/causality/index.html" class="no-external">
-On Causality Causation is at the heart of the highest order human reasoning. Doing so with data is an objective if not an end result of modern fascination with machine…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/causality/index.html" class="no-external">
-<div class="listing-date">
-Sep 24, 2025
-</div>
-<div class="listing-author">
-Robert W. Walker
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="11" data-listing-date-sort="1758178800000" data-listing-file-modified-sort="1761262896000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="21" data-listing-word-count-sort="4134">
-<div class="thumbnail"><a href="./posts/Mapmaker/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/Mapmaker/index_files/figure-html/unnamed-chunk-2-1.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Mapmaker/index.html" class="no-external">Happiness and Maps</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/Mapmaker/index.html" class="no-external"></a>
-</div>
-<div class="delink listing-description"><a href="./posts/Mapmaker/index.html" class="no-external">
-There’s the data. Now for esquisse…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/Mapmaker/index.html" class="no-external">
-<div class="listing-date">
-Sep 18, 2025
-</div>
-<div class="listing-author">
-Robert W. Walker
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="12" data-listing-date-sort="1758092400000" data-listing-file-modified-sort="1761262992000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="55">
-<div class="thumbnail"><a href="./posts/esquisse/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/esquisse/img/DataS.png" alt="Admit"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/esquisse/index.html" class="no-external">Esquisse</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/esquisse/index.html" class="no-external"></a>
-</div>
-<div class="delink listing-description"><a href="./posts/esquisse/index.html" class="no-external">
-To start esquisse, it is best to issue <code>esquisse::esquisser(viewer="browser")</code>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/esquisse/index.html" class="no-external">
-<div class="listing-date">
-Sep 17, 2025
-</div>
-<div class="listing-author">
-Robert W. Walker
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="13" data-listing-date-sort="1758006000000" data-listing-file-modified-sort="1761262968000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="539">
-<div class="thumbnail"><a href="./posts/joins/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/joins/index.html" class="no-external">Notes on Joins</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/joins/index.html" class="no-external"></a>
-</div>
-<div class="delink listing-description"><a href="./posts/joins/index.html" class="no-external">
-One on heroes.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/joins/index.html" class="no-external">
-<div class="listing-date">
-Sep 16, 2025
-</div>
-<div class="listing-author">
-Robert W. Walker
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
