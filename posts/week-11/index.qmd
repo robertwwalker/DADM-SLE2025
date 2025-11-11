@@ -1,8 +1,8 @@
 ---
-title: "Inference: Quantities"
-subtitle: "Linking Probability and Data"  
+title: "Squares and Black Boxes"
+subtitle: "Covariance Structures"  
 author: "Robert  W. Walker"
-date: "2025-11-04"
+date: "2025-11-11"
 ---
 
 A link to the slides for the day.

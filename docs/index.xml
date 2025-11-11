@@ -10,7 +10,26 @@
 <atom:link href="https://robertwwalker.github.io/DADM-SLE2025/index.xml" rel="self" type="application/rss+xml"/>
 <description>Data Analysis, Modelling, and Decision Making</description>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Tue, 04 Nov 2025 08:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 11 Nov 2025 08:00:00 GMT</lastBuildDate>
+<item>
+  <title>Squares and Black Boxes</title>
+  <dc:creator>Robert  W. Walker</dc:creator>
+  <link>https://robertwwalker.github.io/DADM-SLE2025/posts/week-11/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>A link to the slides for the day.</p>
+<p><a href="https://robertwwalker.github.io/DADM-SLE2025/slides/week-11/index.html">Slides</a></p>
+
+
+
+ ]]></description>
+  <guid>https://robertwwalker.github.io/DADM-SLE2025/posts/week-11/</guid>
+  <pubDate>Tue, 11 Nov 2025 08:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Inference: Gaming Devices</title>
   <dc:creator>Robert W. Walker</dc:creator>
@@ -90,25 +109,6 @@
 
  ]]></description>
   <guid>https://robertwwalker.github.io/DADM-SLE2025/posts/inference/</guid>
-  <pubDate>Tue, 04 Nov 2025 08:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Inference: Quantities</title>
-  <dc:creator>Robert  W. Walker</dc:creator>
-  <link>https://robertwwalker.github.io/DADM-SLE2025/posts/week-11/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>A link to the slides for the day.</p>
-<p><a href="https://robertwwalker.github.io/DADM-SLE2025/slides/week-11/index.html">Slides</a></p>
-
-
-
- ]]></description>
-  <guid>https://robertwwalker.github.io/DADM-SLE2025/posts/week-11/</guid>
   <pubDate>Tue, 04 Nov 2025 08:00:00 GMT</pubDate>
 </item>
 <item>
