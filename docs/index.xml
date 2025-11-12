@@ -23,6 +23,184 @@
 
 <p>A link to the slides for the day.</p>
 <p><a href="https://robertwwalker.github.io/AllAboutSquares/index.html">Slides</a></p>
+<p>The most important piece of code.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">load</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">url</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"https://github.com/robertwwalker/DADMStuff/raw/master/RegressionExamples.RData"</span>))</span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(radiant)</span></code></pre></div></div>
+</details>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: radiant.data</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: magrittr</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: ggplot2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: lubridate</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'lubridate'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: tidyr</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'tidyr'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following object is masked from 'package:magrittr':
+
+    extract</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: dplyr</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'dplyr'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:stats':
+
+    filter, lag</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'radiant.data'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:lubridate':
+
+    month, wday</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following object is masked from 'package:ggplot2':
+
+    diamonds</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following object is masked from 'package:magrittr':
+
+    set_attr</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following object is masked from 'package:base':
+
+    date</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: radiant.design</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: radiant.basics</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: radiant.model</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: radiant.multivariate</code></pre>
+</div>
+<details class="code-fold">
+<summary>How’s that done?</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1">result <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">regress</span>(</span>
+<span id="cb24-2">  EPL, </span>
+<span id="cb24-3">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">rvar =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Points"</span>, </span>
+<span id="cb24-4">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">evar =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Wage.Bill.milGBP"</span></span>
+<span id="cb24-5">)</span>
+<span id="cb24-6"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">summary</span>(result)</span></code></pre></div></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Linear regression (OLS)
+Data     : EPL 
+Response variable    : Points 
+Explanatory variables: Wage.Bill.milGBP 
+Null hyp.: the effect of Wage.Bill.milGBP on Points is zero
+Alt. hyp.: the effect of Wage.Bill.milGBP on Points is not zero
+
+                  coefficient std.error t.value p.value    
+ (Intercept)           32.116     2.749  11.683  &lt; .001 ***
+ Wage.Bill.milGBP       0.240     0.030   8.042  &lt; .001 ***
+
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+R-squared: 0.782,  Adjusted R-squared: 0.77 
+F-statistic: 64.675 df(1,18), p.value &lt; .001
+Nr obs: 20 </code></pre>
+</div>
+<details class="code-fold">
+<summary>How’s that done?</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(gvlma)</span>
+<span id="cb26-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">gvlma</span>(result<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>model)</span></code></pre></div></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = form_upper, data = dataset)
+
+Coefficients:
+     (Intercept)  Wage.Bill.milGBP  
+         32.1159            0.2402  
+
+
+ASSESSMENT OF THE LINEAR MODEL ASSUMPTIONS
+USING THE GLOBAL TEST ON 4 DEGREES-OF-FREEDOM:
+Level of Significance =  0.05 
+
+Call:
+ gvlma(x = result$model) 
+
+                    Value p-value                Decision
+Global Stat        4.8001 0.30843 Assumptions acceptable.
+Skewness           0.2378 0.62583 Assumptions acceptable.
+Kurtosis           0.1547 0.69412 Assumptions acceptable.
+Link Function      1.5649 0.21096 Assumptions acceptable.
+Heteroscedasticity 2.8428 0.09178 Assumptions acceptable.</code></pre>
+</div>
+</div>
 
 
 

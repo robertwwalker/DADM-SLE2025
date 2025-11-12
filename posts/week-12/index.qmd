@@ -9,4 +9,20 @@ A link to the slides for the day.
 
 [Slides](https://robertwwalker.github.io/AllAboutSquares/index.html)
 
+The most important piece of code.
+
+```{r}
+load(url("https://github.com/robertwwalker/DADMStuff/raw/master/RegressionExamples.RData"))
+library(radiant)
+result <- regress(
+  EPL, 
+  rvar = "Points", 
+  evar = "Wage.Bill.milGBP"
+)
+summary(result)
+library(gvlma)
+gvlma(result$model)
+```
+
+
 
