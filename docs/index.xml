@@ -9,7 +9,7 @@
 <link>https://robertwwalker.github.io/DADM-SLE2025/</link>
 <atom:link href="https://robertwwalker.github.io/DADM-SLE2025/index.xml" rel="self" type="application/rss+xml"/>
 <description>Data Analysis, Modelling, and Decision Making</description>
-<generator>quarto-1.8.25</generator>
+<generator>quarto-1.8.24</generator>
 <lastBuildDate>Tue, 11 Nov 2025 08:00:00 GMT</lastBuildDate>
 <item>
   <title>Squares and Black Boxes</title>
@@ -206,6 +206,144 @@ Heteroscedasticity 2.8428 0.09178 Assumptions acceptable.</code></pre>
 
  ]]></description>
   <guid>https://robertwwalker.github.io/DADM-SLE2025/posts/week-12/</guid>
+  <pubDate>Tue, 11 Nov 2025 08:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Squares Scale</title>
+  <dc:creator>Robert  W. Walker</dc:creator>
+  <link>https://robertwwalker.github.io/DADM-SLE2025/posts/week-13/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>A link to the slides for the day.</p>
+<p><a href="https://robertwwalker.github.io/SLE2025/slides/MultReg/index.html">Slides</a></p>
+<section id="gvlma" class="level2">
+<h2 class="anchored" data-anchor-id="gvlma"><code>gvlma</code></h2>
+<p>The most important piece of code.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>How’s that done?</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">load</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">url</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"https://github.com/robertwwalker/DADMStuff/raw/master/RegressionExamples.RData"</span>))</span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(radiant)</span>
+<span id="cb1-3">result <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">regress</span>(</span>
+<span id="cb1-4">  EPL, </span>
+<span id="cb1-5">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">rvar =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Points"</span>, </span>
+<span id="cb1-6">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">evar =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Wage.Bill.milGBP"</span></span>
+<span id="cb1-7">)</span>
+<span id="cb1-8"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">summary</span>(result)</span></code></pre></div></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Linear regression (OLS)
+Data     : EPL 
+Response variable    : Points 
+Explanatory variables: Wage.Bill.milGBP 
+Null hyp.: the effect of Wage.Bill.milGBP on Points is zero
+Alt. hyp.: the effect of Wage.Bill.milGBP on Points is not zero
+
+                  coefficient std.error t.value p.value    
+ (Intercept)           32.116     2.749  11.683  &lt; .001 ***
+ Wage.Bill.milGBP       0.240     0.030   8.042  &lt; .001 ***
+
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+R-squared: 0.782,  Adjusted R-squared: 0.77 
+F-statistic: 64.675 df(1,18), p.value &lt; .001
+Nr obs: 20 </code></pre>
+</div>
+<details class="code-fold">
+<summary>How’s that done?</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(gvlma)</span>
+<span id="cb3-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">gvlma</span>(result<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>model)</span></code></pre></div></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = form_upper, data = dataset)
+
+Coefficients:
+     (Intercept)  Wage.Bill.milGBP  
+         32.1159            0.2402  
+
+
+ASSESSMENT OF THE LINEAR MODEL ASSUMPTIONS
+USING THE GLOBAL TEST ON 4 DEGREES-OF-FREEDOM:
+Level of Significance =  0.05 
+
+Call:
+ gvlma(x = result$model) 
+
+                    Value p-value                Decision
+Global Stat        4.8001 0.30843 Assumptions acceptable.
+Skewness           0.2378 0.62583 Assumptions acceptable.
+Kurtosis           0.1547 0.69412 Assumptions acceptable.
+Link Function      1.5649 0.21096 Assumptions acceptable.
+Heteroscedasticity 2.8428 0.09178 Assumptions acceptable.</code></pre>
+</div>
+</div>
+</section>
+<section id="the-death-of-online-surveys" class="level2">
+<h2 class="anchored" data-anchor-id="the-death-of-online-surveys">The Death of Online Surveys</h2>
+<ul>
+<li><a href="https://x.com/seanjwestwood/status/1990859738993865173?s=46">PNAS</a></li>
+</ul>
+</section>
+<section id="measuring-ai-and-water" class="level2">
+<h2 class="anchored" data-anchor-id="measuring-ai-and-water">Measuring AI and Water</h2>
+<ul>
+<li><a href="https://x.com/_karenhao/status/1990791958726652297?s=46">Empire of AI</a></li>
+</ul>
+</section>
+<section id="returns-to-ai" class="level2">
+<h2 class="anchored" data-anchor-id="returns-to-ai">Returns to AI?</h2>
+<ul>
+<li><a href="https://www.newyorker.com/news/the-financial-page/the-ai-profits-drought-and-the-lessons-of-history">New Yorker</a></li>
+</ul>
+</section>
+<section id="the-squares-criterion-is-broadly-applied." class="level2">
+<h2 class="anchored" data-anchor-id="the-squares-criterion-is-broadly-applied.">The squares criterion is broadly applied.</h2>
+<ul>
+<li><p>Principal components derives the variable that accounts for the maximum variation in the collection of variables under study.</p></li>
+<li><p>Regression trees split continuous variables into groupings with minimal variation in the outcomes.</p></li>
+<li><p>Clustering identifies variance reducing groups in multidimensional data.</p></li>
+</ul>
+<p>Each of these falls under the general guise of machine learning along with the principle of training and testing on data.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://robertwwalker.github.io/DADM-SLE2025/posts/week-13/</guid>
   <pubDate>Tue, 11 Nov 2025 08:00:00 GMT</pubDate>
 </item>
 <item>

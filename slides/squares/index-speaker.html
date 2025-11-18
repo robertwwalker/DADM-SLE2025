@@ -1,0 +1,1513 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.25">
+
+  <meta name="author" content="Robert W. Walker">
+  <meta name="dcterms.date" content="2025-11-12">
+  <title>DADM for Professionals 2025: SLE – All About Squares</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-f014dc3dc5ae2da297011b8cb3877edb.css">
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
+  <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+  <link href="../../site_libs/htmltools-fill/fill.css" rel="stylesheet">
+  <script src="../../site_libs/htmlwidgets/htmlwidgets.js"></script>
+  <script src="../../site_libs/plotly-binding/plotly.js"></script>
+  <script src="../../site_libs/typedarray/typedarray.min.js"></script>
+  <script src="../../site_libs/jquery/jquery.min.js"></script>
+  <link href="../../site_libs/crosstalk/css/crosstalk.min.css" rel="stylesheet">
+  <script src="../../site_libs/crosstalk/js/crosstalk.min.js"></script>
+  <link href="../../site_libs/plotly-htmlwidgets-css/plotly-htmlwidgets.css" rel="stylesheet">
+  <script src="../../site_libs/plotly-main/plotly-latest.min.js"></script>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">All About Squares</h1>
+  <p class="subtitle">Unpacking the Black Box</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Robert W. Walker 
+</div>
+</div>
+</div>
+
+  <p class="date">2025-11-12</p>
+</section>
+<section>
+<section id="section" class="title-slide slide level1 center" data-background-image="img/SquaresBG.jpg">
+<h1></h1>
+<p>–</p>
+
+<img data-src="img/bbox.png" class="r-stretch quarto-figure-center"><p class="caption">Black Box Technology</p></section>
+<section id="summary-statistics-are-insufficient" class="slide level2">
+<h2>Summary Statistics are Insufficient</h2>
+<div class="columns">
+<div class="column" style="width:20%;">
+
+</div><div class="column" style="width:80%;">
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">dataset</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Mean.x</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Std.Dev.x</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Mean.y</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Std.Dev.y</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">away</td>
+<td style="text-align: right;">54.26610</td>
+<td style="text-align: right;">16.76983</td>
+<td style="text-align: right;">47.83472</td>
+<td style="text-align: right;">26.93974</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">bullseye</td>
+<td style="text-align: right;">54.26873</td>
+<td style="text-align: right;">16.76924</td>
+<td style="text-align: right;">47.83082</td>
+<td style="text-align: right;">26.93573</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">circle</td>
+<td style="text-align: right;">54.26732</td>
+<td style="text-align: right;">16.76001</td>
+<td style="text-align: right;">47.83772</td>
+<td style="text-align: right;">26.93004</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">dino</td>
+<td style="text-align: right;">54.26327</td>
+<td style="text-align: right;">16.76514</td>
+<td style="text-align: right;">47.83225</td>
+<td style="text-align: right;">26.93540</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">dots</td>
+<td style="text-align: right;">54.26030</td>
+<td style="text-align: right;">16.76774</td>
+<td style="text-align: right;">47.83983</td>
+<td style="text-align: right;">26.93019</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">h_lines</td>
+<td style="text-align: right;">54.26144</td>
+<td style="text-align: right;">16.76590</td>
+<td style="text-align: right;">47.83025</td>
+<td style="text-align: right;">26.93988</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">high_lines</td>
+<td style="text-align: right;">54.26881</td>
+<td style="text-align: right;">16.76670</td>
+<td style="text-align: right;">47.83545</td>
+<td style="text-align: right;">26.94000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">slant_down</td>
+<td style="text-align: right;">54.26785</td>
+<td style="text-align: right;">16.76676</td>
+<td style="text-align: right;">47.83590</td>
+<td style="text-align: right;">26.93610</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">slant_up</td>
+<td style="text-align: right;">54.26588</td>
+<td style="text-align: right;">16.76885</td>
+<td style="text-align: right;">47.83150</td>
+<td style="text-align: right;">26.93861</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">star</td>
+<td style="text-align: right;">54.26734</td>
+<td style="text-align: right;">16.76896</td>
+<td style="text-align: right;">47.83955</td>
+<td style="text-align: right;">26.93027</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">v_lines</td>
+<td style="text-align: right;">54.26993</td>
+<td style="text-align: right;">16.76996</td>
+<td style="text-align: right;">47.83699</td>
+<td style="text-align: right;">26.93768</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">wide_lines</td>
+<td style="text-align: right;">54.26692</td>
+<td style="text-align: right;">16.77000</td>
+<td style="text-align: right;">47.83160</td>
+<td style="text-align: right;">26.93790</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">x_shape</td>
+<td style="text-align: right;">54.26015</td>
+<td style="text-align: right;">16.76996</td>
+<td style="text-align: right;">47.83972</td>
+<td style="text-align: right;">26.93000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div></div>
+</section></section>
+<section id="relationships-matter" class="title-slide slide level1 center">
+<h1>Relationships Matter</h1>
+<div class="columns">
+<div class="column" style="width:20%;">
+
+</div><div class="column" style="width:80%;">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-2-1.svg" width="624"></p>
+</figure>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+
+<section>
+<section id="always-visualize-the-data" class="title-slide slide level1 center">
+<h1>Always Visualize the Data</h1>
+
+</section>
+<section id="models-use-inference-to" class="slide level2">
+<h2>Models Use Inference to …</h2>
+<p>: : :</p>
+<h3 id="unpack-black-boxes">Unpack Black Boxes</h3>
+<p>: : :</p>
+<h3 id="we-will-literally-do-it-with-boxessquares">We will literally do it with boxes/squares</h3>
+</section></section>
+<section>
+<section id="data-and-a-library" class="title-slide slide level1 center">
+<h1>Data and a Library</h1>
+
+</section>
+<section id="pivots-gatherspread-and-tidy-data" class="slide level2">
+<h2>Pivots Gather/Spread and tidy data</h2>
+<p>Radiant can be picky about data structures. <code>ggplot</code> is built around the idea of tidy data from Week 2. How do we make data tidy?</p>
+<p>At the command line, it is <code>pivot_wider</code> and <code>pivot_longer</code> while radiant uses the [at some point to be obsolete <code>spread</code>/<code>gather</code>]</p>
+</section>
+<section id="a-bit-on-covariance-and-correlation" class="slide level2">
+<h2>A Bit on Covariance and Correlation</h2>
+<p>Covariance is defined as: <span class="math display">\sum_{i} (x_{i} - \overline{x})(y_{i} - \overline{y})</span></p>
+<p>Where <span class="math inline">\overline{x}</span> and <span class="math inline">\overline{y}</span> are the sample means of x and y. The items in parentheses are deviations from the mean; covariance is the product of those deviations from the mean. The metric of covariance is the product of the metric of <span class="math inline">x</span> and <span class="math inline">y</span>; often something for which no baseline exists. For this reason, we use a normalized form of covariance known as correlation, often just <span class="math inline">\rho</span>.</p>
+<p><span class="math display">\rho_{xy} = \sum_{i} \frac{(x_{i} - \overline{x})(y_{i} - \overline{y})}{s_{x}s_{y}}</span></p>
+<p>Correlation is a <strong>normed</strong> measure; it varies between -1 and 1.</p>
+</section>
+<section id="an-oregon-gender-gap" class="slide level2">
+<h2>An Oregon Gender Gap</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>A random sample of salaries in the 1990s for new hires from Oregon DAS. I know <em>nothing</em> about them. It is worth noting that these data represent a protected class by Oregon statute. We have a state file or we can load the data from github.</p>
+</div><div class="column" style="width:50%;">
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 16 × 2
+   Female   Male
+    &lt;dbl&gt;  &lt;dbl&gt;
+ 1 41514. 47343.
+ 2 40964. 46382.
+ 3 39170. 45813.
+ 4 37937. 46410.
+ 5 33982. 43796.
+ 6 36077. 43124.
+ 7 39174. 49444.
+ 8 39037. 44806.
+ 9 29132. 44440.
+10 36200. 46680.
+11 38561. 47337.
+12 33248. 47299.
+13 33609. 41461.
+14 33669. 43598.
+15 37806. 43431.
+16 35846. 49266.</code></pre>
+</div>
+</div>
+</div></div>
+</section>
+<section id="visualising-independent-samples" class="slide level2">
+<h2>Visualising Independent Samples</h2>
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-4-1.svg" width="624" class="r-stretch"></section>
+<section id="visualising-independent-samples-1" class="slide level2">
+<h2>Visualising Independent Samples</h2>
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-5-1.svg" width="624" class="r-stretch"></section>
+<section id="about-those-squares-deviations" class="slide level2">
+<h2>About Those Squares: Deviations</h2>
+<p>The mean of all salaries is 41142.433. Represented in equation form, we have:</p>
+<p><span class="math display">Salary_{i} = \alpha + \epsilon_{i}</span></p>
+<p>The <span class="math inline">i^{th}</span> person’s salary is some average salary <span class="math inline">\alpha</span> [or perhaps <span class="math inline">\mu</span> to maintain conceptual continuity] (shown as a solid blue line) plus some idiosyncratic remainder or residual salary for individual <span class="math inline">i</span> denoted by <span class="math inline">\epsilon_{i}</span> (shown as a blue arrow). Everything here is measured in dollars.</p>
+<p><span class="math display">Salary_{i}  = 41142.433 + \epsilon_{i}</span></p>
+</section></section>
+<section id="section-1" class="title-slide slide level1 center" data-background-image="img/Dev1.png" data-background-size="60%">
+<h1></h1>
+
+</section>
+
+<section id="section-2" class="title-slide slide level1 center" data-background-image="img/Dev1.png" data-background-size="60%">
+<h1></h1>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 16 × 2
+   Female[,1] Male[,1]
+        &lt;dbl&gt;    &lt;dbl&gt;
+ 1       372.    6200.
+ 2      -178.    5240.
+ 3     -1972.    4670.
+ 4     -3206.    5267.
+ 5     -7161.    2654.
+ 6     -5065.    1982.
+ 7     -1968.    8301.
+ 8     -2105.    3663.
+ 9    -12011.    3298.
+10     -4942.    5537.
+11     -2581.    6195.
+12     -7895.    6156.
+13     -7533.     319.
+14     -7473.    2456.
+15     -3337.    2289.
+16     -5296.    8124.</code></pre>
+</div>
+</div>
+<div class="fragment">
+<p>By definition, those vertical distances would/will sum to zero. <strong>This sum to zero constraint is what consumes a degree of freedom; it is why the standard deviation has N-1 degrees of freedom.</strong> The distance from the point to the line is also shown in blue; that is the observed residual salary. It shows how far that individual’s salary is from the overall average.</p>
+</div>
+</section>
+
+<section id="section-3" class="title-slide slide level1 center" data-background-image="img/Dev1.png" data-background-size="60%">
+<h1></h1>
+
+</section>
+
+<section id="square-them" class="title-slide slide level1 center" data-background-image="img/Dev2.png" data-background-size="60%">
+<h1>Square Them</h1>
+
+</section>
+
+<section>
+<section id="a-big-black-box" class="title-slide slide level1 center">
+<h1>A Big Black Box</h1>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 16 × 2
+   Female[,1]  Male[,1]
+        &lt;dbl&gt;     &lt;dbl&gt;
+ 1    138350. 38442803.
+ 2     31813. 27457097.
+ 3   3889736. 21813358.
+ 4  10277545. 27743644.
+ 5  51274988.  7041698.
+ 6  25655866.  3926692.
+ 7   3874503. 68912991.
+ 8   4431282. 13420200.
+ 9 144256540. 10876058.
+10  24423237. 30660131.
+11   6661738. 38373872.
+12  62323288. 37899934.
+13  56745270.   101515.
+14  55848872.  6031248.
+15  11132919.  5238385.
+16  28050778. 65999032.</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  sum(Salary.Deviation.Squared)
+1                     892955384</code></pre>
+</div>
+</div>
+</section>
+<section id="the-black-box-of-salaries" class="slide level2">
+<h2>The Black Box of Salaries</h2>
+<p>The total area of the <code>black box</code> in the original metric (squared dollars) is: 892955385. The length of each side is the square root of that area, e.g.&nbsp;29882.36 in dollars.</p>
+
+<img data-src="img/Dev3.png" class="r-stretch"></section></section>
+<section id="section-4" class="title-slide slide level1 center" data-background-image="img/Dev3.png" data-background-size="60%">
+<h1></h1>
+<p>This square, when averaged by degrees of freedom and called <em>mean square</em>, has a known distribution, <span class="math inline">\chi^2</span> <em>if we assume that the deviations, call them errors, are normal.</em></p>
+</section>
+
+<section>
+<section id="the-chi2-distribution" class="title-slide slide level1 center">
+<h1>The <span class="math inline">\chi^2</span> distribution</h1>
+<p>The <span class="math inline">\chi^2</span> [chi-squared] distribution can be derived as the sum of <span class="math inline">k</span> squared <span class="math inline">Z</span> or standard normal variables. Because they are squares, they are always positive. The <span class="math inline">k</span> is called <em>degrees of freedom</em>. Differences in <span class="math inline">\chi^2</span> also have a <span class="math inline">\chi^2</span> distribution with degrees of freedom equal to the difference in degrees of freedom.</p>
+<p>As a technical matter (for x &gt; 0): <span class="math display">f(x) = \frac{1}{2^{\frac{k}{2}}\Gamma(k/2)} x^{\frac{k}{2-1}}e^{\frac{-x}{2}}</span></p>
+</section>
+<section id="some-language-and-f" class="slide level2">
+<h2>Some language and <span class="math inline">F</span></h2>
+<p><em>Sum of squares</em>: <span class="math display">\sum_{i=1}^{N} e_{i}^{2}</span> <em>Mean square</em>: divide the sum of squares by <span class="math inline">k</span> degrees of freedom. NB: Take the square root and you get the standard deviation. <span class="math display">\frac{1}{k}\sum_{i=1}^{N} e_{i}^{2}</span></p>
+<p>Fisher’s <span class="math inline">F</span> ratio or the <span class="math inline">F</span> describes the ratio of two <span class="math inline">\chi^2</span> variables (mean square) with numerator and denominator degrees of freedom. It is the ratio of [degrees of freedom] averaged squared errors. As the ratio becomes large, we obtain greater evidence that the two are not the same. Let’s try that here.</p>
+</section>
+<section id="the-core-conditional" class="slide level2">
+<h2>The Core Conditional</h2>
+<p>But all of this stems from the presumption that <span class="math inline">e_{i}</span> is normal; that is a claim that cannot really be proven or disproven. <em>It is a core assumption that we should try to verify/falsify.</em></p>
+<p>Because the <span class="math inline">e_{i}</span> being normal means implies that their squares are <span class="math inline">\chi^2</span><sup>a</sup> and further that the ratio of their mean-squares are <span class="math inline">F</span>.</p>
+<p>As an aside, the technical definition of <span class="math inline">t</span><sup>b</sup> is a normal divided by the square root of a <span class="math inline">\chi^2</span> so <span class="math inline">t</span> and <span class="math inline">F</span> must be equivalent with one degree of freedom in the numerator.</p>
+<p><sup>a</sup> This is why the various results in prop.test are reported as X-squared.</p>
+<p><sup>b</sup> I mentioned this fact previously when introducing t (defined by degrees of freedom and with metric standard error.)</p>
+</section>
+<section id="verification-of-the-normal" class="slide level2 scrollable">
+<h2>Verification of the Normal</h2>
+<ol type="1">
+<li class="fragment">Plots [shape]</li>
+<li class="fragment">the quantile-quantile plot</li>
+<li class="fragment">Statistical tests</li>
+</ol>
+</section></section>
+<section>
+<section id="plots" class="title-slide slide level1 center">
+<h1>plots</h1>
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-6-1.svg" width="624" class="r-stretch"></section>
+<section id="the-quantile-quantile-plot-of-a-normal" class="slide level2">
+<h2>the quantile-quantile plot of a normal</h2>
+<div class="column" style="width:40%;">
+<p>The mean of residual salary is zero. The standard deviation is the root-mean-square. Compare observed residual salary [as z] to the hypothetical normal.</p>
+</div><div class="column" style="width:60%;">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-8-1.svg" width="624"></p>
+</figure>
+</div>
+</div>
+</div>
+</div><p>::::</p>
+</section>
+<section id="tests" class="slide level2">
+<h2>tests</h2>
+<p>We can examine the claim that residual salary is plausibly normal by examining the slope of the sample and theoretical quantiles: the slope of the q-q plot. This is exactly what the following does under the null hypothesis of a normal.</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Shapiro-Wilk normality test
+
+data:  lm(Salary ~ 1, data = OregonSalaries)$residuals
+W = 0.9591, p-value = 0.2595</code></pre>
+</div>
+</div>
+<p>There are a few others. I personally prefer <code>gvlma</code>.</p>
+</section>
+<section id="linear-models" class="slide level2">
+<h2>Linear Models</h2>
+<p>Will expand on the previous by unpacking the box, reducing residual squares via the inclusion of <em>features, explanatory variables, explanatory factors, exogenous inputs, predictor variables</em>. In this case, let us posit that salary is a function of gender. As an equation, that yields:</p>
+<p><span class="math display">Salary_{i} = \alpha + \beta_{1}*Gender_{i} + \epsilon_{i}</span> We want to measure that <span class="math inline">\beta</span>; in this case, the difference between Male and Female. By default, R will include Female as the constant.</p>
+<p>What does the regression imply? That salary for each individual <span class="math inline">i</span> is a function of a constant and gender. Given the way that R works, <span class="math inline">\alpha</span> will represent the average for females and <span class="math inline">\beta</span> will represent the difference between male and female average salaries. The <span class="math inline">\epsilon</span> will capture the difference between the individual’s salary and the average of their group (the mean of males or females).</p>
+</section>
+<section id="a-new-residual-sum-of-squares" class="slide level2">
+<h2>A New Residual Sum of Squares</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>The picture will now have a red line and a black line and the residual/leftover/unexplained salary is now the difference between the point and the respective vertical line (red arrows or black arrows). What is the relationship between the datum and the group mean? The answer is shown in black/red.</p>
+</div><div class="column" style="width:50%;">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/BasePlot-1.svg" width="624"></p>
+</figure>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="the-squares" class="slide level2">
+<h2>The Squares</h2>
+<p>The sum of the remaining squared vertical distances is 238621277 and is obtained by squaring each black/red number and summing them. The amount explained by gender [measured in squared dollars] is the difference between the sums of blue and black/red numbers, squared. It is important to notice that the highest paid females and the lowest paid males may have more residual salary given two averages but the different averages, overall, lead to far less residual salary than a single average for all salaries. Indeed, gender alone accounts for:</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 654334108</code></pre>
+</div>
+</div>
+<p>Intuitively, <em>Gender</em> should account for 16 times the squared difference between Female and Overall Average (4522) and 16 times the squared difference between Male and Overall Average (4522).</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 654334108</code></pre>
+</div>
+</div>
+</section>
+<section id="a-visual-what-proportion-is-accounted-for" class="slide level2">
+<h2>A Visual: What Proportion is Accounted For?</h2>
+
+<img data-src="index_files/figure-revealjs/BBReg-1.svg" width="624" class="r-stretch"></section>
+<section id="regression-tables" class="slide level2">
+<h2>Regression Tables</h2>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = Salary ~ Gender, data = OregonSalaries)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-7488.7 -2107.9   433.3  1743.9  4893.9 
+
+Coefficients:
+            Estimate Std. Error t value       Pr(&gt;|t|)    
+(Intercept)  36620.5      705.1   51.94        &lt; 2e-16 ***
+GenderMale    9043.9      997.1    9.07 0.000000000422 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 2820 on 30 degrees of freedom
+Multiple R-squared:  0.7328,    Adjusted R-squared:  0.7239 
+F-statistic: 82.26 on 1 and 30 DF,  p-value: 0.0000000004223</code></pre>
+</div>
+</div>
+</section></section>
+<section>
+<section id="section-5" class="title-slide slide level1 center" data-background-image="img/Fbox.png">
+<h1></h1>
+
+</section>
+<section id="analysis-of-variance-the-squares" class="slide level2">
+<h2>Analysis of Variance: The Squares</h2>
+<p>F is the ratio of the two mean squares. It is also <span class="math inline">t^2</span>.</p>
+<p>.small[</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>Analysis of Variance Table
+
+Response: Salary
+          Df    Sum Sq   Mean Sq F value          Pr(&gt;F)    
+Gender     1 654334108 654334108  82.264 0.0000000004223 ***
+Residuals 30 238621277   7954043                            
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+</div>
+<p>]</p>
+</section></section>
+<section id="section-6" class="title-slide slide level1 center" data-background-image="img/F130.jpg">
+<h1></h1>
+
+</section>
+
+<section id="section-7" class="title-slide slide level1 center" data-background-image="img/radiant-ORSlm.jpg">
+<h1></h1>
+
+</section>
+
+<section>
+<section id="the-idea-scales-to-both-quantitative-variables-and-multiple-categories" class="title-slide slide level1 center">
+<h1>The Idea Scales to both Quantitative Variables and Multiple Categories</h1>
+
+</section>
+<section id="a-multi-category-example" class="slide level2">
+<h2>A Multi-Category Example</h2>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>Linear regression (OLS)
+Data     : WH 
+Response variable    : Expenditures 
+Explanatory variables: Age.Cohort 
+Null hyp.: the effect of Age.Cohort on Expenditures is zero
+Alt. hyp.: the effect of Age.Cohort on Expenditures is not zero
+
+                  coefficient std.error t.value p.value    
+ (Intercept)         2224.912   330.017   6.742  &lt; .001 ***
+ Age.Cohort|0 - 5    -839.928   584.850  -1.436   0.151    
+ Age.Cohort|13-17    1710.299   443.488   3.856  &lt; .001 ***
+ Age.Cohort|18-21    7816.237   458.709  17.040  &lt; .001 ***
+ Age.Cohort|22-50   38142.650   440.101  86.668  &lt; .001 ***
+ Age.Cohort|51 +    51042.473   537.290  95.000  &lt; .001 ***
+
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+R-squared: 0.961,  Adjusted R-squared: 0.961 
+F-statistic: 3833.317 df(5,771), p.value &lt; .001
+Nr obs: 777 
+
+Prediction error (RMSE):  3847.81 
+Residual st.dev   (RSD):  3862.753 
+
+Sum of squares:
+            df                  SS
+Regression   5 285,981,965,641.547
+Error      771  11,503,984,347.992
+Total      776 297,485,949,989.539
+
+                 coefficient      2.5%     97.5%      +/-
+(Intercept)         2224.912  1577.073  2872.751  647.839
+Age.Cohort|0 - 5    -839.928 -1988.016   308.160 1148.088
+Age.Cohort|13-17    1710.299   839.713  2580.886  870.586
+Age.Cohort|18-21    7816.237  6915.771  8716.704  900.467
+Age.Cohort|22-50   38142.650 37278.711 39006.589  863.939
+Age.Cohort|51 +    51042.473 49987.748 52097.198 1054.725</code></pre>
+</div>
+</div>
+</section></section>
+<section id="not-alot-left." class="title-slide slide level1 center">
+<h1>Not Alot Left….</h1>
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-15-1.svg" width="624" class="r-stretch"></section>
+
+<section>
+<section id="bullseye" class="title-slide slide level1 center">
+<h1>Bullseye</h1>
+
+<img data-src="https://media1.giphy.com/media/Z61gwKI72Gx2g/giphy.gif" class="r-stretch quarto-figure-center"><p class="caption">bullseye</p></section>
+<section id="messy" class="slide level2">
+<h2>Messy</h2>
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-16-1.svg" width="624" class="r-stretch"></section>
+<section id="what-about-ethnicity" class="slide level2">
+<h2>What about Ethnicity?</h2>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = Expenditures ~ Ethnicity + Age.Cohort, data = WH)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-20075.0  -1206.7      0.1   1202.1  16446.7 
+
+Coefficients:
+                            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)                   2359.9      344.7   6.846 1.55e-11 ***
+EthnicityWhite not Hispanic   -402.1      298.3  -1.348 0.178045    
+Age.Cohort0 - 5               -849.3      584.6  -1.453 0.146685    
+Age.Cohort13-17               1733.8      443.6   3.908 0.000101 ***
+Age.Cohort18-21               7870.0      460.2  17.101  &lt; 2e-16 ***
+Age.Cohort22-50              38311.5      457.4  83.768  &lt; 2e-16 ***
+Age.Cohort51 +               51227.2      554.2  92.432  &lt; 2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 3861 on 770 degrees of freedom
+Multiple R-squared:  0.9614,    Adjusted R-squared:  0.9611 
+F-statistic:  3198 on 6 and 770 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+</div>
+</section>
+<section id="confidence-intervals" class="slide level2">
+<h2>Confidence Intervals</h2>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>                                 2.5 %     97.5 %
+(Intercept)                  1683.2345  3036.6106
+EthnicityWhite not Hispanic  -987.6405   183.4497
+Age.Cohort0 - 5             -1996.8464   298.2797
+Age.Cohort13-17               862.9646  2604.5597
+Age.Cohort18-21              6966.5797  8773.3519
+Age.Cohort22-50             37413.6880 39209.3043
+Age.Cohort51 +              50139.2506 52315.1525</code></pre>
+</div>
+</div>
+</section>
+<section id="comparison" class="slide level2">
+<h2>Comparison</h2>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>Analysis of Variance Table
+
+Model 1: Expenditures ~ Age.Cohort
+Model 2: Expenditures ~ Ethnicity + Age.Cohort
+  Res.Df         RSS Df Sum of Sq      F Pr(&gt;F)
+1    771 11503984348                           
+2    770 11476899027  1  27085321 1.8172  0.178</code></pre>
+</div>
+</div>
+<p>At the margin, <em>Ethnicity</em> accounts for little variance.</p>
+</section>
+<section id="some-basic-cost-accounting" class="slide level2">
+<h2>Some Basic Cost Accounting</h2>
+<p><span class="math display">Total.Cost_{t} = \alpha + \beta*units_t + \epsilon_{t}</span></p>
+<p>With data on per period (t) costs and units produced, we can partition fixed <span class="math inline">\alpha</span> and variable costs <span class="math inline">\beta</span> (or cost per unit). Consider the data on Handmade Bags. We want to accomplish two things. First, to measure the two key quantities. Second, be able to predict costs for hypothetical number of units.</p>
+<p><strong>A comment on correlation</strong></p>
+</section>
+<section id="the-data" class="slide level2">
+<h2>The Data</h2>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">skim_type</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">skim_variable</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">n_missing</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">complete_rate</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">numeric.mean</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">numeric.sd</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">numeric.p0</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">numeric.p25</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">numeric.p50</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">numeric.p75</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">numeric.p100</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">numeric.hist</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">numeric</td>
+<td style="text-align: left;">units</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">351.967</td>
+<td style="text-align: right;">131.665</td>
+<td style="text-align: right;">141.00</td>
+<td style="text-align: right;">241.5</td>
+<td style="text-align: right;">356.00</td>
+<td style="text-align: right;">457.0</td>
+<td style="text-align: right;">580.00</td>
+<td style="text-align: left;">▇▇▆▇▆</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">numeric</td>
+<td style="text-align: left;">TotCost</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">19946.865</td>
+<td style="text-align: right;">2985.202</td>
+<td style="text-align: right;">14357.98</td>
+<td style="text-align: right;">17593.8</td>
+<td style="text-align: right;">20073.93</td>
+<td style="text-align: right;">22415.2</td>
+<td style="text-align: right;">24887.83</td>
+<td style="text-align: left;">▆▇▇▇▇</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="a-look-at-the-data" class="slide level2">
+<h2>A Look at the Data</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item" id="htmlwidget-0872a7f6bc702dd9e475" style="width:624px;height:576px;"></div>
+<script type="application/json" data-for="htmlwidget-0872a7f6bc702dd9e475">{"x":{"data":[{"x":[268,279,430,141,412,574,456,196,386,258,450,316,352,292,263,525,143,267,326,460,580,566,176,209,400,447,360,189,151,471,405,506,376,269,483,434,173,217,231,174,186,290,206,172,470,159,544,428,438,490,245,546,554,398,349,332,393,296,517,494],"y":[19624.30773,16790.414919999999,21489.106769999999,15998.026739999999,23771.945670000001,24365.475600000002,23724.837879999999,16928.974829999999,20738.208920000001,17747.662919999999,21480.214510000002,17559.589970000001,19731.90741,19295.200499999999,17828.956999999999,24175.42698,14357.98395,18524.813630000001,20087.481749999999,22301.031340000001,24627.96587,23409.539100000002,15309.48682,16182.97191,20755.601170000002,22430.954320000001,19190.331549999999,18167.357080000002,15246.063050000001,21328.64645,20245.94196,23880.932120000001,20126.656780000001,18376.04508,23284.726979999999,21969.43476,14994.43448,15726.92079,16424.787120000001,17410.359799999998,17605.205809999999,19545.994340000001,15300.08244,17178.100770000001,22409.951349999999,15485.60432,24240.003100000002,20774.9159,21635.60254,22734.845170000001,18000.14228,24441.090390000001,24887.829160000001,20616.763790000001,20561.779330000001,19694.498950000001,20060.386170000002,18999.210159999999,23251.123370000001,23778.029210000001],"text":["units: 268<br />TotCost: 19624.31","units: 279<br />TotCost: 16790.41","units: 430<br />TotCost: 21489.11","units: 141<br />TotCost: 15998.03","units: 412<br />TotCost: 23771.95","units: 574<br />TotCost: 24365.48","units: 456<br />TotCost: 23724.84","units: 196<br />TotCost: 16928.97","units: 386<br />TotCost: 20738.21","units: 258<br />TotCost: 17747.66","units: 450<br />TotCost: 21480.21","units: 316<br />TotCost: 17559.59","units: 352<br />TotCost: 19731.91","units: 292<br />TotCost: 19295.20","units: 263<br />TotCost: 17828.96","units: 525<br />TotCost: 24175.43","units: 143<br />TotCost: 14357.98","units: 267<br />TotCost: 18524.81","units: 326<br />TotCost: 20087.48","units: 460<br />TotCost: 22301.03","units: 580<br />TotCost: 24627.97","units: 566<br />TotCost: 23409.54","units: 176<br />TotCost: 15309.49","units: 209<br />TotCost: 16182.97","units: 400<br />TotCost: 20755.60","units: 447<br />TotCost: 22430.95","units: 360<br />TotCost: 19190.33","units: 189<br />TotCost: 18167.36","units: 151<br />TotCost: 15246.06","units: 471<br />TotCost: 21328.65","units: 405<br />TotCost: 20245.94","units: 506<br />TotCost: 23880.93","units: 376<br />TotCost: 20126.66","units: 269<br />TotCost: 18376.05","units: 483<br />TotCost: 23284.73","units: 434<br />TotCost: 21969.43","units: 173<br />TotCost: 14994.43","units: 217<br />TotCost: 15726.92","units: 231<br />TotCost: 16424.79","units: 174<br />TotCost: 17410.36","units: 186<br />TotCost: 17605.21","units: 290<br />TotCost: 19545.99","units: 206<br />TotCost: 15300.08","units: 172<br />TotCost: 17178.10","units: 470<br />TotCost: 22409.95","units: 159<br />TotCost: 15485.60","units: 544<br />TotCost: 24240.00","units: 428<br />TotCost: 20774.92","units: 438<br />TotCost: 21635.60","units: 490<br />TotCost: 22734.85","units: 245<br />TotCost: 18000.14","units: 546<br />TotCost: 24441.09","units: 554<br />TotCost: 24887.83","units: 398<br />TotCost: 20616.76","units: 349<br />TotCost: 20561.78","units: 332<br />TotCost: 19694.50","units: 393<br />TotCost: 20060.39","units: 296<br />TotCost: 18999.21","units: 517<br />TotCost: 23251.12","units: 494<br />TotCost: 23778.03"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(55,17,66,1)","opacity":1,"size":5.6692913385826778,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(55,17,66,1)"}},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":23.305936073059364,"r":7.3059360730593621,"b":37.260273972602747,"l":54.794520547945211},"plot_bgcolor":"rgba(235,235,235,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[119.05,601.95000000000005],"tickmode":"array","ticktext":["200","300","400","500","600"],"tickvals":[200,300,400,500,600],"categoryorder":"array","categoryarray":["200","300","400","500","600"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0,"zeroline":false,"anchor":"y","title":{"text":"Units","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[13831.491689500001,25414.3214205],"tickmode":"array","ticktext":["15000","17500","20000","22500","25000"],"tickvals":[15000,17500,20000,22500,25000],"categoryorder":"array","categoryarray":["15000","17500","20000","22500","25000"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0,"zeroline":false,"anchor":"x","title":{"text":"Total Costs per period","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","layer":"below","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.68949771689498}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"51cf7ddea9a8":{"x":{},"y":{},"type":"scatter"}},"cur_data":"51cf7ddea9a8","visdat":{"51cf7ddea9a8":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="the-thing-to-measure" class="slide level2">
+<h2>The Thing to Measure</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item" id="htmlwidget-472f792603288e418c48" style="width:624px;height:576px;"></div>
+<script type="application/json" data-for="htmlwidget-472f792603288e418c48">{"x":{"data":[{"x":[268,279,430,141,412,574,456,196,386,258,450,316,352,292,263,525,143,267,326,460,580,566,176,209,400,447,360,189,151,471,405,506,376,269,483,434,173,217,231,174,186,290,206,172,470,159,544,428,438,490,245,546,554,398,349,332,393,296,517,494],"y":[19624.30773,16790.414919999999,21489.106769999999,15998.026739999999,23771.945670000001,24365.475600000002,23724.837879999999,16928.974829999999,20738.208920000001,17747.662919999999,21480.214510000002,17559.589970000001,19731.90741,19295.200499999999,17828.956999999999,24175.42698,14357.98395,18524.813630000001,20087.481749999999,22301.031340000001,24627.96587,23409.539100000002,15309.48682,16182.97191,20755.601170000002,22430.954320000001,19190.331549999999,18167.357080000002,15246.063050000001,21328.64645,20245.94196,23880.932120000001,20126.656780000001,18376.04508,23284.726979999999,21969.43476,14994.43448,15726.92079,16424.787120000001,17410.359799999998,17605.205809999999,19545.994340000001,15300.08244,17178.100770000001,22409.951349999999,15485.60432,24240.003100000002,20774.9159,21635.60254,22734.845170000001,18000.14228,24441.090390000001,24887.829160000001,20616.763790000001,20561.779330000001,19694.498950000001,20060.386170000002,18999.210159999999,23251.123370000001,23778.029210000001],"text":["units: 268<br />TotCost: 19624.31","units: 279<br />TotCost: 16790.41","units: 430<br />TotCost: 21489.11","units: 141<br />TotCost: 15998.03","units: 412<br />TotCost: 23771.95","units: 574<br />TotCost: 24365.48","units: 456<br />TotCost: 23724.84","units: 196<br />TotCost: 16928.97","units: 386<br />TotCost: 20738.21","units: 258<br />TotCost: 17747.66","units: 450<br />TotCost: 21480.21","units: 316<br />TotCost: 17559.59","units: 352<br />TotCost: 19731.91","units: 292<br />TotCost: 19295.20","units: 263<br />TotCost: 17828.96","units: 525<br />TotCost: 24175.43","units: 143<br />TotCost: 14357.98","units: 267<br />TotCost: 18524.81","units: 326<br />TotCost: 20087.48","units: 460<br />TotCost: 22301.03","units: 580<br />TotCost: 24627.97","units: 566<br />TotCost: 23409.54","units: 176<br />TotCost: 15309.49","units: 209<br />TotCost: 16182.97","units: 400<br />TotCost: 20755.60","units: 447<br />TotCost: 22430.95","units: 360<br />TotCost: 19190.33","units: 189<br />TotCost: 18167.36","units: 151<br />TotCost: 15246.06","units: 471<br />TotCost: 21328.65","units: 405<br />TotCost: 20245.94","units: 506<br />TotCost: 23880.93","units: 376<br />TotCost: 20126.66","units: 269<br />TotCost: 18376.05","units: 483<br />TotCost: 23284.73","units: 434<br />TotCost: 21969.43","units: 173<br />TotCost: 14994.43","units: 217<br />TotCost: 15726.92","units: 231<br />TotCost: 16424.79","units: 174<br />TotCost: 17410.36","units: 186<br />TotCost: 17605.21","units: 290<br />TotCost: 19545.99","units: 206<br />TotCost: 15300.08","units: 172<br />TotCost: 17178.10","units: 470<br />TotCost: 22409.95","units: 159<br />TotCost: 15485.60","units: 544<br />TotCost: 24240.00","units: 428<br />TotCost: 20774.92","units: 438<br />TotCost: 21635.60","units: 490<br />TotCost: 22734.85","units: 245<br />TotCost: 18000.14","units: 546<br />TotCost: 24441.09","units: 554<br />TotCost: 24887.83","units: 398<br />TotCost: 20616.76","units: 349<br />TotCost: 20561.78","units: 332<br />TotCost: 19694.50","units: 393<br />TotCost: 20060.39","units: 296<br />TotCost: 18999.21","units: 517<br />TotCost: 23251.12","units: 494<br />TotCost: 23778.03"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(55,17,66,1)","opacity":1,"size":5.6692913385826778,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(55,17,66,1)"}},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[141,146.55696202531647,152.1139240506329,157.67088607594937,163.22784810126583,168.78481012658227,174.34177215189874,179.8987341772152,185.45569620253164,191.01265822784811,196.56962025316454,202.12658227848101,207.68354430379748,213.24050632911394,218.79746835443038,224.35443037974684,229.91139240506328,235.46835443037975,241.02531645569621,246.58227848101268,252.13924050632912,257.69620253164555,263.25316455696202,268.81012658227849,274.36708860759495,279.92405063291142,285.48101265822788,291.03797468354435,296.59493670886076,302.15189873417722,307.70886075949369,313.2658227848101,318.82278481012656,324.37974683544303,329.9367088607595,335.49367088607596,341.05063291139243,346.60759493670889,352.16455696202536,357.72151898734182,363.27848101265823,368.8354430379747,374.39240506329116,379.94936708860757,385.50632911392404,391.0632911392405,396.62025316455697,402.17721518987344,407.7341772151899,413.29113924050637,418.84810126582278,424.40506329113924,429.96202531645571,435.51898734177217,441.07594936708864,446.63291139240511,452.18987341772151,457.74683544303798,463.30379746835445,468.86075949367091,474.41772151898738,479.97468354430384,485.53164556962025,491.08860759493672,496.64556962025318,502.20253164556965,507.75949367088612,513.31645569620252,518.87341772151899,524.43037974683546,529.98734177215192,535.54430379746839,541.10126582278485,546.65822784810121,552.21518987341778,557.77215189873414,563.32911392405072,568.88607594936707,574.44303797468365,580],"y":[15368.560853892312,15489.155549114941,15609.750244337571,15730.344939560202,15850.939634782833,15971.534330005463,16092.129025228094,16212.723720450724,16333.318415673355,16453.913110895985,16574.507806118614,16695.102501341244,16815.697196563877,16936.291891786506,17056.886587009136,17177.481282231769,17298.075977454399,17418.670672677028,17539.265367899658,17659.860063122291,17780.45475834492,17901.04945356755,18021.644148790179,18142.238844012812,18262.833539235442,18383.428234458072,18504.022929680701,18624.617624903334,18745.212320125964,18865.807015348593,18986.401710571226,19106.996405793856,19227.591101016485,19348.185796239115,19468.780491461745,19589.375186684378,19709.969881907007,19830.564577129637,19951.15927235227,20071.753967574899,20192.348662797529,20312.943358020158,20433.538053242788,20554.132748465418,20674.727443688051,20795.32213891068,20915.916834133313,21036.511529355943,21157.106224578572,21277.700919801202,21398.295615023831,21518.890310246461,21639.485005469094,21760.079700691724,21880.674395914357,22001.269091136986,22121.863786359616,22242.458481582245,22363.053176804875,22483.647872027508,22604.242567250138,22724.837262472771,22845.4319576954,22966.02665291803,23086.621348140659,23207.216043363289,23327.810738585918,23448.405433808548,23569.000129031181,23689.594824253811,23810.189519476444,23930.784214699073,24051.378909921703,24171.973605144332,24292.568300366962,24413.162995589591,24533.757690812228,24654.352386034854,24774.947081257487,24895.541776480117],"text":["units: 141.0000<br />TotCost: 15368.56","units: 146.5570<br />TotCost: 15489.16","units: 152.1139<br />TotCost: 15609.75","units: 157.6709<br />TotCost: 15730.34","units: 163.2278<br />TotCost: 15850.94","units: 168.7848<br />TotCost: 15971.53","units: 174.3418<br />TotCost: 16092.13","units: 179.8987<br />TotCost: 16212.72","units: 185.4557<br />TotCost: 16333.32","units: 191.0127<br />TotCost: 16453.91","units: 196.5696<br />TotCost: 16574.51","units: 202.1266<br />TotCost: 16695.10","units: 207.6835<br />TotCost: 16815.70","units: 213.2405<br />TotCost: 16936.29","units: 218.7975<br />TotCost: 17056.89","units: 224.3544<br />TotCost: 17177.48","units: 229.9114<br />TotCost: 17298.08","units: 235.4684<br />TotCost: 17418.67","units: 241.0253<br />TotCost: 17539.27","units: 246.5823<br />TotCost: 17659.86","units: 252.1392<br />TotCost: 17780.45","units: 257.6962<br />TotCost: 17901.05","units: 263.2532<br />TotCost: 18021.64","units: 268.8101<br />TotCost: 18142.24","units: 274.3671<br />TotCost: 18262.83","units: 279.9241<br />TotCost: 18383.43","units: 285.4810<br />TotCost: 18504.02","units: 291.0380<br />TotCost: 18624.62","units: 296.5949<br />TotCost: 18745.21","units: 302.1519<br />TotCost: 18865.81","units: 307.7089<br />TotCost: 18986.40","units: 313.2658<br />TotCost: 19107.00","units: 318.8228<br />TotCost: 19227.59","units: 324.3797<br />TotCost: 19348.19","units: 329.9367<br />TotCost: 19468.78","units: 335.4937<br />TotCost: 19589.38","units: 341.0506<br />TotCost: 19709.97","units: 346.6076<br />TotCost: 19830.56","units: 352.1646<br />TotCost: 19951.16","units: 357.7215<br />TotCost: 20071.75","units: 363.2785<br />TotCost: 20192.35","units: 368.8354<br />TotCost: 20312.94","units: 374.3924<br />TotCost: 20433.54","units: 379.9494<br />TotCost: 20554.13","units: 385.5063<br />TotCost: 20674.73","units: 391.0633<br />TotCost: 20795.32","units: 396.6203<br />TotCost: 20915.92","units: 402.1772<br />TotCost: 21036.51","units: 407.7342<br />TotCost: 21157.11","units: 413.2911<br />TotCost: 21277.70","units: 418.8481<br />TotCost: 21398.30","units: 424.4051<br />TotCost: 21518.89","units: 429.9620<br />TotCost: 21639.49","units: 435.5190<br />TotCost: 21760.08","units: 441.0759<br />TotCost: 21880.67","units: 446.6329<br />TotCost: 22001.27","units: 452.1899<br />TotCost: 22121.86","units: 457.7468<br />TotCost: 22242.46","units: 463.3038<br />TotCost: 22363.05","units: 468.8608<br />TotCost: 22483.65","units: 474.4177<br />TotCost: 22604.24","units: 479.9747<br />TotCost: 22724.84","units: 485.5316<br />TotCost: 22845.43","units: 491.0886<br />TotCost: 22966.03","units: 496.6456<br />TotCost: 23086.62","units: 502.2025<br />TotCost: 23207.22","units: 507.7595<br />TotCost: 23327.81","units: 513.3165<br />TotCost: 23448.41","units: 518.8734<br />TotCost: 23569.00","units: 524.4304<br />TotCost: 23689.59","units: 529.9873<br />TotCost: 23810.19","units: 535.5443<br />TotCost: 23930.78","units: 541.1013<br />TotCost: 24051.38","units: 546.6582<br />TotCost: 24171.97","units: 552.2152<br />TotCost: 24292.57","units: 557.7722<br />TotCost: 24413.16","units: 563.3291<br />TotCost: 24533.76","units: 568.8861<br />TotCost: 24654.35","units: 574.4430<br />TotCost: 24774.95","units: 580.0000<br />TotCost: 24895.54"],"type":"scatter","mode":"lines","name":"fitted values","line":{"width":3.7795275590551185,"color":"rgba(28,82,83,1)","dash":"solid"},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[141,146.55696202531647,152.1139240506329,157.67088607594937,163.22784810126583,168.78481012658227,174.34177215189874,179.8987341772152,185.45569620253164,191.01265822784811,196.56962025316454,202.12658227848101,207.68354430379748,213.24050632911394,218.79746835443038,224.35443037974684,229.91139240506328,235.46835443037975,241.02531645569621,246.58227848101268,252.13924050632912,257.69620253164555,263.25316455696202,268.81012658227849,274.36708860759495,279.92405063291142,285.48101265822788,291.03797468354435,296.59493670886076,302.15189873417722,307.70886075949369,313.2658227848101,318.82278481012656,324.37974683544303,329.9367088607595,335.49367088607596,341.05063291139243,346.60759493670889,352.16455696202536,357.72151898734182,363.27848101265823,368.8354430379747,374.39240506329116,379.94936708860757,385.50632911392404,391.0632911392405,396.62025316455697,402.17721518987344,407.7341772151899,413.29113924050637,418.84810126582278,424.40506329113924,429.96202531645571,435.51898734177217,441.07594936708864,446.63291139240511,452.18987341772151,457.74683544303798,463.30379746835445,468.86075949367091,474.41772151898738,479.97468354430384,485.53164556962025,491.08860759493672,496.64556962025318,502.20253164556965,507.75949367088612,513.31645569620252,518.87341772151899,524.43037974683546,529.98734177215192,535.54430379746839,541.10126582278485,546.65822784810121,552.21518987341778,557.77215189873414,563.32911392405072,568.88607594936707,574.44303797468365,580,580,580,574.44303797468365,568.88607594936707,563.32911392405072,557.77215189873414,552.21518987341778,546.65822784810121,541.10126582278485,535.54430379746839,529.98734177215192,524.43037974683546,518.87341772151899,513.31645569620252,507.75949367088612,502.20253164556965,496.64556962025318,491.08860759493672,485.53164556962025,479.97468354430384,474.41772151898738,468.86075949367091,463.30379746835445,457.74683544303798,452.18987341772151,446.63291139240511,441.07594936708864,435.51898734177217,429.96202531645571,424.40506329113924,418.84810126582278,413.29113924050637,407.7341772151899,402.17721518987344,396.62025316455697,391.0632911392405,385.50632911392404,379.94936708860757,374.39240506329116,368.8354430379747,363.27848101265823,357.72151898734182,352.16455696202536,346.60759493670889,341.05063291139243,335.49367088607596,329.9367088607595,324.37974683544303,318.82278481012656,313.2658227848101,307.70886075949369,302.15189873417722,296.59493670886076,291.03797468354435,285.48101265822788,279.92405063291142,274.36708860759495,268.81012658227849,263.25316455696202,257.69620253164555,252.13924050632912,246.58227848101268,241.02531645569621,235.46835443037975,229.91139240506328,224.35443037974684,218.79746835443038,213.24050632911394,207.68354430379748,202.12658227848101,196.56962025316454,191.01265822784811,185.45569620253164,179.8987341772152,174.34177215189874,168.78481012658227,163.22784810126583,157.67088607594937,152.1139240506329,146.55696202531647,141,141],"y":[14940.464323439573,15069.182122780852,15197.836905755827,15326.424899936064,15454.942060860954,15583.384051211662,15711.746218654192,15840.023572369169,15968.210758321951,16096.302033373364,16224.291238391172,16352.171770597652,16479.936555482287,16607.578018723096,16735.088058698617,16862.458020336828,16989.678671239373,17116.740181238885,17243.632106792054,17370.343381876119,17496.862317331201,17623.176610860522,17749.273370141495,17875.139151682513,18000.760018142922,18126.12161676944,18251.209281337618,18376.008159467368,18500.503366358807,18624.680164838501,18748.52417011467,18872.021575856594,18995.159396234041,19117.925716534137,19240.309943125518,19362.303042109113,19483.897755229245,19605.088781726128,19725.872915910684,19846.24913233129,19966.218613331715,20085.784717290342,20204.952889510172,20323.730521191552,20442.126764797187,20560.152316140269,20677.819174554552,20795.140392544719,20912.129825495223,21028.801890546791,21145.171341882407,21261.253067642443,21377.061911718807,21492.61252191275,21607.919224472753,21722.995923896713,21837.856026082944,21952.512382414741,22066.977252114644,22181.262280152598,22295.378488083352,22409.336275375746,22523.145429040404,22636.815139632999,22750.354021984822,22863.770139276177,22977.071029311261,23090.263732070849,23203.354817809068,23316.350415122874,23429.256238559785,23542.077615441998,23654.819511677615,23767.486556403503,23880.083065363255,23992.613062969573,24105.080303035611,24217.488288186443,24329.840287981457,24442.139355792184,24442.139355792184,25348.94419716805,25220.053874533518,25091.216483883265,24962.435078588845,24833.71292820961,24705.053535370669,24576.460653885162,24447.938308165791,24319.490813956148,24191.122800393103,24062.839233384748,23934.645440253295,23806.547135546247,23678.550447860576,23550.6619474504,23422.888674296497,23295.23816620306,23167.718486350397,23040.338249569795,22913.106646416923,22786.033463902419,22659.129101495106,22532.40458074975,22405.871546636288,22279.54225837726,22153.429567355961,22027.546879470698,21901.908099219381,21776.527552850479,21651.419888165256,21526.599949055613,21402.082623661921,21277.882666167166,21154.014493712075,21030.491961681091,20907.328122578914,20784.534975739283,20662.123216975404,20540.101998749975,20418.478712263342,20297.258802818509,20176.445628793856,20056.040372533145,19936.042008584769,19816.447331259642,19697.251039797971,19578.445875944093,19460.02280579893,19341.971235731118,19224.279251027783,19106.933865858686,18989.92127389312,18873.2270903393,18756.836578023784,18640.734852146703,18524.907060327962,18409.338536343112,18294.014927438864,18178.922296274577,18064.04719935864,17949.376744368463,17834.898629007261,17720.601164115171,17606.473283669424,17492.50454412671,17378.685115319655,17265.005764849917,17151.457837645466,17038.033232084836,16924.724373846057,16811.524188418603,16698.426073024759,16585.423868532278,16472.511831801996,16359.684608799264,16246.937208704712,16134.26497918434,16021.663582919315,15909.12897544903,15796.65738434505,14940.464323439573],"text":["units: 141.0000<br />TotCost: 15368.56","units: 146.5570<br />TotCost: 15489.16","units: 152.1139<br />TotCost: 15609.75","units: 157.6709<br />TotCost: 15730.34","units: 163.2278<br />TotCost: 15850.94","units: 168.7848<br />TotCost: 15971.53","units: 174.3418<br />TotCost: 16092.13","units: 179.8987<br />TotCost: 16212.72","units: 185.4557<br />TotCost: 16333.32","units: 191.0127<br />TotCost: 16453.91","units: 196.5696<br />TotCost: 16574.51","units: 202.1266<br />TotCost: 16695.10","units: 207.6835<br />TotCost: 16815.70","units: 213.2405<br />TotCost: 16936.29","units: 218.7975<br />TotCost: 17056.89","units: 224.3544<br />TotCost: 17177.48","units: 229.9114<br />TotCost: 17298.08","units: 235.4684<br />TotCost: 17418.67","units: 241.0253<br />TotCost: 17539.27","units: 246.5823<br />TotCost: 17659.86","units: 252.1392<br />TotCost: 17780.45","units: 257.6962<br />TotCost: 17901.05","units: 263.2532<br />TotCost: 18021.64","units: 268.8101<br />TotCost: 18142.24","units: 274.3671<br />TotCost: 18262.83","units: 279.9241<br />TotCost: 18383.43","units: 285.4810<br />TotCost: 18504.02","units: 291.0380<br />TotCost: 18624.62","units: 296.5949<br />TotCost: 18745.21","units: 302.1519<br />TotCost: 18865.81","units: 307.7089<br />TotCost: 18986.40","units: 313.2658<br />TotCost: 19107.00","units: 318.8228<br />TotCost: 19227.59","units: 324.3797<br />TotCost: 19348.19","units: 329.9367<br />TotCost: 19468.78","units: 335.4937<br />TotCost: 19589.38","units: 341.0506<br />TotCost: 19709.97","units: 346.6076<br />TotCost: 19830.56","units: 352.1646<br />TotCost: 19951.16","units: 357.7215<br />TotCost: 20071.75","units: 363.2785<br />TotCost: 20192.35","units: 368.8354<br />TotCost: 20312.94","units: 374.3924<br />TotCost: 20433.54","units: 379.9494<br />TotCost: 20554.13","units: 385.5063<br />TotCost: 20674.73","units: 391.0633<br />TotCost: 20795.32","units: 396.6203<br />TotCost: 20915.92","units: 402.1772<br />TotCost: 21036.51","units: 407.7342<br />TotCost: 21157.11","units: 413.2911<br />TotCost: 21277.70","units: 418.8481<br />TotCost: 21398.30","units: 424.4051<br />TotCost: 21518.89","units: 429.9620<br />TotCost: 21639.49","units: 435.5190<br />TotCost: 21760.08","units: 441.0759<br />TotCost: 21880.67","units: 446.6329<br />TotCost: 22001.27","units: 452.1899<br />TotCost: 22121.86","units: 457.7468<br />TotCost: 22242.46","units: 463.3038<br />TotCost: 22363.05","units: 468.8608<br />TotCost: 22483.65","units: 474.4177<br />TotCost: 22604.24","units: 479.9747<br />TotCost: 22724.84","units: 485.5316<br />TotCost: 22845.43","units: 491.0886<br />TotCost: 22966.03","units: 496.6456<br />TotCost: 23086.62","units: 502.2025<br />TotCost: 23207.22","units: 507.7595<br />TotCost: 23327.81","units: 513.3165<br />TotCost: 23448.41","units: 518.8734<br />TotCost: 23569.00","units: 524.4304<br />TotCost: 23689.59","units: 529.9873<br />TotCost: 23810.19","units: 535.5443<br />TotCost: 23930.78","units: 541.1013<br />TotCost: 24051.38","units: 546.6582<br />TotCost: 24171.97","units: 552.2152<br />TotCost: 24292.57","units: 557.7722<br />TotCost: 24413.16","units: 563.3291<br />TotCost: 24533.76","units: 568.8861<br />TotCost: 24654.35","units: 574.4430<br />TotCost: 24774.95","units: 580.0000<br />TotCost: 24895.54","units: 580.0000<br />TotCost: 24895.54","units: 580.0000<br />TotCost: 24895.54","units: 574.4430<br />TotCost: 24774.95","units: 568.8861<br />TotCost: 24654.35","units: 563.3291<br />TotCost: 24533.76","units: 557.7722<br />TotCost: 24413.16","units: 552.2152<br />TotCost: 24292.57","units: 546.6582<br />TotCost: 24171.97","units: 541.1013<br />TotCost: 24051.38","units: 535.5443<br />TotCost: 23930.78","units: 529.9873<br />TotCost: 23810.19","units: 524.4304<br />TotCost: 23689.59","units: 518.8734<br />TotCost: 23569.00","units: 513.3165<br />TotCost: 23448.41","units: 507.7595<br />TotCost: 23327.81","units: 502.2025<br />TotCost: 23207.22","units: 496.6456<br />TotCost: 23086.62","units: 491.0886<br />TotCost: 22966.03","units: 485.5316<br />TotCost: 22845.43","units: 479.9747<br />TotCost: 22724.84","units: 474.4177<br />TotCost: 22604.24","units: 468.8608<br />TotCost: 22483.65","units: 463.3038<br />TotCost: 22363.05","units: 457.7468<br />TotCost: 22242.46","units: 452.1899<br />TotCost: 22121.86","units: 446.6329<br />TotCost: 22001.27","units: 441.0759<br />TotCost: 21880.67","units: 435.5190<br />TotCost: 21760.08","units: 429.9620<br />TotCost: 21639.49","units: 424.4051<br />TotCost: 21518.89","units: 418.8481<br />TotCost: 21398.30","units: 413.2911<br />TotCost: 21277.70","units: 407.7342<br />TotCost: 21157.11","units: 402.1772<br />TotCost: 21036.51","units: 396.6203<br />TotCost: 20915.92","units: 391.0633<br />TotCost: 20795.32","units: 385.5063<br />TotCost: 20674.73","units: 379.9494<br />TotCost: 20554.13","units: 374.3924<br />TotCost: 20433.54","units: 368.8354<br />TotCost: 20312.94","units: 363.2785<br />TotCost: 20192.35","units: 357.7215<br />TotCost: 20071.75","units: 352.1646<br />TotCost: 19951.16","units: 346.6076<br />TotCost: 19830.56","units: 341.0506<br />TotCost: 19709.97","units: 335.4937<br />TotCost: 19589.38","units: 329.9367<br />TotCost: 19468.78","units: 324.3797<br />TotCost: 19348.19","units: 318.8228<br />TotCost: 19227.59","units: 313.2658<br />TotCost: 19107.00","units: 307.7089<br />TotCost: 18986.40","units: 302.1519<br />TotCost: 18865.81","units: 296.5949<br />TotCost: 18745.21","units: 291.0380<br />TotCost: 18624.62","units: 285.4810<br />TotCost: 18504.02","units: 279.9241<br />TotCost: 18383.43","units: 274.3671<br />TotCost: 18262.83","units: 268.8101<br />TotCost: 18142.24","units: 263.2532<br />TotCost: 18021.64","units: 257.6962<br />TotCost: 17901.05","units: 252.1392<br />TotCost: 17780.45","units: 246.5823<br />TotCost: 17659.86","units: 241.0253<br />TotCost: 17539.27","units: 235.4684<br />TotCost: 17418.67","units: 229.9114<br />TotCost: 17298.08","units: 224.3544<br />TotCost: 17177.48","units: 218.7975<br />TotCost: 17056.89","units: 213.2405<br />TotCost: 16936.29","units: 207.6835<br />TotCost: 16815.70","units: 202.1266<br />TotCost: 16695.10","units: 196.5696<br />TotCost: 16574.51","units: 191.0127<br />TotCost: 16453.91","units: 185.4557<br />TotCost: 16333.32","units: 179.8987<br />TotCost: 16212.72","units: 174.3418<br />TotCost: 16092.13","units: 168.7848<br />TotCost: 15971.53","units: 163.2278<br />TotCost: 15850.94","units: 157.6709<br />TotCost: 15730.34","units: 152.1139<br />TotCost: 15609.75","units: 146.5570<br />TotCost: 15489.16","units: 141.0000<br />TotCost: 15368.56","units: 141.0000<br />TotCost: 15368.56"],"type":"scatter","mode":"lines","line":{"width":3.7795275590551185,"color":"rgba(55,17,66,0.4)","dash":"solid"},"fill":"toself","fillcolor":"rgba(191,191,191,0.4)","hoveron":"points","hoverinfo":"x+y","showlegend":false,"xaxis":"x","yaxis":"y","frame":null}],"layout":{"margin":{"t":23.305936073059364,"r":7.3059360730593621,"b":37.260273972602747,"l":54.794520547945211},"plot_bgcolor":"rgba(235,235,235,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[119.05,601.95000000000005],"tickmode":"array","ticktext":["200","300","400","500","600"],"tickvals":[200,300,400,500,600],"categoryorder":"array","categoryarray":["200","300","400","500","600"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0,"zeroline":false,"anchor":"y","title":{"text":"Units","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[13808.435937641598,25898.492209526452],"tickmode":"array","ticktext":["14000","16000","18000","20000","22000","24000"],"tickvals":[14000,16000,18000,20000,22000,24000],"categoryorder":"array","categoryarray":["14000","16000","18000","20000","22000","24000"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0,"zeroline":false,"anchor":"x","title":{"text":"Total Costs per period","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","layer":"below","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.68949771689498}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"51cf7c2e3cdd":{"x":{},"y":{},"type":"scatter"},"51cf3f9e10dc":{"x":{},"y":{}}},"cur_data":"51cf7c2e3cdd","visdat":{"51cf7c2e3cdd":["function (y) ","x"],"51cf3f9e10dc":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="a-linear-model" class="slide level2">
+<h2>A Linear Model</h2>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = TotCost ~ units, data = HMB)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-1606.7  -610.9  -124.8   509.8  2522.3 
+
+Coefficients:
+             Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) 12308.642    323.601   38.04   &lt;2e-16 ***
+units          21.702      0.862   25.18   &lt;2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 871.8 on 58 degrees of freedom
+Multiple R-squared:  0.9162,    Adjusted R-squared:  0.9147 
+F-statistic: 633.8 on 1 and 58 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+</div>
+<p><span class="math display">Total.Cost_{t} = 12308.64 + 21.70 * units_t + \epsilon_{t}</span> where <span class="math inline">\epsilon_{t}</span> has a standard deviation of 872 dollars.</p>
+</section>
+<section id="fitted.values-or-predictions" class="slide level2">
+<h2><code>fitted.values()</code> or predictions</h2>
+<p>The line is the fitted values.</p>
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-24-1.svg" width="624" class="r-stretch"></section>
+<section id="residual-costs" class="slide level2">
+<h2>Residual Costs?</h2>
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-25-1.svg" width="624" class="r-stretch"></section>
+<section id="not-the-prettiest-but-the-best." class="slide level2">
+<h2>Not the Prettiest but the best….</h2>
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-26-1.svg" width="624" class="r-stretch"></section>
+<section id="because-normal-is-sustainable-i-can-." class="slide level2">
+<h2>Because normal is sustainable, I can ….</h2>
+<ul>
+<li class="fragment">Interpret the table including <span class="math inline">t</span> and <span class="math inline">F</span>.<br>
+</li>
+<li class="fragment">Utilize confidence intervals for the estimates.<br>
+</li>
+<li class="fragment">Predict from the regression of two forms.<br>
+</li>
+<li class="fragment">Subject to examinations of other characteristics of the regression.</li>
+</ul>
+</section>
+<section id="anova-sums-of-squares" class="slide level2">
+<h2><code>anova</code> [Sums of squares]</h2>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>Analysis of Variance Table
+
+Response: TotCost
+          Df    Sum Sq   Mean Sq F value    Pr(&gt;F)    
+units      1 481694173 481694173  633.81 &lt; 2.2e-16 ***
+Residuals 58  44080089    760002                      
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+</div>
+<p>Two types of squares: those a function of units and those residual. Why?</p>
+
+<img data-src="https://share.google/images/d0LSedK7AZuETlyiA.png" class="r-stretch"></section>
+<section id="confint-confidence-intervals" class="slide level2">
+<h2><code>confint</code> <a href="#/confidence-intervals">confidence intervals</a></h2>
+<p>From normal, the slope and intercept have <span class="math inline">t</span> confidence intervals.</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>                  2.5 %      97.5 %
+(Intercept) 11660.88464 12956.39966
+units          19.97605    23.42705</code></pre>
+</div>
+</div>
+<p>With 95% confidence, fixed costs range from 11660.88 to 12956.40 dollars per period and the variable costs range from 19.976 to 23.427 dollars per unit. If the goal is to attain 20 dollars per unit, we cannot rule that out [though a 95 percent lower bound would].</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>                    5 %        95 %
+(Intercept) 11767.72623 12849.55807
+units          20.26066    23.14245</code></pre>
+</div>
+</div>
+</section>
+<section id="plots-1" class="slide level2">
+<h2>Plots</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item" id="htmlwidget-e083190dedc4ba04be03" style="width:624px;height:576px;"></div>
+<script type="application/json" data-for="htmlwidget-e083190dedc4ba04be03">{"x":{"data":[{"x":[18124.65784060911,18363.374902450661,21640.309115003649,15368.560853892313,21249.681195626472,24765.332470021061,22204.549442992902,16562.146163100355,20685.440867637219,17907.642329843962,22074.340136533843,19166.332292281531,19947.588131035882,18645.495066445295,18016.150085226509,23701.956467272081,15411.963956045332,18102.956289532551,19383.347803046629,22291.355647298944,24895.541776480117,24591.720061408982,16128.115141570157,16844.266327094982,20989.262582708354,22009.235483304314,20121.200539647962,16410.235305564784,15585.576364657412,22530.07270914055,21097.770338090904,23289.626996818395,20468.425356872118,18146.359391685568,22790.491322058668,21727.115319309687,16063.010488340627,17017.878735707058,17321.700450778197,16084.712039417138,16345.130652335256,18602.091964292274,16779.161673865452,16041.308937264117,22508.371158064041,15759.18877326949,24114.285937725766,21596.906012850628,21813.921523615725,22942.402179594235,17625.522165849336,24157.689039878787,24331.301448490864,20945.859480555333,19882.483477806352,19513.557109505688,20837.351725172786,18732.301270751334,23528.344058660001,23029.208383900277],"y":[1499.6498893908915,-1572.9599824506633,-151.20234500364995,629.46588610768526,2522.2644743735295,-399.8568700210584,1520.2884370070958,366.82866689964601,52.768052362784069,-159.97940984396274,-594.12562653384293,-1606.7423222815294,-215.68072103588366,649.7054335547042,-187.19308522651221,473.47051272792083,-1053.9800060453333,421.85734046745051,704.13394695337047,9.6756927010586988,-267.57590648011859,-1182.18096140898,-818.62832157015691,-661.29441709498053,-233.66141270835237,421.71883669568552,-930.86898964796296,1757.1217744352166,-339.51331465741112,-1201.4262591405502,-851.82837809090313,591.30512318160754,-341.76857687211748,229.68568831443031,494.2356579413314,242.31944069031235,-1068.5760083406278,-1290.9579457070593,-896.91333077819604,1325.6477605828607,1260.075157664744,943.9023757077257,-1479.0792338654508,1136.7918327358832,-98.419808064041263,-273.58445326948947,125.71716227423637,-821.99011285062909,-178.31898361572689,-207.55700959423586,374.62011415066593,283.40135012121573,556.52771150913759,-329.09569055533353,679.29585219364719,180.94184049431374,-776.96555517278387,266.90888924866459,-277.22068865999995,748.82082609972463],"mode":"markers","showlegend":false,"text":["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60"],"type":"scatter","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"line":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[15368.560853892313,15562.989035985942,15757.41721807957,15951.845400173199,16146.273582266827,16340.701764360456,16535.129946454086,16729.558128547713,16923.986310641343,17118.41449273497,17312.8426748286,17507.270856922227,17701.699039015857,17896.127221109487,18090.555403203114,18284.983585296744,18479.411767390371,18673.839949484001,18868.268131577628,19062.696313671258,19257.124495764885,19451.552677858515,19645.980859952142,19840.409042045772,20034.837224139399,20229.265406233029,20423.69358832666,20618.121770420286,20812.549952513917,21006.978134607543,21201.406316701174,21395.8344987948,21590.262680888431,21784.690862982057,21979.119045075688,22173.547227169314,22367.975409262945,22562.403591356571,22756.831773450202,22951.259955543832,23145.688137637459,23340.116319731089,23534.544501824716,23728.972683918346,23923.400866011973,24117.829048105603,24312.25723019923,24506.68541229286,24701.113594386487,24895.541776480117],"y":[-98.650092192211304,-89.717099322763318,-80.455102046215558,-71.364518053532535,-62.936629300216367,-54.431646687648396,-45.422154636183102,-36.330988271903969,-27.580982720893921,-19.594973109236513,-12.795794563014704,-7.9293207116430819,-5.2420097146592131,-4.2752470805335019,-4.5693770293801075,-5.6647437813132315,-7.1016915564470215,-8.372894528700078,-9.0785535494276441,-10.332100978407825,-13.508048800499513,-19.980909000561798,-31.125193563453358,-48.315414474033595,-71.792115418936419,-93.723033990048023,-111.62852191418102,-124.62580056546182,-131.8320913180174,-132.36461554597415,-125.34059462345856,-112.62275504171176,-100.14748483063569,-87.615506783277453,-74.430956817283487,-59.997970850301208,-46.292794787648084,-36.892382797065572,-30.511093079605832,-25.767392484312186,-21.279747860227832,-15.666626056395755,-7.5491643070798045,1.4776307589873112,9.4371834984403904,16.647735677492602,23.427529062356527,30.094805419245294,36.967806514371503,44.364774113948293],"mode":"line+lines","showlegend":false,"text":["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],"type":"scatter","name":"Smooth","line":{"color":"rgba(255,127,14,1)","width":2},"marker":{"color":"rgba(255,127,14,1)","line":{"color":"rgba(255,127,14,1)"}},"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[1.5689196324989263,-1.9599639845400538,-0.020890088246888563,0.81221780149991285,2.3939797998185099,-0.59776012604247841,1.7316643961222455,0.40791874094503472,0.10463345561407524,-0.062706777943213832,-0.64849218059285707,-2.3939797998185091,-0.23183436245300987,0.87177097218995891,-0.14674495548654856,0.59776012604247841,-1.1503493803760079,0.54852228269809811,1.0013312975256929,0.062706777943213832,-0.3186393639643752,-1.3305615131788966,-0.81221780149991285,-0.70095141958421181,-0.27497774896900473,0.50058010546673959,-1.0728613416500032,1.9599639845400534,-0.50058010546673959,-1.4395314709384559,-0.93458929107348021,0.75541502636046931,-0.54852228269809777,0.23183436245300987,0.64849218059285729,0.27497774896900462,-1.2354403415612518,-1.5689196324989263,-1.0013312975256929,1.4395314709384559,1.3305615131788966,1.1503493803760079,-1.7316643961222453,1.2354403415612523,0.020890088246888424,-0.36291729513935606,0.14674495548654856,-0.87177097218995891,-0.10463345561407537,-0.18911842627279249,0.45376219016987956,0.36291729513935622,0.70095141958421181,-0.45376219016987945,0.93458929107347999,0.18911842627279238,-0.75541502636046931,0.3186393639643752,-0.40791874094503472,1.072861341650003],"y":[1.7408439603262582,-1.8243687375836877,-0.17543635642660854,0.74480568101564371,2.9228903841346443,-0.47430810360443959,1.7681445698239884,0.42955842390421312,0.061075027301439253,-0.18587512800435257,-0.69056667138053884,-1.8598079210384943,-0.24949032648220232,0.75289891436906575,-0.2173941499556567,0.55602948242197958,-1.2465609258592272,0.48974759264027917,0.8147855041609906,0.01125794344656999,-0.31784613711339632,-1.3997464305008835,-0.96187708752619883,-0.77285085700208345,-0.27060018683084158,0.49003162247193477,-1.0768243829663973,2.0599437406448891,-0.40086580788485526,-1.3996530932614766,-0.98673965259526975,0.69221028580050481,-0.39545699093372844,0.26660458083499755,0.57665426345330562,0.28124735963102432,-1.2562485162523838,-1.5070354434778366,-1.0451422457695114,1.558183857997419,1.4779811423240332,1.093956615063062,-1.7293519559259878,1.3366913785454564,-0.11464467643681818,-0.32249715473584351,0.14816597814523294,-0.95358792587745256,-0.2070350850537343,-0.24240018382919604,0.43583087975317836,0.33414037823502502,0.65724261216085322,-0.38108563707987497,0.78578411909291368,0.20934735565595547,-0.89951411456929364,0.30923080530443525,-0.32510939029617314,0.87502434614437929],"text":["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60"],"mode":"markers","marker":{"color":"rgba(44,160,44,1)","size":10,"opacity":0.5,"line":{"color":"rgba(44,160,44,1)"}},"showlegend":false,"type":"scatter","error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"line":{"color":"rgba(44,160,44,1)"},"xaxis":"x2","yaxis":"y2","frame":null},{"x":[1.5689196324989263,-1.9599639845400538,-0.020890088246888563,0.81221780149991285,2.3939797998185099,-0.59776012604247841,1.7316643961222455,0.40791874094503472,0.10463345561407524,-0.062706777943213832,-0.64849218059285707,-2.3939797998185091,-0.23183436245300987,0.87177097218995891,-0.14674495548654856,0.59776012604247841,-1.1503493803760079,0.54852228269809811,1.0013312975256929,0.062706777943213832,-0.3186393639643752,-1.3305615131788966,-0.81221780149991285,-0.70095141958421181,-0.27497774896900473,0.50058010546673959,-1.0728613416500032,1.9599639845400534,-0.50058010546673959,-1.4395314709384559,-0.93458929107348021,0.75541502636046931,-0.54852228269809777,0.23183436245300987,0.64849218059285729,0.27497774896900462,-1.2354403415612518,-1.5689196324989263,-1.0013312975256929,1.4395314709384559,1.3305615131788966,1.1503493803760079,-1.7316643961222453,1.2354403415612523,0.020890088246888424,-0.36291729513935606,0.14674495548654856,-0.87177097218995891,-0.10463345561407537,-0.18911842627279249,0.45376219016987956,0.36291729513935622,0.70095141958421181,-0.45376219016987945,0.93458929107347999,0.18911842627279238,-0.75541502636046931,0.3186393639643752,-0.40791874094503472,1.072861341650003],"y":[1.5689196324989263,-1.9599639845400538,-0.020890088246888563,0.81221780149991285,2.3939797998185099,-0.59776012604247841,1.7316643961222455,0.40791874094503472,0.10463345561407524,-0.062706777943213832,-0.64849218059285707,-2.3939797998185091,-0.23183436245300987,0.87177097218995891,-0.14674495548654856,0.59776012604247841,-1.1503493803760079,0.54852228269809811,1.0013312975256929,0.062706777943213832,-0.3186393639643752,-1.3305615131788966,-0.81221780149991285,-0.70095141958421181,-0.27497774896900473,0.50058010546673959,-1.0728613416500032,1.9599639845400534,-0.50058010546673959,-1.4395314709384559,-0.93458929107348021,0.75541502636046931,-0.54852228269809777,0.23183436245300987,0.64849218059285729,0.27497774896900462,-1.2354403415612518,-1.5689196324989263,-1.0013312975256929,1.4395314709384559,1.3305615131788966,1.1503493803760079,-1.7316643961222453,1.2354403415612523,0.020890088246888424,-0.36291729513935606,0.14674495548654856,-0.87177097218995891,-0.10463345561407537,-0.18911842627279249,0.45376219016987956,0.36291729513935622,0.70095141958421181,-0.45376219016987945,0.93458929107347999,0.18911842627279238,-0.75541502636046931,0.3186393639643752,-0.40791874094503472,1.072861341650003],"text":["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60"],"mode":"line+markers+lines","marker":{"color":"rgba(214,39,40,1)","size":10,"opacity":0.5,"line":{"color":"rgba(214,39,40,1)"}},"showlegend":false,"type":"scatter","line":{"color":"rgba(214,39,40,1)","width":2},"error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"xaxis":"x2","yaxis":"y2","frame":null},{"x":[18124.65784060911,18363.374902450661,21640.309115003649,15368.560853892313,21249.681195626472,24765.332470021061,22204.549442992902,16562.146163100355,20685.440867637219,17907.642329843962,22074.340136533843,19166.332292281531,19947.588131035882,18645.495066445295,18016.150085226509,23701.956467272081,15411.963956045332,18102.956289532551,19383.347803046629,22291.355647298944,24895.541776480117,24591.720061408982,16128.115141570157,16844.266327094982,20989.262582708354,22009.235483304314,20121.200539647962,16410.235305564784,15585.576364657412,22530.07270914055,21097.770338090904,23289.626996818395,20468.425356872118,18146.359391685568,22790.491322058668,21727.115319309687,16063.010488340627,17017.878735707058,17321.700450778197,16084.712039417138,16345.130652335256,18602.091964292274,16779.161673865452,16041.308937264117,22508.371158064041,15759.18877326949,24114.285937725766,21596.906012850628,21813.921523615725,22942.402179594235,17625.522165849336,24157.689039878787,24331.301448490864,20945.859480555333,19882.483477806352,19513.557109505688,20837.351725172786,18732.301270751334,23528.344058660001,23029.208383900277],"y":[1.3194104593818627,1.3506919477007655,0.41885123424267062,0.86302125177520617,1.7096462745651932,0.68870030027903983,1.3297159733657367,0.65540706732855203,0.24713362236134373,0.43113237874735477,0.83100341237598951,1.3637477483165625,0.4994900664499769,0.86769747860015456,0.46625545568460292,0.7456738445339085,1.1164949287207835,0.69981968580505016,0.90265469818806721,0.10610345633658684,0.56377844683297029,1.1831087990970584,0.98075332654352942,0.87911936447906969,0.52019245172420714,0.70002258711554066,1.037701490297859,1.4352504104318831,0.63313964327378469,1.1830693526845655,0.9933476997483156,0.8319917582527514,0.62885371187083605,0.51633766164690864,0.7593775500061255,0.53032759652032468,1.1208249266733783,1.2276137191632539,1.0223219873256719,1.2482723492881749,1.2157224775104034,1.0459238093967753,1.3150482713292269,1.1561537002256475,0.33859219783807509,0.56788832945909662,0.38492334060853328,0.9765182670475,0.45501108234166593,0.49234153169237715,0.66017488573345351,0.57804876804213068,0.81070500933499434,0.61732134021097551,0.88644465089080082,0.45754492200870883,0.9484271793708221,0.5560852500331539,0.57018364611427885,0.93542736016452888],"text":["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60"],"mode":"markers","marker":{"color":"rgba(148,103,189,1)","size":10,"opacity":0.5,"line":{"color":"rgba(148,103,189,1)"}},"showlegend":false,"type":"scatter","error_y":{"color":"rgba(148,103,189,1)"},"error_x":{"color":"rgba(148,103,189,1)"},"line":{"color":"rgba(148,103,189,1)"},"xaxis":"x3","yaxis":"y3","frame":null},{"x":[15368.560853892313,15562.989035985942,15757.41721807957,15951.845400173199,16146.273582266827,16340.701764360456,16535.129946454086,16729.558128547713,16923.986310641343,17118.41449273497,17312.8426748286,17507.270856922227,17701.699039015857,17896.127221109487,18090.555403203114,18284.983585296744,18479.411767390371,18673.839949484001,18868.268131577628,19062.696313671258,19257.124495764885,19451.552677858515,19645.980859952142,19840.409042045772,20034.837224139399,20229.265406233029,20423.69358832666,20618.121770420286,20812.549952513917,21006.978134607543,21201.406316701174,21395.8344987948,21590.262680888431,21784.690862982057,21979.119045075688,22173.547227169314,22367.975409262945,22562.403591356571,22756.831773450202,22951.259955543832,23145.688137637459,23340.116319731089,23534.544501824716,23728.972683918346,23923.400866011973,24117.829048105603,24312.25723019923,24506.68541229286,24701.113594386487,24895.541776480117],"y":[1.0388687791478375,1.0278523166907647,1.0168580248230839,1.0058073411886082,0.99462571895643359,0.98373327458311477,0.97325811261788275,0.96292268818636884,0.95244945641420331,0.9415608724270178,0.92997939135044283,0.91783490324339401,0.90548890328621934,0.89290483511610363,0.88004529713739577,0.86687288775444316,0.85335020537159445,0.83955833486106157,0.82670083986227549,0.81498413649309631,0.80426093274419896,0.7943839366062575,0.78520585606994686,0.77657939912594143,0.76834243739674535,0.760333430045389,0.75264289889280545,0.74539763572237527,0.7387244323174782,0.7327500804614947,0.7276013719378045,0.72333731315202043,0.71978462565967305,0.71680080419856051,0.71424801997815424,0.71198844420792584,0.71003373754366306,0.70852157347646727,0.70733220021973786,0.70634054037338545,0.70542151653732066,0.70445005131145433,0.70330134583933379,0.70215294773804715,0.70119271962909502,0.70036224306488926,0.69960309959784195,0.69885687078036529,0.69806513816487115,0.69716948330377171],"text":["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],"mode":"line+markers+lines","marker":{"color":"rgba(140,86,75,1)","size":10,"opacity":0.5,"line":{"color":"rgba(140,86,75,1)"}},"showlegend":false,"type":"scatter","name":"Smooth","line":{"color":"rgba(140,86,75,1)","width":2},"error_y":{"color":"rgba(140,86,75,1)"},"error_x":{"color":"rgba(140,86,75,1)"},"xaxis":"x3","yaxis":"y3","frame":null},{"x":[0.023559915940385555,0.021872127365138071,0.022620140869793175,0.060181551663935684,0.020190335412618807,0.064866608712349755,0.02724836036365345,0.04045005566104324,0.01779911691908646,0.025299588338367773,0.02606298448393423,0.017931433703196761,0.016666667753011361,0.020182513730799476,0.024405309383691225,0.045939833407302531,0.059360405434269861,0.023725083788136963,0.017325905169017088,0.028077719359229574,0.067506817410464048,0.061455833993667941,0.04694074795744925,0.036650543355940812,0.018922440789705675,0.025496694720214853,0.016729762653020609,0.042632826334090476,0.056154037333799832,0.030519778784587552,0.019416510357959917,0.039864081331411887,0.017231393180366872,0.023396703513088826,0.033453691635017636,0.02324613613806676,0.047981813807601859,0.034476637255622125,0.030973436330108593,0.047632836437096156,0.043597630786504638,0.020420944664925337,0.037498022581065042,0.048332746598562404,0.030287996280008122,0.053072816142439069,0.052721492267387565,0.022318875758385377,0.023903418133617658,0.03529517625801485,0.027853497813742151,0.053476414924316422,0.056574322370225083,0.018738500905587801,0.016675271603012621,0.017056448230341224,0.018312871053252678,0.019729116908005741,0.043295583506914911,0.036390472435448143],"y":[1499.6498893908915,-1572.9599824506633,-151.20234500364995,629.46588610768526,2522.2644743735295,-399.8568700210584,1520.2884370070958,366.82866689964601,52.768052362784069,-159.97940984396274,-594.12562653384293,-1606.7423222815294,-215.68072103588366,649.7054335547042,-187.19308522651221,473.47051272792083,-1053.9800060453333,421.85734046745051,704.13394695337047,9.6756927010586988,-267.57590648011859,-1182.18096140898,-818.62832157015691,-661.29441709498053,-233.66141270835237,421.71883669568552,-930.86898964796296,1757.1217744352166,-339.51331465741112,-1201.4262591405502,-851.82837809090313,591.30512318160754,-341.76857687211748,229.68568831443031,494.2356579413314,242.31944069031235,-1068.5760083406278,-1290.9579457070593,-896.91333077819604,1325.6477605828607,1260.075157664744,943.9023757077257,-1479.0792338654508,1136.7918327358832,-98.419808064041263,-273.58445326948947,125.71716227423637,-821.99011285062909,-178.31898361572689,-207.55700959423586,374.62011415066593,283.40135012121573,556.52771150913759,-329.09569055533353,679.29585219364719,180.94184049431374,-776.96555517278387,266.90888924866459,-277.22068865999995,748.82082609972463],"text":["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60"],"mode":"markers","marker":{"color":"rgba(227,119,194,1)","size":10,"opacity":0.5,"line":{"color":"rgba(227,119,194,1)"}},"showlegend":false,"type":"scatter","error_y":{"color":"rgba(227,119,194,1)"},"error_x":{"color":"rgba(227,119,194,1)"},"line":{"color":"rgba(227,119,194,1)"},"xaxis":"x4","yaxis":"y4","frame":null},{"x":[0.016666667753011361,0.017704221827653254,0.018741775902295144,0.019779329976937036,0.020816884051578929,0.021854438126220819,0.022891992200862712,0.023929546275504601,0.024967100350146494,0.026004654424788387,0.027042208499430277,0.028079762574072169,0.029117316648714059,0.030154870723355952,0.031192424797997845,0.032229978872639738,0.033267532947281631,0.034305087021923517,0.035342641096565409,0.036380195171207302,0.037417749245849195,0.038455303320491088,0.039492857395132974,0.040530411469774867,0.04156796554441676,0.042605519619058653,0.043643073693700546,0.044680627768342432,0.045718181842984325,0.046755735917626218,0.047793289992268111,0.048830844066910004,0.04986839814155189,0.050905952216193782,0.051943506290835675,0.052981060365477568,0.054018614440119461,0.055056168514761354,0.05609372258940324,0.057131276664045133,0.058168830738687026,0.059206384813328919,0.060243938887970812,0.061281492962612698,0.062319047037254591,0.063356601111896491,0.064394155186538377,0.065431709261180263,0.066469263335822162,0.067506817410464048],"y":[-122.22824016412402,-104.48198432637474,-90.649742234245437,-76.880161952440048,-66.577062987175168,-58.457386943891571,-52.197542720796079,-47.823993417701182,-47.549752471400346,-54.368830932316683,-70.736643610559142,-98.273028192745485,-116.1424874405869,-117.04304836613998,-104.52698020405198,-82.146552188970176,-53.454033555541905,-22.001693538414621,8.6581986277647776,34.973373708348774,52.926198497765299,62.702829955187767,67.147742971597907,69.105563619905752,71.420917973021318,76.938432103854637,88.482971988254278,97.558773859112563,96.767675441823656,87.981713201131427,73.072923601779905,53.913343108513054,32.37500818607505,10.329955299209521,-10.34977908733935,-27.792158508827587,-41.329279277396218,-56.309866394572047,-73.388695653372167,-92.275584304340342,-112.68034959802,-134.31280878495468,-156.88277911568787,-180.10007784076302,-203.67452221072384,-227.31592947611404,-250.73411688747649,-273.63890169535517,-295.74010115029387,-316.7475325028355],"text":["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],"mode":"line+markers+lines","marker":{"color":"rgba(127,127,127,1)","size":10,"opacity":0.5,"line":{"color":"rgba(127,127,127,1)"}},"showlegend":false,"type":"scatter","name":"Smooth","line":{"color":"rgba(127,127,127,1)","width":2},"error_y":{"color":"rgba(127,127,127,1)"},"error_x":{"color":"rgba(127,127,127,1)"},"xaxis":"x4","yaxis":"y4","frame":null}],"layout":{"xaxis":{"domain":[0,0.47999999999999998],"automargin":true,"text":"Residuals","anchor":"y"},"xaxis2":{"domain":[0.52000000000000002,1],"automargin":true,"text":"Theoretical","anchor":"y2"},"xaxis3":{"domain":[0,0.47999999999999998],"automargin":true,"text":"Scale","anchor":"y3"},"xaxis4":{"domain":[0.52000000000000002,1],"automargin":true,"text":"Leverage","anchor":"y4"},"yaxis4":{"domain":[0,0.47999999999999998],"automargin":true,"text":"Residuals","anchor":"x4"},"yaxis3":{"domain":[0,0.47999999999999998],"automargin":true,"text":"Location","anchor":"x3"},"yaxis2":{"domain":[0.52000000000000002,1],"automargin":true,"text":"Standardized Residuals","anchor":"x2"},"yaxis":{"domain":[0.52000000000000002,1],"automargin":true,"text":"Fitted Values","anchor":"x"},"annotations":[],"shapes":[],"images":[],"margin":{"b":40,"l":60,"t":25,"r":10},"plot_bgcolor":"#e6e6e6","hovermode":"closest","showlegend":false},"attrs":{"51cf6706e1d4":{"x":{},"y":{},"mode":"markers","showlegend":false,"text":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter"},"51cf6706e1d4.1":{"x":[15368.560853892313,15562.989035985942,15757.41721807957,15951.845400173199,16146.273582266827,16340.701764360456,16535.129946454086,16729.558128547713,16923.986310641343,17118.41449273497,17312.8426748286,17507.270856922227,17701.699039015857,17896.127221109487,18090.555403203114,18284.983585296744,18479.411767390371,18673.839949484001,18868.268131577628,19062.696313671258,19257.124495764885,19451.552677858515,19645.980859952142,19840.409042045772,20034.837224139399,20229.265406233029,20423.69358832666,20618.121770420286,20812.549952513917,21006.978134607543,21201.406316701174,21395.8344987948,21590.262680888431,21784.690862982057,21979.119045075688,22173.547227169314,22367.975409262945,22562.403591356571,22756.831773450202,22951.259955543832,23145.688137637459,23340.116319731089,23534.544501824716,23728.972683918346,23923.400866011973,24117.829048105603,24312.25723019923,24506.68541229286,24701.113594386487,24895.541776480117],"y":[-98.650092192211304,-89.717099322763318,-80.455102046215558,-71.364518053532535,-62.936629300216367,-54.431646687648396,-45.422154636183102,-36.330988271903969,-27.580982720893921,-19.594973109236513,-12.795794563014704,-7.9293207116430819,-5.2420097146592131,-4.2752470805335019,-4.5693770293801075,-5.6647437813132315,-7.1016915564470215,-8.372894528700078,-9.0785535494276441,-10.332100978407825,-13.508048800499513,-19.980909000561798,-31.125193563453358,-48.315414474033595,-71.792115418936419,-93.723033990048023,-111.62852191418102,-124.62580056546182,-131.8320913180174,-132.36461554597415,-125.34059462345856,-112.62275504171176,-100.14748483063569,-87.615506783277453,-74.430956817283487,-59.997970850301208,-46.292794787648084,-36.892382797065572,-30.511093079605832,-25.767392484312186,-21.279747860227832,-15.666626056395755,-7.5491643070798045,1.4776307589873112,9.4371834984403904,16.647735677492602,23.427529062356527,30.094805419245294,36.967806514371503,44.364774113948293],"mode":"line","showlegend":false,"text":"","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter","name":"Smooth","line":{"width":2},"inherit":true},"51cf74d45a23":{"x":{},"y":{},"text":{},"mode":"markers","marker":{"size":10,"opacity":0.5},"showlegend":false,"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter"},"51cf74d45a23.1":{"x":[1.5689196324989263,-1.9599639845400538,-0.020890088246888563,0.81221780149991285,2.3939797998185099,-0.59776012604247841,1.7316643961222455,0.40791874094503472,0.10463345561407524,-0.062706777943213832,-0.64849218059285707,-2.3939797998185091,-0.23183436245300987,0.87177097218995891,-0.14674495548654856,0.59776012604247841,-1.1503493803760079,0.54852228269809811,1.0013312975256929,0.062706777943213832,-0.3186393639643752,-1.3305615131788966,-0.81221780149991285,-0.70095141958421181,-0.27497774896900473,0.50058010546673959,-1.0728613416500032,1.9599639845400534,-0.50058010546673959,-1.4395314709384559,-0.93458929107348021,0.75541502636046931,-0.54852228269809777,0.23183436245300987,0.64849218059285729,0.27497774896900462,-1.2354403415612518,-1.5689196324989263,-1.0013312975256929,1.4395314709384559,1.3305615131788966,1.1503493803760079,-1.7316643961222453,1.2354403415612523,0.020890088246888424,-0.36291729513935606,0.14674495548654856,-0.87177097218995891,-0.10463345561407537,-0.18911842627279249,0.45376219016987956,0.36291729513935622,0.70095141958421181,-0.45376219016987945,0.93458929107347999,0.18911842627279238,-0.75541502636046931,0.3186393639643752,-0.40791874094503472,1.072861341650003],"y":[1.5689196324989263,-1.9599639845400538,-0.020890088246888563,0.81221780149991285,2.3939797998185099,-0.59776012604247841,1.7316643961222455,0.40791874094503472,0.10463345561407524,-0.062706777943213832,-0.64849218059285707,-2.3939797998185091,-0.23183436245300987,0.87177097218995891,-0.14674495548654856,0.59776012604247841,-1.1503493803760079,0.54852228269809811,1.0013312975256929,0.062706777943213832,-0.3186393639643752,-1.3305615131788966,-0.81221780149991285,-0.70095141958421181,-0.27497774896900473,0.50058010546673959,-1.0728613416500032,1.9599639845400534,-0.50058010546673959,-1.4395314709384559,-0.93458929107348021,0.75541502636046931,-0.54852228269809777,0.23183436245300987,0.64849218059285729,0.27497774896900462,-1.2354403415612518,-1.5689196324989263,-1.0013312975256929,1.4395314709384559,1.3305615131788966,1.1503493803760079,-1.7316643961222453,1.2354403415612523,0.020890088246888424,-0.36291729513935606,0.14674495548654856,-0.87177097218995891,-0.10463345561407537,-0.18911842627279249,0.45376219016987956,0.36291729513935622,0.70095141958421181,-0.45376219016987945,0.93458929107347999,0.18911842627279238,-0.75541502636046931,0.3186393639643752,-0.40791874094503472,1.072861341650003],"text":{},"mode":"line","marker":{"size":10,"opacity":0.5},"showlegend":false,"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter","name":"","line":{"width":2},"inherit":true},"51cf2169ebc1":{"x":{},"y":{},"text":{},"mode":"markers","marker":{"size":10,"opacity":0.5},"showlegend":false,"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter"},"51cf2169ebc1.1":{"x":[15368.560853892313,15562.989035985942,15757.41721807957,15951.845400173199,16146.273582266827,16340.701764360456,16535.129946454086,16729.558128547713,16923.986310641343,17118.41449273497,17312.8426748286,17507.270856922227,17701.699039015857,17896.127221109487,18090.555403203114,18284.983585296744,18479.411767390371,18673.839949484001,18868.268131577628,19062.696313671258,19257.124495764885,19451.552677858515,19645.980859952142,19840.409042045772,20034.837224139399,20229.265406233029,20423.69358832666,20618.121770420286,20812.549952513917,21006.978134607543,21201.406316701174,21395.8344987948,21590.262680888431,21784.690862982057,21979.119045075688,22173.547227169314,22367.975409262945,22562.403591356571,22756.831773450202,22951.259955543832,23145.688137637459,23340.116319731089,23534.544501824716,23728.972683918346,23923.400866011973,24117.829048105603,24312.25723019923,24506.68541229286,24701.113594386487,24895.541776480117],"y":[1.0388687791478375,1.0278523166907647,1.0168580248230839,1.0058073411886082,0.99462571895643359,0.98373327458311477,0.97325811261788275,0.96292268818636884,0.95244945641420331,0.9415608724270178,0.92997939135044283,0.91783490324339401,0.90548890328621934,0.89290483511610363,0.88004529713739577,0.86687288775444316,0.85335020537159445,0.83955833486106157,0.82670083986227549,0.81498413649309631,0.80426093274419896,0.7943839366062575,0.78520585606994686,0.77657939912594143,0.76834243739674535,0.760333430045389,0.75264289889280545,0.74539763572237527,0.7387244323174782,0.7327500804614947,0.7276013719378045,0.72333731315202043,0.71978462565967305,0.71680080419856051,0.71424801997815424,0.71198844420792584,0.71003373754366306,0.70852157347646727,0.70733220021973786,0.70634054037338545,0.70542151653732066,0.70445005131145433,0.70330134583933379,0.70215294773804715,0.70119271962909502,0.70036224306488926,0.69960309959784195,0.69885687078036529,0.69806513816487115,0.69716948330377171],"text":"","mode":"line","marker":{"size":10,"opacity":0.5},"showlegend":false,"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter","name":"Smooth","line":{"width":2},"inherit":true},"51cf30f4dd0a":{"x":{},"y":{},"text":{},"mode":"markers","marker":{"size":10,"opacity":0.5},"showlegend":false,"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter"},"51cf30f4dd0a.1":{"x":[0.016666667753011361,0.017704221827653254,0.018741775902295144,0.019779329976937036,0.020816884051578929,0.021854438126220819,0.022891992200862712,0.023929546275504601,0.024967100350146494,0.026004654424788387,0.027042208499430277,0.028079762574072169,0.029117316648714059,0.030154870723355952,0.031192424797997845,0.032229978872639738,0.033267532947281631,0.034305087021923517,0.035342641096565409,0.036380195171207302,0.037417749245849195,0.038455303320491088,0.039492857395132974,0.040530411469774867,0.04156796554441676,0.042605519619058653,0.043643073693700546,0.044680627768342432,0.045718181842984325,0.046755735917626218,0.047793289992268111,0.048830844066910004,0.04986839814155189,0.050905952216193782,0.051943506290835675,0.052981060365477568,0.054018614440119461,0.055056168514761354,0.05609372258940324,0.057131276664045133,0.058168830738687026,0.059206384813328919,0.060243938887970812,0.061281492962612698,0.062319047037254591,0.063356601111896491,0.064394155186538377,0.065431709261180263,0.066469263335822162,0.067506817410464048],"y":[-122.22824016412402,-104.48198432637474,-90.649742234245437,-76.880161952440048,-66.577062987175168,-58.457386943891571,-52.197542720796079,-47.823993417701182,-47.549752471400346,-54.368830932316683,-70.736643610559142,-98.273028192745485,-116.1424874405869,-117.04304836613998,-104.52698020405198,-82.146552188970176,-53.454033555541905,-22.001693538414621,8.6581986277647776,34.973373708348774,52.926198497765299,62.702829955187767,67.147742971597907,69.105563619905752,71.420917973021318,76.938432103854637,88.482971988254278,97.558773859112563,96.767675441823656,87.981713201131427,73.072923601779905,53.913343108513054,32.37500818607505,10.329955299209521,-10.34977908733935,-27.792158508827587,-41.329279277396218,-56.309866394572047,-73.388695653372167,-92.275584304340342,-112.68034959802,-134.31280878495468,-156.88277911568787,-180.10007784076302,-203.67452221072384,-227.31592947611404,-250.73411688747649,-273.63890169535517,-295.74010115029387,-316.7475325028355],"text":"","mode":"line","marker":{"size":10,"opacity":0.5},"showlegend":false,"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter","name":"Smooth","line":{"width":2},"inherit":true}},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"subplot":true,"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="predicting-costs" class="slide level2">
+<h2>Predicting Costs</h2>
+</section>
+<section id="average-costs-intervalconfidence" class="slide level2">
+<h2>Average Costs <code>interval="confidence"</code></h2>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>       fit      lwr      upr
+1 16648.95 16303.25 16994.66
+2 17734.03 17448.18 18019.88
+3 18819.11 18576.63 19061.58</code></pre>
+</div>
+</div>
+</section>
+<section id="all-costs-intervalprediction" class="slide level2">
+<h2>All Costs <code>interval="prediction"</code></h2>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>       fit      lwr      upr
+1 16648.95 14869.98 18427.92
+2 17734.03 15965.71 19502.35
+3 18819.11 17057.28 20580.93</code></pre>
+</div>
+</div>
+</section>
+<section id="diminshing-marginal-cost" class="slide level2">
+<h2>Diminshing Marginal Cost?</h2>
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-33-1.svg" width="624" class="r-stretch"></section>
+<section id="residuals" class="slide level2">
+<h2>Residuals</h2>
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-34-1.svg" width="624" class="r-stretch"></section>
+<section id="residuals-1" class="slide level2">
+<h2>Residuals</h2>
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-35-1.svg" width="624" class="r-stretch"></section>
+<section id="comparing-squares" class="slide level2">
+<h2>Comparing Squares</h2>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>Analysis of Variance Table
+
+Model 1: TotCost4 ~ units
+Model 2: TotCost4 ~ poly(units, 2, raw = TRUE)
+  Res.Df       RSS Df Sum of Sq     F      Pr(&gt;F)    
+1     58 304149603                                   
+2     57 203027172  1 101122431 28.39 0.000001757 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+</div>
+</section>
+<section id="lines" class="slide level2">
+<h2>Line<em>s</em>?</h2>
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-37-1.svg" width="624" class="r-stretch"></section>
+<section id="comparison-1" class="slide level2">
+<h2>Comparison</h2>
+<p><code>test</code> or <code>anova</code></p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>Analysis of Variance Table
+
+Model 1: TotCost3 ~ units
+Model 2: TotCost3 ~ units:PlantFac
+  Res.Df       RSS Df Sum of Sq      F       Pr(&gt;F)    
+1     58 585943761                                     
+2     56 348638405  2 237305356 19.059 0.0000004859 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>Analysis of Variance Table
+
+Model 1: TotCost3 ~ units:PlantFac
+Model 2: TotCost3 ~ PlantFac * units
+  Res.Df       RSS Df Sum of Sq      F Pr(&gt;F)
+1     56 348638405                           
+2     54 345221354  2   3417052 0.2672 0.7665</code></pre>
+</div>
+</div>
+</section>
+<section id="the-premier-league" class="slide level2">
+<h2>The Premier League</h2>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = Points ~ Wage.Bill.milGBP, data = EPL)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-12.569  -3.201   0.353   3.712  11.129 
+
+Coefficients:
+                 Estimate Std. Error t value       Pr(&gt;|t|)    
+(Intercept)      32.11589    2.74905  11.683 0.000000000776 ***
+Wage.Bill.milGBP  0.24023    0.02987   8.042 0.000000227415 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 6.438 on 18 degrees of freedom
+Multiple R-squared:  0.7823,    Adjusted R-squared:  0.7702 
+F-statistic: 64.67 on 1 and 18 DF,  p-value: 0.0000002274</code></pre>
+</div>
+</div>
+<p><span class="math display">Points = 32.12 + 0.24*Wage.Bill + \epsilon</span></p>
+</section>
+<section id="section-8" class="slide level2">
+<h2></h2>
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-41-1.svg" width="624" class="r-stretch"></section>
+<section id="section-9" class="slide level2">
+<h2></h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item" id="htmlwidget-0c6217bcb9e75787b912" style="width:624px;height:576px;"></div>
+<script type="application/json" data-for="htmlwidget-0c6217bcb9e75787b912">{"x":{"data":[{"x":[124,83,38,50,25,56,190,58,58,135,174,153,54,47,61,91,37,56,40,38],"y":[68,48,39,43,39,46,71,54,49,58,71,80,46,46,47,62,47,33,42,30],"text":["Wage.Bill.milGBP: 124<br />Points: 68<br />Arsenal","Wage.Bill.milGBP:  83<br />Points: 48<br />Aston Villa","Wage.Bill.milGBP:  38<br />Points: 39<br />Birmingham City","Wage.Bill.milGBP:  50<br />Points: 43<br />Blackburn Rovers","Wage.Bill.milGBP:  25<br />Points: 39<br />Blackpool","Wage.Bill.milGBP:  56<br />Points: 46<br />Bolton Wanderers","Wage.Bill.milGBP: 190<br />Points: 71<br />Chelsea","Wage.Bill.milGBP:  58<br />Points: 54<br />Everton","Wage.Bill.milGBP:  58<br />Points: 49<br />Fulham","Wage.Bill.milGBP: 135<br />Points: 58<br />Liverpool","Wage.Bill.milGBP: 174<br />Points: 71<br />Manchester City","Wage.Bill.milGBP: 153<br />Points: 80<br />Manchester United","Wage.Bill.milGBP:  54<br />Points: 46<br />Newcastle United","Wage.Bill.milGBP:  47<br />Points: 46<br />Stoke City","Wage.Bill.milGBP:  61<br />Points: 47<br />Sunderland","Wage.Bill.milGBP:  91<br />Points: 62<br />Tottenham Hotspur","Wage.Bill.milGBP:  37<br />Points: 47<br />West Bromwich Albion","Wage.Bill.milGBP:  56<br />Points: 33<br />West Ham United","Wage.Bill.milGBP:  40<br />Points: 42<br />Wigan Athletic","Wage.Bill.milGBP:  38<br />Points: 30<br />Wolverhampton Wanderers"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(55,17,66,1)","opacity":1,"size":5.6692913385826778,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(55,17,66,1)"}},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"visible":false,"showlegend":false,"xaxis":null,"yaxis":null,"hoverinfo":"text","frame":null}],"layout":{"margin":{"t":23.305936073059364,"r":7.3059360730593621,"b":37.260273972602747,"l":37.260273972602747},"plot_bgcolor":"rgba(235,235,235,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[16.75,198.25],"tickmode":"array","ticktext":["50","100","150"],"tickvals":[50,100,150],"categoryorder":"array","categoryarray":["50","100","150"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0,"zeroline":false,"anchor":"y","title":{"text":"Wage.Bill.milGBP","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[27.5,82.5],"tickmode":"array","ticktext":["30","40","50","60","70","80"],"tickvals":[30,40,50,60,70,80],"categoryorder":"array","categoryarray":["30","40","50","60","70","80"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0,"zeroline":false,"anchor":"x","title":{"text":"Points","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","layer":"below","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.68949771689498}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"51cf441627c":{"x":{},"y":{},"text":{},"type":"scatter"},"51cf60a8bd12":{"x":{},"y":{},"text":{}}},"cur_data":"51cf441627c","visdat":{"51cf441627c":["function (y) ","x"],"51cf60a8bd12":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section></section>
+<section>
+<section id="not-unreasonable" class="title-slide slide level1 center">
+<h1>Not Unreasonable</h1>
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-43-1.svg" width="624" class="r-stretch"></section>
+<section id="residuals-2" class="slide level2">
+<h2>Residuals</h2>
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-44-1.svg" width="624" class="r-stretch"></section>
+<section id="predicting-points" class="slide level2">
+<h2>Predicting Points</h2>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>        fit      lwr      upr
+1  32.11589 26.34036 37.89143
+2  34.51820 29.26702 39.76939
+3  36.92051 32.16859 41.67244
+4  39.32282 35.03629 43.60936
+5  41.72513 37.85788 45.59239
+6  44.12744 40.61679 47.63809
+7  46.52975 43.29225 49.76725
+8  48.93206 45.86190 52.00222
+9  51.33437 48.30814 54.36060
+10 53.73668 50.62574 56.84762</code></pre>
+</div>
+</div>
+</section>
+<section id="some-concluding-remarks" class="slide level2 scrollable">
+<h2>Some Concluding Remarks</h2>
+<ol type="1">
+<li class="fragment">It’s all about squares. But really, it’s all about <em>normals</em>.<br>
+</li>
+<li class="fragment">Assessing normality is crucial to inference in linear models. But we cannot really <strong>know</strong> whether or not it holds. But if it does:
+<ol type="a">
+<li class="fragment">Slopes and intercepts are <code>t</code>, as are their confidence intervals.<br>
+</li>
+<li class="fragment">Sums of squares have ratios defined by <code>F</code>.<br>
+</li>
+<li class="fragment">Predictions have <code>t</code> averages and <code>normal</code> intervals.<br>
+</li>
+<li class="fragment"><strong>All founded upon the sum of squared errors being <span class="math inline">\chi^2</span>.</strong><br>
+</li>
+</ol></li>
+<li class="fragment">This core idea of <strong>explaining variance</strong> or unpacking a black box is the core question to virtually all <em>machine learning</em> and modelling.<br>
+</li>
+<li class="fragment"><a href="https://shinytick-geiwez4tia-uc.a.run.app">The capital asset pricing model.</a></li>
+</ol>
+
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="AGSMlogo.jpeg" class="slide-logo"></p>
+<div class="footer footer-default">
+<p>DADM SLE 2025: Regression</p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/multiplex/socket.io.js"></script>
+  <script src="../../site_libs/revealjs/plugin/multiplex/multiplex.js"></script>
+  <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'multiplex': {"url":"https://multiplex-5adl.onrender.com","secret":"7af99b9bf4796dd3e5d8f2ee555098f4","id":"f3ecaf1fa854e20ca0b3e624bf2ee1210f73a24f392ca39e40484a800d4488c1"},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: true,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'zoom',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp("https:\/\/robertwwalker\.github\.io\/DADM-SLE2025");
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

@@ -1,0 +1,15 @@
+{
+  "hash": "25879fd98bfd9b403e4e4d8014420fe0",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Squares Scale\"\nsubtitle: \"Covariance Structures\"  \nauthor: \"Robert  W. Walker\"\ndate: \"2025-11-11\"\n---\n\nA link to the slides for the day.\n\n[Slides](https://robertwwalker.github.io/SLE2025/slides/MultReg/index.html)\n\n## `gvlma`\n\nThe most important piece of code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nload(url(\"https://github.com/robertwwalker/DADMStuff/raw/master/RegressionExamples.RData\"))\nlibrary(radiant)\nresult <- regress(\n  EPL, \n  rvar = \"Points\", \n  evar = \"Wage.Bill.milGBP\"\n)\nsummary(result)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\nLinear regression (OLS)\nData     : EPL \nResponse variable    : Points \nExplanatory variables: Wage.Bill.milGBP \nNull hyp.: the effect of Wage.Bill.milGBP on Points is zero\nAlt. hyp.: the effect of Wage.Bill.milGBP on Points is not zero\n\n                  coefficient std.error t.value p.value    \n (Intercept)           32.116     2.749  11.683  < .001 ***\n Wage.Bill.milGBP       0.240     0.030   8.042  < .001 ***\n\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nR-squared: 0.782,  Adjusted R-squared: 0.77 \nF-statistic: 64.675 df(1,18), p.value < .001\nNr obs: 20 \n```\n\n\n:::\n\n```{.r .cell-code}\nlibrary(gvlma)\ngvlma(result$model)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n\nCall:\nlm(formula = form_upper, data = dataset)\n\nCoefficients:\n     (Intercept)  Wage.Bill.milGBP  \n         32.1159            0.2402  \n\n\nASSESSMENT OF THE LINEAR MODEL ASSUMPTIONS\nUSING THE GLOBAL TEST ON 4 DEGREES-OF-FREEDOM:\nLevel of Significance =  0.05 \n\nCall:\n gvlma(x = result$model) \n\n                    Value p-value                Decision\nGlobal Stat        4.8001 0.30843 Assumptions acceptable.\nSkewness           0.2378 0.62583 Assumptions acceptable.\nKurtosis           0.1547 0.69412 Assumptions acceptable.\nLink Function      1.5649 0.21096 Assumptions acceptable.\nHeteroscedasticity 2.8428 0.09178 Assumptions acceptable.\n```\n\n\n:::\n:::\n\n\n## The Death of Online Surveys\n\n+ [PNAS](https://x.com/seanjwestwood/status/1990859738993865173?s=46)\n\n## Measuring AI and Water\n\n+ [Empire of AI](https://x.com/_karenhao/status/1990791958726652297?s=46)\n\n\n## Returns to AI?\n\n+ [New Yorker](https://www.newyorker.com/news/the-financial-page/the-ai-profits-drought-and-the-lessons-of-history)\n\n\n## The squares criterion is broadly applied.\n\n- Principal components derives the variable that accounts for the maximum variation in the collection of variables under study.\n\n- Regression trees split continuous variables into groupings with minimal variation in the outcomes.\n\n- Clustering identifies variance reducing groups in multidimensional data.\n\nEach of these falls under the general guise of machine learning along with the principle of training and testing on data.\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

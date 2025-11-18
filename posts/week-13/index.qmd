@@ -1,0 +1,53 @@
+---
+title: "Squares Scale"
+subtitle: "Covariance Structures"  
+author: "Robert  W. Walker"
+date: "2025-11-11"
+---
+
+A link to the slides for the day.
+
+[Slides](https://robertwwalker.github.io/SLE2025/slides/MultReg/index.html)
+
+## `gvlma`
+
+The most important piece of code.
+
+```{r, message=FALSE, warning=FALSE}
+load(url("https://github.com/robertwwalker/DADMStuff/raw/master/RegressionExamples.RData"))
+library(radiant)
+result <- regress(
+  EPL, 
+  rvar = "Points", 
+  evar = "Wage.Bill.milGBP"
+)
+summary(result)
+library(gvlma)
+gvlma(result$model)
+```
+
+## The Death of Online Surveys
+
++ [PNAS](https://x.com/seanjwestwood/status/1990859738993865173?s=46)
+
+## Measuring AI and Water
+
++ [Empire of AI](https://x.com/_karenhao/status/1990791958726652297?s=46)
+
+
+## Returns to AI?
+
++ [New Yorker](https://www.newyorker.com/news/the-financial-page/the-ai-profits-drought-and-the-lessons-of-history)
+
+
+## The squares criterion is broadly applied.
+
+- Principal components derives the variable that accounts for the maximum variation in the collection of variables under study.
+
+- Regression trees split continuous variables into groupings with minimal variation in the outcomes.
+
+- Clustering identifies variance reducing groups in multidimensional data.
+
+Each of these falls under the general guise of machine learning along with the principle of training and testing on data.
+
+
